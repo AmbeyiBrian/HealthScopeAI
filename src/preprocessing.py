@@ -170,6 +170,10 @@ class DataPreprocessor:
         Returns:
             Dictionary of health features
         """
+        # Ensure text is a string
+        if not isinstance(text, str):
+            text = str(text) if text is not None else ""
+        
         text_lower = text.lower()
         features = {}
         
