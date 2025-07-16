@@ -174,3 +174,7 @@ Thumbs.db
 *.temp
 temp/
 tmp/
+
+# PowerPoint files (to avoid conflicts)
+*.pptx
+~$*.pptx
