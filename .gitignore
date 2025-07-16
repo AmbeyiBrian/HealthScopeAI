@@ -129,13 +129,18 @@ dmypy.json
 .pyre/
 
 # Project specific
-# Data files
+# Data files - raw data not needed in production
 data/raw/*.csv
 data/raw/*.json
 data/raw/*.txt
 data/raw/*.xlsx
-data/processed/*.csv
+
+# Processed data - allow essential files for Azure deployment
 data/processed/*.json
+!data/processed/*.geojson
+!data/processed/dashboard_data.csv
+# Keep temporary processed files out
+data/processed/processed_data_*.csv
 data/processed/*.pkl
 
 # Model files

@@ -1,0 +1,1001 @@
+text,timestamp,location,source,is_health_related,category,sentiment,severity,latitude,longitude
+Dealing with cholera symptoms. Hospitals in Bungoma are seeing more cases.,2025-06-06 23:04:31,Bungoma,survey,True,physical_health,negative,7,3.1380890843276106,38.71282159963492
+I've been feeling insomnia lately. It's affecting my daily life.,2025-06-07 01:04:31,Thika,reddit,True,mental_health,negative,1,2.1274732039576083,34.12704751307537
+Beautiful weather today in Malindi!,2025-06-07 01:04:31,Malindi,reddit,False,non_health,negative,0,-0.8596520507025724,38.583417155757736
+Beautiful weather today in Mombasa!,2025-06-07 02:04:31,Mombasa,news,False,non_health,negative,0,-0.44075293726765885,37.17342553518258
+Dealing with respiratory infection symptoms. Healthcare facilities in Kisumu are overwhelmed.,2025-06-07 02:04:31,Kisumu,reddit,True,physical_health,positive,2,-1.3883940931975127,34.372203790091675
+Beautiful weather today in Eldoret!,2025-06-07 04:04:31,Eldoret,reddit,False,non_health,negative,0,5.003867907059146,40.235861258511726
+Dealing with typhoid symptoms. Healthcare facilities in Mombasa are overwhelmed.,2025-06-07 04:04:31,Mombasa,survey,True,physical_health,neutral,3,1.2459285792200463,37.20994888096561
+I've been feeling stress lately. It's affecting my daily life.,2025-06-07 05:04:31,Thika,reddit,True,mental_health,positive,2,2.8722877195071366,33.77156050768644
+Respiratory problems in Nairobi. Dealing with hypertension symptoms. Hospitals in Nairobi are seeing more cases.,2025-06-07 06:04:31,Nairobi,twitter,True,physical_health,negative,1,0.17082876059113872,38.04733607147356
+Respiratory issues are increasing. I've been feeling anxiety lately. Looking for support groups in Kitale.,2025-06-07 06:04:31,Kitale,survey,True,physical_health,positive,2,-0.574179228836909,35.3695244323754
+I've been feeling stress lately. The stigma around mental health issues is frustrating.,2025-06-07 07:04:31,Nyeri,survey,True,mental_health,negative,3,-2.0468185489892714,35.32906539800848
+Dealing with cholera symptoms. Hospitals in Garissa are seeing more cases.,2025-06-07 08:04:31,Garissa,reddit,True,physical_health,neutral,10,-3.9106704169952513,37.694050804840046
+Anyone recommend good restaurants in Thika?,2025-06-07 08:04:31,Thika,news,False,non_health,negative,0,-2.590188562100571,41.87379288130792
+Dealing with hypertension symptoms. Are others in Mombasa experiencing this?,2025-06-07 09:04:31,Mombasa,survey,True,physical_health,negative,1,-0.11453145748539306,35.188420729695814
+Excited about the upcoming event in Kericho.,2025-06-07 09:04:31,Kericho,reddit,False,non_health,neutral,0,-3.1997121873265506,34.66614142379671
+Excited about the upcoming event in Machakos.,2025-06-07 09:04:31,Machakos,reddit,False,non_health,negative,0,-1.3426979884334904,38.65339115128108
+Dealing with diabetes symptoms. Hospitals in Malindi are seeing more cases.,2025-06-07 11:04:31,Malindi,news,True,physical_health,neutral,9,-2.039928837347083,39.557013821774746
+Anyone recommend good restaurants in Kisumu?,2025-06-07 15:04:31,Kisumu,twitter,False,non_health,positive,0,0.5046307419240312,40.599126053050675
+Anyone recommend good restaurants in Garissa?,2025-06-07 15:04:31,Garissa,twitter,False,non_health,positive,0,-3.540239884939558,38.19338926769581
+Anyone recommend good restaurants in Kisumu?,2025-06-07 16:04:31,Kisumu,twitter,False,non_health,positive,0,-2.416560768666141,36.25380104697796
+Dealing with typhoid symptoms. The situation in Mombasa is concerning.,2025-06-07 18:04:31,Mombasa,twitter,True,physical_health,neutral,6,-1.7002131925905477,39.05582076825465
+I've been feeling PTSD lately. Anyone know where to get help in Kisii?,2025-06-07 18:04:31,Kisii,twitter,True,mental_health,neutral,10,2.9099457570865948,40.993249036037454
+I've been feeling stress lately. It's affecting my daily life.,2025-06-07 18:04:31,Nairobi,survey,True,mental_health,negative,3,2.320070099414309,34.056008455270835
+I've been feeling insomnia lately. It's affecting my daily life.,2025-06-07 19:04:31,Kericho,twitter,True,mental_health,negative,7,1.4823646615409132,36.51558226704076
+Traffic is heavy in Bungoma this morning.,2025-06-07 20:04:31,Bungoma,reddit,False,non_health,negative,0,-4.114256091514953,33.62035546956088
+"Just moved to Mombasa, loving it so far!",2025-06-07 20:04:31,Mombasa,news,False,non_health,negative,0,-3.085222047928541,37.90948294861892
+"Just moved to Thika, loving it so far!",2025-06-07 20:04:31,Thika,survey,False,non_health,positive,0,1.903575115144145,35.50831253976866
+I've been feeling depression lately. The stigma around mental health issues is frustrating.,2025-06-07 21:04:31,Malindi,reddit,True,mental_health,neutral,2,-0.022387913808066706,34.75912321014965
+Anyone recommend good restaurants in Kericho?,2025-06-07 21:04:31,Kericho,survey,False,non_health,negative,0,-3.5469220681702254,41.6662894618199
+Anyone recommend good restaurants in Garissa?,2025-06-07 21:04:31,Garissa,news,False,non_health,negative,0,-0.9188747300064088,40.39320564704995
+Traffic is heavy in Mombasa this morning.,2025-06-07 22:04:31,Mombasa,news,False,non_health,negative,0,0.08713519543363546,34.90540768887844
+Anyone recommend good restaurants in Nakuru?,2025-06-08 00:04:31,Nakuru,news,False,non_health,neutral,0,-0.18177475378442765,39.3472955937518
+Dealing with cholera symptoms. Hospitals in Nairobi are seeing more cases.,2025-06-08 00:04:31,Nairobi,reddit,True,physical_health,positive,6,2.69136494200892,41.714061772306614
+I've been feeling PTSD lately. Does anyone else struggle with this?,2025-06-08 00:04:31,Bungoma,twitter,True,mental_health,negative,2,-3.346524819984899,39.403399777245674
+Dealing with HIV/AIDS symptoms. Are others in Eldoret experiencing this?,2025-06-08 02:04:31,Eldoret,survey,True,physical_health,positive,7,2.956338703081985,41.35961968097783
+Mental health awareness in Kisumu. Dealing with diabetes symptoms. Hospitals in Kisumu are seeing more cases.,2025-06-08 03:04:31,Kisumu,news,True,mental_health,neutral,3,3.746855042369276,36.86897649388625
+"Just moved to Kericho, loving it so far!",2025-06-08 03:04:31,Kericho,twitter,False,non_health,positive,0,2.913778618166594,36.59026281644459
+I've been feeling insomnia lately. It's affecting my daily life.,2025-06-08 04:04:31,Nairobi,twitter,True,mental_health,negative,7,2.4528828316855362,35.79741135927496
+Dealing with respiratory infection symptoms. Are others in Eldoret experiencing this?,2025-06-08 05:04:31,Eldoret,survey,True,physical_health,neutral,4,-0.30309580652156765,35.219567790632766
+Dealing with malaria symptoms. The situation in Kakamega is concerning.,2025-06-08 06:04:31,Kakamega,news,True,physical_health,negative,7,2.0789751211752403,35.78690961226301
+Dealing with HIV/AIDS symptoms. Hospitals in Mombasa are seeing more cases.,2025-06-08 06:04:31,Mombasa,survey,True,physical_health,negative,4,3.268802527683219,38.18849725454434
+Dealing with cholera symptoms. The situation in Bungoma is concerning.,2025-06-08 06:04:31,Bungoma,twitter,True,physical_health,positive,2,5.260113019083201,41.68141344331586
+Traffic is heavy in Kisumu this morning.,2025-06-08 07:04:31,Kisumu,twitter,False,non_health,neutral,0,2.6110502303831353,35.79167318350851
+I've been feeling stress lately. It's affecting my daily life.,2025-06-08 07:04:31,Garissa,twitter,True,mental_health,negative,6,-2.6738104241779928,35.30463897398814
+I've been feeling insomnia lately. Looking for support groups in Thika.,2025-06-08 08:04:31,Thika,twitter,True,mental_health,neutral,7,-0.6870929079938639,37.532464278320454
+Dealing with tuberculosis symptoms. The situation in Garissa is concerning.,2025-06-08 08:04:31,Garissa,survey,True,physical_health,positive,6,1.6292049209971076,39.563138837383164
+Respiratory issues are increasing. Dealing with typhoid symptoms. Need medical advice for managing typhoid.,2025-06-08 10:04:31,Eldoret,reddit,True,physical_health,positive,5,-4.449489503563733,35.260658894919686
+Traffic is heavy in Thika this morning.,2025-06-08 12:04:31,Thika,news,False,non_health,neutral,0,3.009961115511774,34.058984271505686
+Dealing with hypertension symptoms. Hospitals in Kakamega are seeing more cases.,2025-06-08 15:04:31,Kakamega,twitter,True,physical_health,negative,1,-2.4576669225776686,40.44248021571277
+"Just moved to Kericho, loving it so far!",2025-06-08 18:04:31,Kericho,news,False,non_health,negative,0,-0.09845450269307854,41.0700725819908
+Dealing with hypertension symptoms. The situation in Nakuru is concerning.,2025-06-08 18:04:31,Nakuru,survey,True,physical_health,positive,10,1.2260904948876723,40.156356332199536
+Water-related illness concern in Mombasa. Dealing with typhoid symptoms. Hospitals in Mombasa are seeing more cases.,2025-06-08 19:04:31,Mombasa,survey,True,physical_health,negative,10,-0.09172322103885922,37.85607364163624
+"Just moved to Kakamega, loving it so far!",2025-06-08 19:04:31,Kakamega,twitter,False,non_health,positive,0,-3.3906848088556742,41.38119171608316
+Respiratory issues are increasing. Dealing with malaria symptoms. Hospitals in Kisumu are seeing more cases.,2025-06-08 21:04:31,Kisumu,twitter,True,physical_health,positive,1,1.8794561754561627,37.412967336854614
+Dealing with hypertension symptoms. Hospitals in Thika are seeing more cases.,2025-06-08 21:04:31,Thika,news,True,physical_health,neutral,2,-4.264943866713346,33.764328274981416
+Dealing with respiratory infection symptoms. Healthcare facilities in Kericho are overwhelmed.,2025-06-08 23:04:31,Kericho,twitter,True,physical_health,neutral,4,1.973400509238818,35.472761300342974
+I've been feeling anxiety lately. Does anyone else struggle with this?,2025-06-08 23:04:31,Thika,twitter,True,mental_health,negative,9,-0.46718309657431867,39.31912011323121
+Dealing with malaria symptoms. Are others in Bungoma experiencing this?,2025-06-08 23:04:31,Bungoma,reddit,True,physical_health,negative,5,-2.5295854804749913,39.298546421282516
+Traffic is heavy in Nakuru this morning.,2025-06-09 00:04:31,Nakuru,news,False,non_health,neutral,0,3.0583254350804143,34.62824592843011
+"Just moved to Malindi, loving it so far!",2025-06-09 02:04:31,Malindi,survey,False,non_health,negative,0,-1.279199837094858,37.741773283587804
+Beautiful weather today in Nairobi!,2025-06-09 03:04:31,Nairobi,news,False,non_health,negative,0,2.88296449244878,41.026598131386436
+Dealing with cholera symptoms. Need medical advice for managing cholera.,2025-06-09 03:04:31,Garissa,twitter,True,physical_health,neutral,2,-4.193651246205289,40.32423137520683
+I've been feeling stress lately. Looking for support groups in Nyeri.,2025-06-09 04:04:31,Nyeri,twitter,True,mental_health,negative,8,-2.263666370112512,34.939226559937524
+Dealing with malaria symptoms. The situation in Nyeri is concerning.,2025-06-09 05:04:31,Nyeri,twitter,True,physical_health,positive,6,-1.12739401946971,40.834001135941826
+Respiratory issues are increasing. Dealing with malaria symptoms. Healthcare facilities in Nakuru are overwhelmed.,2025-06-09 05:04:31,Nakuru,reddit,True,physical_health,neutral,10,4.741230354613894,34.926157595504066
+Traffic is heavy in Kericho this morning.,2025-06-09 05:04:31,Kericho,news,False,non_health,neutral,0,0.8284778193024263,38.32199579725038
+Dealing with diabetes symptoms. Need medical advice for managing diabetes.,2025-06-09 06:04:31,Kisii,reddit,True,physical_health,neutral,1,-3.549219500301826,41.41255512585088
+I've been feeling anxiety lately. Looking for support groups in Machakos.,2025-06-09 06:04:31,Machakos,survey,True,mental_health,positive,10,-1.7509995564484386,40.132107381991524
+Traffic is heavy in Thika this morning.,2025-06-09 09:04:31,Thika,survey,False,non_health,positive,0,-3.7482143630077305,40.588641806487395
+Dealing with respiratory infection symptoms. Are others in Kericho experiencing this?,2025-06-09 09:04:31,Kericho,reddit,True,physical_health,negative,10,4.9526650007027175,35.84810061476564
+Dealing with cholera symptoms. Healthcare facilities in Kakamega are overwhelmed.,2025-06-09 10:04:31,Kakamega,reddit,True,physical_health,positive,7,-4.190859882733491,34.06383879687143
+Dealing with hypertension symptoms. The situation in Machakos is concerning.,2025-06-09 11:04:31,Machakos,reddit,True,physical_health,positive,8,-4.179153706313604,41.828493939794875
+I've been feeling insomnia lately. Anyone know where to get help in Mombasa?,2025-06-09 12:04:31,Mombasa,reddit,True,mental_health,positive,2,5.115751105116514,36.22593796242006
+I've been feeling depression lately. Looking for support groups in Kisumu.,2025-06-09 13:04:31,Kisumu,reddit,True,mental_health,positive,6,2.7920308851142037,39.67192919802155
+Dealing with respiratory infection symptoms. Need medical advice for managing respiratory infection.,2025-06-09 14:04:31,Kakamega,reddit,True,physical_health,positive,8,-2.043661863235367,37.61691820319632
+I've been feeling insomnia lately. Does anyone else struggle with this?,2025-06-09 15:04:31,Kericho,news,True,mental_health,neutral,6,-3.1082364109664278,40.02511304762815
+Respiratory issues are increasing. I've been feeling anxiety lately. Looking for support groups in Bungoma.,2025-06-09 15:04:31,Bungoma,reddit,True,physical_health,neutral,1,1.818802241088333,40.25065627829818
+Dealing with hypertension symptoms. Need medical advice for managing hypertension.,2025-06-09 16:04:31,Kitale,twitter,True,physical_health,positive,9,2.662656233303574,41.543304018740066
+"Just moved to Eldoret, loving it so far!",2025-06-09 16:04:31,Eldoret,twitter,False,non_health,negative,0,-3.4942841679734533,38.72000725159445
+Dealing with malaria symptoms. Need medical advice for managing malaria.,2025-06-09 17:04:31,Machakos,news,True,physical_health,positive,8,0.7600259479052278,33.547723576296875
+Respiratory problems in Nairobi. I've been feeling anxiety lately. Looking for support groups in Nairobi.,2025-06-09 17:04:31,Nairobi,news,True,physical_health,negative,5,-2.507624674347836,34.2817436640166
+Dealing with respiratory infection symptoms. Need medical advice for managing respiratory infection.,2025-06-09 17:04:31,Kisumu,news,True,physical_health,positive,5,1.5361689141132135,41.42779060599711
+Beautiful weather today in Kitale!,2025-06-09 18:04:31,Kitale,reddit,False,non_health,neutral,0,1.6075140036407234,34.598330342338755
+I've been feeling stress lately. Looking for support groups in Machakos.,2025-06-09 18:04:31,Machakos,twitter,True,mental_health,positive,1,1.1657124618179537,35.37009109997136
+Traffic is heavy in Mombasa this morning.,2025-06-09 21:04:31,Mombasa,reddit,False,non_health,neutral,0,5.347254860956177,35.926460672489426
+I've been feeling PTSD lately. It's affecting my daily life.,2025-06-09 22:04:31,Nakuru,twitter,True,mental_health,neutral,3,0.6795443281376796,38.08171566906789
+Traffic is heavy in Machakos this morning.,2025-06-09 22:04:31,Machakos,reddit,False,non_health,positive,0,1.203279414187743,40.33554582556031
+I've been feeling depression lately. The stigma around mental health issues is frustrating.,2025-06-09 22:04:31,Thika,survey,True,mental_health,negative,3,-1.7067192064925978,37.12229444114085
+Beautiful weather today in Nyeri!,2025-06-09 23:04:31,Nyeri,reddit,False,non_health,negative,0,-1.2878244402785768,37.8438702956018
+Mental health awareness in Kisumu. Dealing with diabetes symptoms. Hospitals in Kisumu are seeing more cases.,2025-06-10 00:04:31,Kisumu,news,True,mental_health,positive,1,1.5263433838284808,34.154903475737186
+Beautiful weather today in Kitale!,2025-06-10 00:04:31,Kitale,twitter,False,non_health,negative,0,1.1670216115525953,35.6077615438393
+"Just moved to Mombasa, loving it so far!",2025-06-10 00:04:31,Mombasa,survey,False,non_health,neutral,0,3.9067935518517682,41.35018218665996
+Dealing with HIV/AIDS symptoms. Are others in Eldoret experiencing this?,2025-06-10 01:04:31,Eldoret,survey,True,physical_health,positive,4,-0.16528328635861556,37.29234074131971
+Dealing with diabetes symptoms. Hospitals in Garissa are seeing more cases.,2025-06-10 02:04:31,Garissa,twitter,True,physical_health,positive,4,0.6151499704766801,39.44684363265923
+I've been feeling PTSD lately. Looking for support groups in Nyeri.,2025-06-10 05:04:31,Nyeri,twitter,True,mental_health,positive,2,-1.7460821803837563,41.95689524300136
+Anyone recommend good restaurants in Kitale?,2025-06-10 07:04:31,Kitale,twitter,False,non_health,neutral,0,-2.1957645495463356,41.55088974890103
+I've been feeling depression lately. The stigma around mental health issues is frustrating.,2025-06-10 07:04:31,Kisumu,reddit,True,mental_health,positive,7,3.848982150001511,34.55624787186639
+Dealing with respiratory infection symptoms. Hospitals in Thika are seeing more cases.,2025-06-10 07:04:31,Thika,twitter,True,physical_health,neutral,10,2.511007816359988,39.22157320063956
+Anyone recommend good restaurants in Kakamega?,2025-06-10 07:04:31,Kakamega,reddit,False,non_health,positive,0,5.459142560739304,35.172183012011885
+Traffic is heavy in Thika this morning.,2025-06-10 08:04:31,Thika,reddit,False,non_health,positive,0,-2.23362827127972,37.127982566061725
+"Just moved to Kisumu, loving it so far!",2025-06-10 08:04:31,Kisumu,reddit,False,non_health,negative,0,4.374241614425145,41.026569930420465
+Dealing with hypertension symptoms. Need medical advice for managing hypertension.,2025-06-10 08:04:31,Kakamega,twitter,True,physical_health,neutral,2,4.5472151182942735,34.251714346677
+"Just moved to Mombasa, loving it so far!",2025-06-10 09:04:31,Mombasa,reddit,False,non_health,neutral,0,1.1141228799615162,34.4901980872417
+Beautiful weather today in Kakamega!,2025-06-10 09:04:31,Kakamega,news,False,non_health,neutral,0,-3.280216048943519,39.48525485902337
+I've been feeling depression lately. It's affecting my daily life.,2025-06-10 10:04:31,Bungoma,twitter,True,mental_health,positive,10,-1.1541151867335282,37.02769283914659
+I've been feeling insomnia lately. Looking for support groups in Nairobi.,2025-06-10 10:04:31,Nairobi,news,True,mental_health,negative,7,-1.893006167384332,33.96438361168427
+I've been feeling PTSD lately. It's affecting my daily life.,2025-06-10 11:04:31,Bungoma,twitter,True,mental_health,negative,8,0.36139384313056055,41.65932894272102
+Anyone recommend good restaurants in Kitale?,2025-06-10 12:04:31,Kitale,twitter,False,non_health,positive,0,-3.72520857252643,37.272407814577605
+I've been feeling insomnia lately. It's affecting my daily life.,2025-06-10 13:04:31,Kisumu,twitter,True,mental_health,negative,8,-2.6543361946563753,36.91213591549666
+Respiratory issues are increasing. I've been feeling depression lately. It's affecting my daily life.,2025-06-10 13:04:31,Bungoma,news,True,physical_health,neutral,3,-2.22874944097639,37.388184227464066
+Dealing with respiratory infection symptoms. Are others in Nyeri experiencing this?,2025-06-10 14:04:31,Nyeri,reddit,True,physical_health,negative,5,1.1328640426354255,39.982909612697
+Traffic is heavy in Bungoma this morning.,2025-06-10 15:04:31,Bungoma,survey,False,non_health,positive,0,0.9618208825941892,41.16290206351917
+Traffic is heavy in Mombasa this morning.,2025-06-10 17:04:31,Mombasa,survey,False,non_health,neutral,0,4.586148707709048,37.576530878568626
+Excited about the upcoming event in Eldoret.,2025-06-10 17:04:31,Eldoret,twitter,False,non_health,negative,0,-0.6022760047795908,37.93486280189511
+"Just moved to Kakamega, loving it so far!",2025-06-10 19:04:31,Kakamega,survey,False,non_health,positive,0,-4.1351402835083935,39.83851410315761
+Excited about the upcoming event in Thika.,2025-06-10 20:04:31,Thika,survey,False,non_health,negative,0,-0.3961318916284311,36.4937953765659
+I've been feeling depression lately. Looking for support groups in Eldoret.,2025-06-10 20:04:31,Eldoret,survey,True,mental_health,positive,7,2.1915056179093657,36.46597267657488
+Beautiful weather today in Nyeri!,2025-06-10 20:04:31,Nyeri,news,False,non_health,negative,0,4.959405977115642,39.04201561999248
+Traffic is heavy in Nairobi this morning.,2025-06-10 20:04:31,Nairobi,news,False,non_health,neutral,0,-1.9171859908332416,36.72643986712311
+Traffic is heavy in Garissa this morning.,2025-06-10 21:04:31,Garissa,survey,False,non_health,positive,0,3.171152851280059,37.16304719411525
+Dealing with typhoid symptoms. The situation in Machakos is concerning.,2025-06-10 21:04:31,Machakos,survey,True,physical_health,neutral,7,0.9126462165307876,35.80964806484874
+"Just moved to Nyeri, loving it so far!",2025-06-10 21:04:31,Nyeri,reddit,False,non_health,negative,0,-2.5986309921441304,35.26353562882651
+I've been feeling anxiety lately. Does anyone else struggle with this?,2025-06-10 22:04:31,Malindi,reddit,True,mental_health,negative,3,1.2543408105316542,35.10943750254601
+Dealing with hypertension symptoms. Hospitals in Nyeri are seeing more cases.,2025-06-10 22:04:31,Nyeri,twitter,True,physical_health,neutral,3,-1.4243815659971153,34.06119621608399
+Dealing with tuberculosis symptoms. Healthcare facilities in Eldoret are overwhelmed.,2025-06-10 22:04:31,Eldoret,twitter,True,physical_health,negative,6,3.4162783035997686,36.72622994552741
+Beautiful weather today in Nyeri!,2025-06-10 23:04:31,Nyeri,twitter,False,non_health,positive,0,0.617052630129038,37.23735667851529
+Traffic is heavy in Garissa this morning.,2025-06-10 23:04:31,Garissa,news,False,non_health,neutral,0,-1.6328703779297378,34.59486299116519
+Excited about the upcoming event in Eldoret.,2025-06-10 23:04:31,Eldoret,reddit,False,non_health,neutral,0,0.4981546635192755,41.65553991155381
+Excited about the upcoming event in Kitale.,2025-06-11 00:04:31,Kitale,twitter,False,non_health,negative,0,-1.3681033959463278,38.95607209163419
+I've been feeling depression lately. It's affecting my daily life.,2025-06-11 01:04:31,Garissa,news,True,mental_health,negative,3,-1.9447831056596048,38.67521833826308
+I've been feeling insomnia lately. Does anyone else struggle with this?,2025-06-11 01:04:31,Garissa,reddit,True,mental_health,negative,9,1.6636665933851802,34.03494215114817
+Dealing with respiratory infection symptoms. Healthcare facilities in Eldoret are overwhelmed.,2025-06-11 01:04:31,Eldoret,survey,True,physical_health,neutral,5,-1.6202136774448856,33.526408398904366
+Dealing with hypertension symptoms. The situation in Kakamega is concerning.,2025-06-11 01:04:31,Kakamega,twitter,True,physical_health,neutral,8,-1.2712749309976719,38.197319012924225
+Dealing with respiratory infection symptoms. The situation in Thika is concerning.,2025-06-11 02:04:31,Thika,survey,True,physical_health,negative,10,-2.2830595608362465,38.67243984352321
+I've been feeling PTSD lately. Does anyone else struggle with this?,2025-06-11 02:04:31,Thika,twitter,True,mental_health,positive,3,2.990741830750305,38.01253039653929
+I've been feeling depression lately. It's affecting my daily life.,2025-06-11 04:04:31,Kisii,reddit,True,mental_health,positive,2,1.1918315463563784,40.416545700581416
+Anyone recommend good restaurants in Nakuru?,2025-06-11 05:04:31,Nakuru,news,False,non_health,neutral,0,-0.6950437844063302,40.22329267159961
+Respiratory issues are increasing. Dealing with diabetes symptoms. Healthcare facilities in Kakamega are overwhelmed.,2025-06-11 06:04:31,Kakamega,survey,True,physical_health,neutral,6,-0.6590115996616337,41.59144874538832
+Excited about the upcoming event in Kericho.,2025-06-11 06:04:31,Kericho,news,False,non_health,neutral,0,1.6954108042599776,37.32785985983091
+Traffic is heavy in Nyeri this morning.,2025-06-11 07:04:31,Nyeri,twitter,False,non_health,positive,0,4.954899328482886,40.58564193815561
+Dealing with cholera symptoms. Are others in Kericho experiencing this?,2025-06-11 08:04:31,Kericho,survey,True,physical_health,neutral,4,1.6260850168796113,36.43374315523441
+Dealing with diabetes symptoms. Are others in Kitale experiencing this?,2025-06-11 08:04:31,Kitale,news,True,physical_health,positive,8,1.7547070068209027,40.92880366446357
+"Just moved to Nakuru, loving it so far!",2025-06-11 09:04:31,Nakuru,reddit,False,non_health,neutral,0,-2.756936669243562,35.942300033498704
+Dealing with respiratory infection symptoms. The situation in Kericho is concerning.,2025-06-11 09:04:31,Kericho,twitter,True,physical_health,neutral,9,-4.136334551474658,41.32658633807194
+"Just moved to Kericho, loving it so far!",2025-06-11 10:04:31,Kericho,twitter,False,non_health,positive,0,0.6956884640317638,38.39144902701932
+I've been feeling stress lately. Looking for support groups in Nyeri.,2025-06-11 10:04:31,Nyeri,reddit,True,mental_health,negative,5,-3.965127972822499,38.01976425787256
+I've been feeling insomnia lately. Anyone know where to get help in Kitale?,2025-06-11 10:04:31,Kitale,reddit,True,mental_health,negative,9,1.711786658380821,41.86331896080213
+Dealing with respiratory infection symptoms. Are others in Mombasa experiencing this?,2025-06-11 10:04:31,Mombasa,reddit,True,physical_health,negative,6,0.16552558694076946,41.67229883363245
+Beautiful weather today in Bungoma!,2025-06-11 11:04:31,Bungoma,twitter,False,non_health,neutral,0,0.9558253343346719,33.66824354987839
+Excited about the upcoming event in Kisumu.,2025-06-11 11:04:31,Kisumu,twitter,False,non_health,positive,0,-1.8008043983280002,34.387400524030426
+Beautiful weather today in Kakamega!,2025-06-11 12:04:31,Kakamega,news,False,non_health,positive,0,-2.847784363263866,36.13302281727049
+Respiratory issues are increasing. I've been feeling PTSD lately. Looking for support groups in Eldoret.,2025-06-11 15:04:31,Eldoret,twitter,True,physical_health,positive,9,3.3024326409451046,36.41217888919072
+Respiratory issues are increasing. Mental health awareness in Kisumu. I've been feeling stress lately. Anyone know where to get help in Kisumu?,2025-06-11 16:04:31,Kisumu,reddit,True,physical_health,negative,5,2.8114226856588633,41.35871548853145
+"Just moved to Kisii, loving it so far!",2025-06-11 16:04:31,Kisii,reddit,False,non_health,positive,0,0.9351175339171087,41.96527805333401
+Anyone recommend good restaurants in Malindi?,2025-06-11 16:04:31,Malindi,survey,False,non_health,neutral,0,4.307281635372538,36.76521841717239
+I've been feeling PTSD lately. It's affecting my daily life.,2025-06-11 18:04:31,Malindi,survey,True,mental_health,positive,7,-3.651726904182318,34.839041764290435
+I've been feeling PTSD lately. The stigma around mental health issues is frustrating.,2025-06-11 18:04:31,Nakuru,twitter,True,mental_health,positive,10,2.140083642604198,34.28603800068588
+Traffic is heavy in Kitale this morning.,2025-06-11 19:04:31,Kitale,reddit,False,non_health,positive,0,0.14347577878644024,34.802695176537625
+Excited about the upcoming event in Nyeri.,2025-06-11 22:04:31,Nyeri,reddit,False,non_health,negative,0,0.09598864286086872,36.88201111313919
+Anyone recommend good restaurants in Nakuru?,2025-06-11 22:04:31,Nakuru,reddit,False,non_health,positive,0,0.44492927375946856,40.58260770073662
+Water-related illness concern in Mombasa. Dealing with diabetes symptoms. Are others in Mombasa experiencing this?,2025-06-11 22:04:31,Mombasa,survey,True,physical_health,positive,6,0.31625255014742937,38.05180347230329
+Dealing with diabetes symptoms. Healthcare facilities in Bungoma are overwhelmed.,2025-06-11 22:04:31,Bungoma,survey,True,physical_health,negative,6,-2.9155634464769378,35.46324078624258
+I've been feeling insomnia lately. Does anyone else struggle with this?,2025-06-11 23:04:31,Eldoret,news,True,mental_health,neutral,2,4.802728508636754,34.24937660610843
+Beautiful weather today in Kisii!,2025-06-11 23:04:31,Kisii,survey,False,non_health,positive,0,-1.7982515521426294,41.882474944174135
+Respiratory issues are increasing. Dealing with cholera symptoms. Healthcare facilities in Malindi are overwhelmed.,2025-06-11 23:04:31,Malindi,twitter,True,physical_health,positive,3,-2.756694343675547,34.09400104640247
+Traffic is heavy in Thika this morning.,2025-06-12 00:04:31,Thika,twitter,False,non_health,neutral,0,2.1695055789403677,38.56772336315013
+Beautiful weather today in Kakamega!,2025-06-12 01:04:31,Kakamega,reddit,False,non_health,negative,0,-2.7242692982640397,34.634608052500305
+Dealing with typhoid symptoms. Healthcare facilities in Kakamega are overwhelmed.,2025-06-12 02:04:31,Kakamega,survey,True,physical_health,neutral,5,-0.7368539434872075,38.14778673733448
+I've been feeling anxiety lately. Anyone know where to get help in Kisumu?,2025-06-12 02:04:31,Kisumu,survey,True,mental_health,positive,5,2.9664214776064375,36.821032942050294
+Excited about the upcoming event in Mombasa.,2025-06-12 02:04:31,Mombasa,survey,False,non_health,negative,0,3.6339447438807344,35.18427850809356
+I've been feeling anxiety lately. The stigma around mental health issues is frustrating.,2025-06-12 03:04:31,Nakuru,twitter,True,mental_health,neutral,9,-2.0177353031404834,36.69607572328617
+Traffic is heavy in Nyeri this morning.,2025-06-12 03:04:31,Nyeri,reddit,False,non_health,negative,0,-0.31340368469512114,37.725369502450164
+Anyone recommend good restaurants in Mombasa?,2025-06-12 06:04:31,Mombasa,twitter,False,non_health,positive,0,1.9364938881811806,34.54832917638279
+I've been feeling insomnia lately. Anyone know where to get help in Bungoma?,2025-06-12 07:04:31,Bungoma,survey,True,mental_health,neutral,2,3.8451116574574797,41.4372678604685
+Beautiful weather today in Kakamega!,2025-06-12 07:04:31,Kakamega,survey,False,non_health,neutral,0,-4.34985991505177,37.53397529575888
+Beautiful weather today in Nyeri!,2025-06-12 07:04:31,Nyeri,reddit,False,non_health,neutral,0,1.7728504842497843,35.59026670577701
+I've been feeling insomnia lately. Looking for support groups in Nyeri.,2025-06-12 07:04:31,Nyeri,survey,True,mental_health,positive,1,3.5341167315851116,36.90262095759313
+Anyone recommend good restaurants in Kakamega?,2025-06-12 07:04:31,Kakamega,news,False,non_health,positive,0,-3.6495956073868854,40.40850993810237
+Beautiful weather today in Garissa!,2025-06-12 08:04:31,Garissa,survey,False,non_health,negative,0,-1.8207613447690454,35.32840247499488
+Traffic is heavy in Thika this morning.,2025-06-12 09:04:31,Thika,news,False,non_health,neutral,0,-4.436346178521473,36.61349991106009
+Dealing with typhoid symptoms. Need medical advice for managing typhoid.,2025-06-12 09:04:31,Nyeri,news,True,physical_health,negative,4,2.1625536476529863,35.28965192322277
+Dealing with diabetes symptoms. Need medical advice for managing diabetes.,2025-06-12 09:04:31,Thika,news,True,physical_health,positive,9,-4.240595130546277,40.9814500484782
+Dealing with respiratory infection symptoms. Hospitals in Kakamega are seeing more cases.,2025-06-12 10:04:31,Kakamega,reddit,True,physical_health,positive,4,-4.319270766600333,36.259175091080294
+Dealing with HIV/AIDS symptoms. The situation in Kakamega is concerning.,2025-06-12 11:04:31,Kakamega,survey,True,physical_health,positive,2,0.5450966300154381,39.47965855881781
+Anyone recommend good restaurants in Nyeri?,2025-06-12 12:04:31,Nyeri,survey,False,non_health,negative,0,4.924795506410389,35.99953580861009
+Dealing with typhoid symptoms. Are others in Kisii experiencing this?,2025-06-12 12:04:31,Kisii,news,True,physical_health,positive,9,-2.573395966271467,38.97769204410315
+Dealing with tuberculosis symptoms. Need medical advice for managing tuberculosis.,2025-06-12 12:04:31,Kisumu,twitter,True,physical_health,neutral,10,-3.4114386186577885,35.9840696634328
+Excited about the upcoming event in Eldoret.,2025-06-12 12:04:31,Eldoret,twitter,False,non_health,neutral,0,-3.0286891112985117,39.287846079296884
+Dealing with hypertension symptoms. Are others in Kitale experiencing this?,2025-06-12 12:04:31,Kitale,survey,True,physical_health,neutral,6,2.378009420004897,41.89757992256155
+Excited about the upcoming event in Kisii.,2025-06-12 15:04:31,Kisii,reddit,False,non_health,positive,0,-3.027252545174445,34.44271566581678
+Beautiful weather today in Nyeri!,2025-06-12 16:04:31,Nyeri,twitter,False,non_health,neutral,0,4.447167312189006,36.56303677650035
+Dealing with diabetes symptoms. Hospitals in Kisii are seeing more cases.,2025-06-12 17:04:31,Kisii,news,True,physical_health,negative,3,4.86291586746273,41.70505160306941
+I've been feeling anxiety lately. Does anyone else struggle with this?,2025-06-12 17:04:31,Nakuru,survey,True,mental_health,negative,9,4.08692801027521,34.10280757950213
+Dealing with typhoid symptoms. Healthcare facilities in Thika are overwhelmed.,2025-06-12 18:04:31,Thika,survey,True,physical_health,positive,9,-2.5144002230607936,39.64315130321444
+I've been feeling anxiety lately. It's affecting my daily life.,2025-06-12 18:04:31,Kericho,news,True,mental_health,positive,1,3.051218117799996,37.97572075107266
+Respiratory issues are increasing. Dealing with cholera symptoms. Healthcare facilities in Garissa are overwhelmed.,2025-06-12 18:04:31,Garissa,survey,True,physical_health,neutral,7,4.932701617408405,39.19734739815315
+Beautiful weather today in Bungoma!,2025-06-12 20:04:31,Bungoma,news,False,non_health,negative,0,2.3303205207300746,38.51590378140774
+"Just moved to Mombasa, loving it so far!",2025-06-12 20:04:31,Mombasa,reddit,False,non_health,positive,0,2.7199421501870056,36.61494830257886
+Dealing with tuberculosis symptoms. Healthcare facilities in Nakuru are overwhelmed.,2025-06-12 21:04:31,Nakuru,twitter,True,physical_health,neutral,9,4.203004173225329,38.141549311773886
+"Just moved to Nyeri, loving it so far!",2025-06-12 23:04:31,Nyeri,reddit,False,non_health,positive,0,0.5091308731220465,41.106124568605615
+I've been feeling anxiety lately. The stigma around mental health issues is frustrating.,2025-06-13 01:04:31,Bungoma,survey,True,mental_health,positive,2,2.7088076743604397,37.11121375959311
+"Just moved to Kisumu, loving it so far!",2025-06-13 01:04:31,Kisumu,news,False,non_health,negative,0,-2.361256815188163,36.131472793717506
+Dealing with typhoid symptoms. The situation in Machakos is concerning.,2025-06-13 02:04:31,Machakos,survey,True,physical_health,positive,2,1.8962866621234955,35.846392874211915
+"Just moved to Kericho, loving it so far!",2025-06-13 05:04:31,Kericho,news,False,non_health,positive,0,-2.611526237950325,34.76041232982446
+Water-related illness concern in Mombasa. I've been feeling anxiety lately. Looking for support groups in Mombasa.,2025-06-13 06:04:31,Mombasa,twitter,True,physical_health,positive,9,4.097228357033469,35.44934298073198
+Respiratory issues are increasing. Dealing with malaria symptoms. Are others in Thika experiencing this?,2025-06-13 06:04:31,Thika,twitter,True,physical_health,negative,4,-0.8017837347979611,38.28680277560697
+I've been feeling PTSD lately. It's affecting my daily life.,2025-06-13 07:04:31,Mombasa,survey,True,mental_health,negative,10,-2.8597403383102753,34.914270235896154
+Beautiful weather today in Nyeri!,2025-06-13 08:04:31,Nyeri,twitter,False,non_health,positive,0,-4.2853393101194,41.32146020478844
+Dealing with hypertension symptoms. Are others in Kitale experiencing this?,2025-06-13 08:04:31,Kitale,survey,True,physical_health,positive,1,-2.6191947308390047,38.35298402995677
+Dealing with hypertension symptoms. Healthcare facilities in Kericho are overwhelmed.,2025-06-13 09:04:31,Kericho,reddit,True,physical_health,positive,5,-2.575554264228899,36.73241063480945
+Beautiful weather today in Nakuru!,2025-06-13 09:04:31,Nakuru,twitter,False,non_health,positive,0,0.8415790681255295,39.33319674590528
+Beautiful weather today in Nairobi!,2025-06-13 10:04:31,Nairobi,news,False,non_health,positive,0,2.216559806950036,41.41162984204515
+Excited about the upcoming event in Nakuru.,2025-06-13 11:04:31,Nakuru,news,False,non_health,negative,0,-1.1299875225203122,37.221037343994766
+I've been feeling PTSD lately. It's affecting my daily life.,2025-06-13 11:04:31,Garissa,twitter,True,mental_health,neutral,9,-2.87117003227723,35.2819227503467
+Water-related illness concern in Mombasa. Dealing with tuberculosis symptoms. Healthcare facilities in Mombasa are overwhelmed.,2025-06-13 14:04:31,Mombasa,twitter,True,physical_health,positive,6,1.665994621210313,34.9812305618724
+Beautiful weather today in Kisii!,2025-06-13 14:04:31,Kisii,news,False,non_health,positive,0,3.8252996175901988,34.89608641018381
+Excited about the upcoming event in Mombasa.,2025-06-13 15:04:31,Mombasa,survey,False,non_health,negative,0,4.954528464541465,38.8688747496455
+Dealing with HIV/AIDS symptoms. Need medical advice for managing HIV/AIDS.,2025-06-13 15:04:31,Nairobi,reddit,True,physical_health,negative,1,-0.22501653500497643,36.75045383921507
+"Just moved to Kisii, loving it so far!",2025-06-13 15:04:31,Kisii,news,False,non_health,negative,0,-0.3035464087889732,40.608518102285394
+Dealing with typhoid symptoms. Hospitals in Nyeri are seeing more cases.,2025-06-13 16:04:31,Nyeri,news,True,physical_health,positive,4,0.49949687629718653,33.876107314940356
+"Just moved to Nairobi, loving it so far!",2025-06-13 16:04:31,Nairobi,twitter,False,non_health,negative,0,1.5039244138205774,41.21238167602187
+Dealing with typhoid symptoms. The situation in Bungoma is concerning.,2025-06-13 16:04:31,Bungoma,reddit,True,physical_health,negative,2,1.6190362461271768,34.47302715344768
+Anyone recommend good restaurants in Nakuru?,2025-06-13 18:04:31,Nakuru,news,False,non_health,positive,0,3.9471984580037294,40.78149405684613
+I've been feeling stress lately. Looking for support groups in Nyeri.,2025-06-13 18:04:31,Nyeri,news,True,mental_health,positive,2,-2.3748343150788402,36.72560500846342
+Dealing with typhoid symptoms. Hospitals in Eldoret are seeing more cases.,2025-06-13 19:04:31,Eldoret,survey,True,physical_health,positive,4,-3.941343341246593,34.67131115866083
+I've been feeling PTSD lately. Anyone know where to get help in Kisii?,2025-06-13 19:04:31,Kisii,twitter,True,mental_health,positive,2,-2.695510266430065,38.84798688791008
+Anyone recommend good restaurants in Machakos?,2025-06-13 19:04:31,Machakos,reddit,False,non_health,neutral,0,2.4720597322782583,36.089619076323004
+Excited about the upcoming event in Eldoret.,2025-06-13 20:04:31,Eldoret,reddit,False,non_health,neutral,0,-3.0104796111136083,38.49469530037351
+Dealing with respiratory infection symptoms. Hospitals in Eldoret are seeing more cases.,2025-06-13 20:04:31,Eldoret,reddit,True,physical_health,neutral,3,0.8365734168998973,35.08785703843829
+Dealing with malaria symptoms. Hospitals in Kakamega are seeing more cases.,2025-06-13 22:04:31,Kakamega,news,True,physical_health,neutral,1,0.4667660939602474,41.37906424013603
+Beautiful weather today in Nyeri!,2025-06-13 23:04:31,Nyeri,survey,False,non_health,positive,0,1.0329416236363755,41.59602554612625
+I've been feeling stress lately. It's affecting my daily life.,2025-06-13 23:04:31,Nyeri,survey,True,mental_health,positive,1,3.3004755845160636,40.09008617066963
+Beautiful weather today in Kericho!,2025-06-13 23:04:31,Kericho,twitter,False,non_health,neutral,0,-2.0007759919299266,33.98351107650399
+Anyone recommend good restaurants in Kisii?,2025-06-13 23:04:31,Kisii,news,False,non_health,negative,0,4.372827191917812,34.50134487706112
+Respiratory issues are increasing. Dealing with hypertension symptoms. Are others in Kakamega experiencing this?,2025-06-14 00:04:31,Kakamega,news,True,physical_health,positive,10,-1.7424017344117608,35.372019140840166
+Traffic is heavy in Garissa this morning.,2025-06-14 00:04:31,Garissa,twitter,False,non_health,negative,0,-1.1984793796676212,39.571304934016034
+"Just moved to Machakos, loving it so far!",2025-06-14 01:04:31,Machakos,news,False,non_health,neutral,0,-2.6603811675728344,40.88798034680826
+Beautiful weather today in Kisumu!,2025-06-14 02:04:31,Kisumu,news,False,non_health,positive,0,-4.200198732498632,35.234653615218036
+Respiratory issues are increasing. Dealing with malaria symptoms. Hospitals in Thika are seeing more cases.,2025-06-14 03:04:31,Thika,twitter,True,physical_health,negative,3,4.023753071665803,34.60996830160905
+Beautiful weather today in Kericho!,2025-06-14 03:04:31,Kericho,reddit,False,non_health,negative,0,-2.673222003622156,36.390598489771094
+I've been feeling anxiety lately. Does anyone else struggle with this?,2025-06-14 04:04:31,Kakamega,survey,True,mental_health,positive,2,-3.035083447148403,34.90095629201415
+Dealing with diabetes symptoms. Hospitals in Garissa are seeing more cases.,2025-06-14 04:04:31,Garissa,twitter,True,physical_health,negative,3,-0.5876172940199935,34.85526559123188
+Dealing with cholera symptoms. Are others in Garissa experiencing this?,2025-06-14 04:04:31,Garissa,news,True,physical_health,neutral,7,-3.933474791194506,34.39411582688929
+"Just moved to Kitale, loving it so far!",2025-06-14 06:04:31,Kitale,news,False,non_health,positive,0,3.6531886622569374,40.73690496832266
+Dealing with hypertension symptoms. The situation in Eldoret is concerning.,2025-06-14 08:04:31,Eldoret,reddit,True,physical_health,positive,7,0.4069115190012127,38.69534609297401
+Traffic is heavy in Machakos this morning.,2025-06-14 08:04:31,Machakos,survey,False,non_health,negative,0,5.1909991402767,34.00796354192227
+I've been feeling insomnia lately. It's affecting my daily life.,2025-06-14 09:04:31,Machakos,twitter,True,mental_health,negative,6,4.391659349153059,39.33429492741092
+"Just moved to Nairobi, loving it so far!",2025-06-14 10:04:31,Nairobi,twitter,False,non_health,neutral,0,4.68974564610776,34.31223173256907
+Respiratory issues are increasing. I've been feeling PTSD lately. The stigma around mental health issues is frustrating.,2025-06-14 11:04:31,Kitale,survey,True,physical_health,negative,6,1.8027566005020415,39.14599391088219
+Anyone recommend good restaurants in Kitale?,2025-06-14 11:04:31,Kitale,twitter,False,non_health,negative,0,-2.720015665396269,38.71119748880433
+Respiratory issues are increasing. Dealing with malaria symptoms. Are others in Thika experiencing this?,2025-06-14 12:04:31,Thika,reddit,True,physical_health,negative,10,0.4713294648425963,37.207566127550535
+I've been feeling depression lately. Does anyone else struggle with this?,2025-06-14 13:04:31,Malindi,twitter,True,mental_health,neutral,3,-2.896512120152446,36.86932086630002
+Excited about the upcoming event in Thika.,2025-06-14 15:04:31,Thika,twitter,False,non_health,positive,0,3.436447947594793,38.352608540790484
+Excited about the upcoming event in Nyeri.,2025-06-14 15:04:31,Nyeri,survey,False,non_health,neutral,0,1.137154852981828,35.78278542492334
+Dealing with HIV/AIDS symptoms. Are others in Kericho experiencing this?,2025-06-14 15:04:31,Kericho,survey,True,physical_health,positive,2,-4.383847523260918,38.26708172167206
+Respiratory issues are increasing. I've been feeling depression lately. Anyone know where to get help in Kericho?,2025-06-14 15:04:31,Kericho,twitter,True,physical_health,neutral,9,-2.336934710526895,36.60157046821491
+Dealing with HIV/AIDS symptoms. Need medical advice for managing HIV/AIDS.,2025-06-14 15:04:31,Machakos,twitter,True,physical_health,positive,8,1.5012962676904866,38.82556532611286
+Beautiful weather today in Garissa!,2025-06-14 15:04:31,Garissa,news,False,non_health,neutral,0,1.4773851551718868,37.16205525015184
+Dealing with cholera symptoms. Hospitals in Malindi are seeing more cases.,2025-06-14 16:04:31,Malindi,news,True,physical_health,positive,3,-3.848422333781501,39.26316375812972
+Traffic is heavy in Nakuru this morning.,2025-06-14 17:04:31,Nakuru,news,False,non_health,neutral,0,3.6786029266842153,36.567975732998015
+I've been feeling depression lately. Does anyone else struggle with this?,2025-06-14 19:04:31,Malindi,news,True,mental_health,positive,9,-3.053465732907438,34.28116750473298
+I've been feeling insomnia lately. Looking for support groups in Nakuru.,2025-06-14 19:04:31,Nakuru,survey,True,mental_health,negative,6,-2.6169972423479564,37.47825992501486
+I've been feeling anxiety lately. Does anyone else struggle with this?,2025-06-14 19:04:31,Bungoma,survey,True,mental_health,neutral,9,4.064533946438575,36.46068816943948
+Beautiful weather today in Garissa!,2025-06-14 21:04:31,Garissa,twitter,False,non_health,neutral,0,-2.917760819301682,37.86475307266075
+Traffic is heavy in Mombasa this morning.,2025-06-14 21:04:31,Mombasa,survey,False,non_health,neutral,0,-2.3546625958032568,36.65245436000286
+Excited about the upcoming event in Mombasa.,2025-06-14 22:04:31,Mombasa,news,False,non_health,neutral,0,-0.0024628534393400514,40.59583971428399
+Beautiful weather today in Bungoma!,2025-06-14 22:04:31,Bungoma,news,False,non_health,negative,0,1.93549458579996,39.2998791770205
+Excited about the upcoming event in Thika.,2025-06-14 23:04:31,Thika,news,False,non_health,neutral,0,-4.174004714410057,39.673207974252364
+I've been feeling stress lately. Looking for support groups in Garissa.,2025-06-14 23:04:31,Garissa,twitter,True,mental_health,positive,1,1.7894405946014196,36.13052308343551
+Traffic is heavy in Machakos this morning.,2025-06-15 00:04:31,Machakos,twitter,False,non_health,neutral,0,-1.6639557728462568,40.97666086702642
+Dealing with tuberculosis symptoms. The situation in Kisumu is concerning.,2025-06-15 00:04:31,Kisumu,reddit,True,physical_health,positive,8,-1.3576344775054263,40.7920675883048
+Dealing with malaria symptoms. Need medical advice for managing malaria.,2025-06-15 00:04:31,Kisii,news,True,physical_health,negative,1,-2.123513453276789,41.45253483848066
+"Just moved to Nakuru, loving it so far!",2025-06-15 00:04:31,Nakuru,survey,False,non_health,neutral,0,2.414064306823261,37.812570480533374
+Respiratory issues are increasing. Dealing with tuberculosis symptoms. Healthcare facilities in Nairobi are overwhelmed.,2025-06-15 01:04:31,Nairobi,twitter,True,physical_health,negative,5,-2.6822196442662487,33.634072937626755
+Traffic is heavy in Machakos this morning.,2025-06-15 02:04:31,Machakos,reddit,False,non_health,positive,0,-1.3578821902524325,36.94336942084286
+Water-related illness concern in Mombasa. I've been feeling stress lately. Does anyone else struggle with this?,2025-06-15 03:04:31,Mombasa,news,True,physical_health,positive,3,0.7190297445897169,37.01223707229892
+Beautiful weather today in Mombasa!,2025-06-15 03:04:31,Mombasa,reddit,False,non_health,negative,0,2.7091983730982587,38.14717337624232
+I've been feeling PTSD lately. Looking for support groups in Eldoret.,2025-06-15 04:04:31,Eldoret,reddit,True,mental_health,positive,2,5.353860909662751,33.7158638287862
+I've been feeling PTSD lately. Looking for support groups in Machakos.,2025-06-15 05:04:31,Machakos,twitter,True,mental_health,negative,3,-1.5661052425537219,34.88334256290227
+Traffic is heavy in Kitale this morning.,2025-06-15 05:04:31,Kitale,news,False,non_health,positive,0,3.649318547712653,37.18792361474682
+Respiratory issues are increasing. I've been feeling anxiety lately. The stigma around mental health issues is frustrating.,2025-06-15 05:04:31,Machakos,reddit,True,physical_health,neutral,8,0.6222676476564164,34.132809142163936
+Respiratory issues are increasing. Dealing with typhoid symptoms. Hospitals in Kakamega are seeing more cases.,2025-06-15 06:04:31,Kakamega,news,True,physical_health,neutral,7,-1.9990685155272852,35.18194977074853
+Respiratory problems in Nairobi. Dealing with cholera symptoms. Hospitals in Nairobi are seeing more cases.,2025-06-15 06:04:31,Nairobi,news,True,physical_health,positive,5,4.085002529315185,35.867364413317844
+Respiratory issues are increasing. Water-related illness concern in Mombasa. Dealing with hypertension symptoms. Hospitals in Mombasa are seeing more cases.,2025-06-15 09:04:31,Mombasa,survey,True,physical_health,positive,8,4.757949781751993,39.070866729704385
+Dealing with malaria symptoms. The situation in Nakuru is concerning.,2025-06-15 09:04:31,Nakuru,survey,True,physical_health,neutral,8,0.5207261131132599,37.437029811257865
+Dealing with hypertension symptoms. Are others in Kitale experiencing this?,2025-06-15 10:04:31,Kitale,twitter,True,physical_health,positive,10,-4.428476262883729,39.46550579507152
+Dealing with malaria symptoms. Hospitals in Mombasa are seeing more cases.,2025-06-15 13:04:31,Mombasa,reddit,True,physical_health,positive,7,4.503206989868694,34.48881371585022
+Excited about the upcoming event in Machakos.,2025-06-15 13:04:31,Machakos,news,False,non_health,positive,0,-2.387278808110892,34.656105651459036
+Anyone recommend good restaurants in Mombasa?,2025-06-15 14:04:31,Mombasa,news,False,non_health,neutral,0,1.5875744086973063,34.41606022752926
+"Just moved to Garissa, loving it so far!",2025-06-15 15:04:31,Garissa,reddit,False,non_health,neutral,0,1.1402200726335874,34.3167644234697
+Dealing with tuberculosis symptoms. Need medical advice for managing tuberculosis.,2025-06-15 16:04:31,Nyeri,news,True,physical_health,neutral,7,-0.8419578205302907,41.58884101353196
+Anyone recommend good restaurants in Kericho?,2025-06-15 17:04:31,Kericho,survey,False,non_health,positive,0,-0.5920572138213669,36.43322797165416
+"Just moved to Nairobi, loving it so far!",2025-06-15 18:04:31,Nairobi,survey,False,non_health,negative,0,1.8102638411446623,35.49508418828677
+I've been feeling stress lately. Looking for support groups in Kericho.,2025-06-15 18:04:31,Kericho,reddit,True,mental_health,positive,10,1.8690364693686163,39.179999631197546
+Dealing with HIV/AIDS symptoms. Healthcare facilities in Kisii are overwhelmed.,2025-06-15 19:04:31,Kisii,survey,True,physical_health,neutral,2,4.497621345178288,39.042783055152995
+Excited about the upcoming event in Kitale.,2025-06-15 19:04:31,Kitale,twitter,False,non_health,neutral,0,4.666653622704008,40.617371962962274
+Respiratory issues are increasing. Dealing with diabetes symptoms. Hospitals in Kakamega are seeing more cases.,2025-06-15 20:04:31,Kakamega,twitter,True,physical_health,positive,9,5.396468476050384,33.54493516528603
+Dealing with typhoid symptoms. Need medical advice for managing typhoid.,2025-06-15 21:04:31,Nyeri,survey,True,physical_health,positive,6,-2.5797685300243804,35.88208964353285
+I've been feeling PTSD lately. Anyone know where to get help in Kisii?,2025-06-15 23:04:31,Kisii,twitter,True,mental_health,positive,2,0.3077987844563008,40.345672833436836
+I've been feeling insomnia lately. Looking for support groups in Machakos.,2025-06-15 23:04:31,Machakos,news,True,mental_health,neutral,8,-3.6053909482536954,35.66686870872941
+Respiratory issues are increasing. Dealing with tuberculosis symptoms. Need medical advice for managing tuberculosis.,2025-06-15 23:04:31,Kericho,survey,True,physical_health,negative,10,2.4807597757191067,38.646808287238045
+I've been feeling depression lately. It's affecting my daily life.,2025-06-15 23:04:31,Eldoret,news,True,mental_health,neutral,7,-0.8136835049882922,40.09427368814764
+Dealing with malaria symptoms. The situation in Malindi is concerning.,2025-06-16 01:04:31,Malindi,survey,True,physical_health,positive,10,-3.340661040491642,36.751947480610895
+I've been feeling depression lately. Looking for support groups in Nakuru.,2025-06-16 02:04:31,Nakuru,survey,True,mental_health,negative,1,0.13582509447672209,34.02193909244121
+"Just moved to Kericho, loving it so far!",2025-06-16 02:04:31,Kericho,reddit,False,non_health,negative,0,1.2150701684394836,41.83402996772916
+Dealing with respiratory infection symptoms. Healthcare facilities in Kisumu are overwhelmed.,2025-06-16 03:04:31,Kisumu,survey,True,physical_health,neutral,7,4.512748974103463,36.240162398375205
+Dealing with hypertension symptoms. Are others in Bungoma experiencing this?,2025-06-16 03:04:31,Bungoma,news,True,physical_health,negative,8,-1.6371657530860286,41.358677788230594
+Beautiful weather today in Nairobi!,2025-06-16 05:04:31,Nairobi,news,False,non_health,negative,0,4.466549136263534,37.7677242007996
+Dealing with tuberculosis symptoms. Hospitals in Kisii are seeing more cases.,2025-06-16 05:04:31,Kisii,survey,True,physical_health,positive,3,-3.180009935769708,41.81977395748135
+Dealing with respiratory infection symptoms. The situation in Thika is concerning.,2025-06-16 06:04:31,Thika,reddit,True,physical_health,negative,1,2.258206333560701,37.14851667480878
+"Just moved to Kisii, loving it so far!",2025-06-16 06:04:31,Kisii,reddit,False,non_health,positive,0,-3.0090369762017195,33.666345341374736
+Excited about the upcoming event in Eldoret.,2025-06-16 06:04:31,Eldoret,twitter,False,non_health,neutral,0,2.7572122759064577,35.00651209900556
+Dealing with tuberculosis symptoms. Hospitals in Malindi are seeing more cases.,2025-06-16 07:04:31,Malindi,news,True,physical_health,negative,7,-2.9937995376491546,37.76861833156803
+Respiratory issues are increasing. I've been feeling PTSD lately. Looking for support groups in Nyeri.,2025-06-16 08:04:31,Nyeri,news,True,physical_health,negative,7,2.5624459143339093,36.5174288723616
+Dealing with HIV/AIDS symptoms. Healthcare facilities in Mombasa are overwhelmed.,2025-06-16 09:04:31,Mombasa,news,True,physical_health,neutral,4,3.182726974895343,38.19229437096067
+I've been feeling depression lately. Anyone know where to get help in Mombasa?,2025-06-16 10:04:31,Mombasa,reddit,True,mental_health,negative,7,3.2368178130814016,37.61177924007943
+Dealing with hypertension symptoms. Hospitals in Kericho are seeing more cases.,2025-06-16 11:04:31,Kericho,survey,True,physical_health,negative,10,-1.7668001812970227,39.840759447107885
+Excited about the upcoming event in Thika.,2025-06-16 11:04:31,Thika,reddit,False,non_health,negative,0,2.562241006101817,39.9859774730658
+"Just moved to Nakuru, loving it so far!",2025-06-16 11:04:31,Nakuru,reddit,False,non_health,positive,0,5.080156516462669,38.31865732249776
+Dealing with malaria symptoms. Are others in Nyeri experiencing this?,2025-06-16 12:04:31,Nyeri,reddit,True,physical_health,neutral,2,-0.7272886702619887,36.99512881959078
+Traffic is heavy in Kisumu this morning.,2025-06-16 13:04:31,Kisumu,reddit,False,non_health,negative,0,-3.5287429593484347,38.95730235723098
+Dealing with HIV/AIDS symptoms. Hospitals in Thika are seeing more cases.,2025-06-16 14:04:31,Thika,reddit,True,physical_health,negative,5,-4.292906251347348,40.9752919753514
+Dealing with respiratory infection symptoms. Hospitals in Bungoma are seeing more cases.,2025-06-16 15:04:31,Bungoma,survey,True,physical_health,negative,5,-4.35644923000102,40.21927526531249
+Excited about the upcoming event in Kitale.,2025-06-16 15:04:31,Kitale,news,False,non_health,negative,0,3.466024493187195,36.19728189479311
+I've been feeling depression lately. Does anyone else struggle with this?,2025-06-16 15:04:31,Mombasa,survey,True,mental_health,positive,1,0.31929077273176176,37.120607352518654
+Anyone recommend good restaurants in Bungoma?,2025-06-16 17:04:31,Bungoma,reddit,False,non_health,positive,0,2.3710338090345005,36.57263898519634
+Respiratory issues are increasing. Dealing with tuberculosis symptoms. Are others in Mombasa experiencing this?,2025-06-16 19:04:31,Mombasa,twitter,True,physical_health,neutral,10,-3.0248109221853294,35.54086768371624
+Beautiful weather today in Kisii!,2025-06-16 19:04:31,Kisii,reddit,False,non_health,negative,0,0.6338458798726583,41.89257457567018
+Excited about the upcoming event in Malindi.,2025-06-16 20:04:31,Malindi,survey,False,non_health,negative,0,-2.140500821149907,36.94321985099731
+Beautiful weather today in Nakuru!,2025-06-16 20:04:31,Nakuru,twitter,False,non_health,negative,0,3.2438567137738588,38.330507741465695
+Dealing with hypertension symptoms. Hospitals in Kakamega are seeing more cases.,2025-06-16 20:04:31,Kakamega,twitter,True,physical_health,negative,6,-0.06458162418500635,36.0731107741753
+I've been feeling stress lately. Anyone know where to get help in Nyeri?,2025-06-16 21:04:31,Nyeri,reddit,True,mental_health,neutral,2,-0.9349853620834474,37.40423454970097
+Traffic is heavy in Garissa this morning.,2025-06-16 22:04:31,Garissa,twitter,False,non_health,neutral,0,3.7123503506779976,33.56751504029169
+Beautiful weather today in Kisii!,2025-06-17 00:04:31,Kisii,reddit,False,non_health,negative,0,-3.8973307153228323,33.61158890798122
+Anyone recommend good restaurants in Kitale?,2025-06-17 00:04:31,Kitale,twitter,False,non_health,positive,0,-0.166223756936283,41.42512800539569
+Dealing with diabetes symptoms. Need medical advice for managing diabetes.,2025-06-17 02:04:31,Garissa,survey,True,physical_health,negative,8,-4.408799381423467,34.84567349434536
+I've been feeling anxiety lately. Does anyone else struggle with this?,2025-06-17 02:04:31,Kitale,reddit,True,mental_health,positive,5,-1.4461618125426883,40.014574397417874
+Anyone recommend good restaurants in Malindi?,2025-06-17 04:04:31,Malindi,reddit,False,non_health,positive,0,0.9125948058748037,38.685303437427606
+Respiratory issues are increasing. Dealing with tuberculosis symptoms. Are others in Thika experiencing this?,2025-06-17 04:04:31,Thika,reddit,True,physical_health,neutral,10,2.727893993577057,39.33436136030672
+Respiratory issues are increasing. Dealing with hypertension symptoms. Hospitals in Nairobi are seeing more cases.,2025-06-17 05:04:31,Nairobi,news,True,physical_health,neutral,1,-2.541439441794347,35.27710284054264
+Beautiful weather today in Machakos!,2025-06-17 06:04:31,Machakos,twitter,False,non_health,positive,0,-4.326629811664658,41.81291370144397
+"Just moved to Nyeri, loving it so far!",2025-06-17 07:04:31,Nyeri,survey,False,non_health,negative,0,-2.8310447258388596,40.792378092167354
+Excited about the upcoming event in Machakos.,2025-06-17 09:04:31,Machakos,reddit,False,non_health,negative,0,-2.253665855315379,34.37592640707545
+Dealing with hypertension symptoms. Hospitals in Malindi are seeing more cases.,2025-06-17 09:04:31,Malindi,reddit,True,physical_health,positive,5,5.130396885228903,36.80184010783355
+I've been feeling anxiety lately. It's affecting my daily life.,2025-06-17 11:04:31,Thika,reddit,True,mental_health,negative,3,3.1276407324838917,40.88365297925781
+I've been feeling anxiety lately. Looking for support groups in Garissa.,2025-06-17 11:04:31,Garissa,news,True,mental_health,positive,5,5.19362143033541,36.26587489323965
+Traffic is heavy in Kericho this morning.,2025-06-17 13:04:31,Kericho,survey,False,non_health,negative,0,-1.2968357998523365,37.30718884609597
+Excited about the upcoming event in Eldoret.,2025-06-17 13:04:31,Eldoret,news,False,non_health,neutral,0,0.3778751035104575,39.93805051524082
+Beautiful weather today in Nyeri!,2025-06-17 14:04:31,Nyeri,reddit,False,non_health,positive,0,1.1088542319279693,35.26529545971032
+I've been feeling anxiety lately. The stigma around mental health issues is frustrating.,2025-06-17 14:04:31,Nakuru,survey,True,mental_health,neutral,1,-1.6855086271243476,34.87074541709984
+"Just moved to Kericho, loving it so far!",2025-06-17 15:04:31,Kericho,news,False,non_health,neutral,0,-2.2215777104309478,41.3779686219945
+Dealing with cholera symptoms. Hospitals in Nairobi are seeing more cases.,2025-06-17 17:04:31,Nairobi,survey,True,physical_health,positive,2,4.810819785998035,39.71364091481747
+Anyone recommend good restaurants in Garissa?,2025-06-17 17:04:31,Garissa,survey,False,non_health,negative,0,1.51354146530801,37.68714368614994
+Beautiful weather today in Kisii!,2025-06-17 18:04:31,Kisii,reddit,False,non_health,positive,0,-2.366562047965051,39.61757283259091
+Dealing with typhoid symptoms. The situation in Mombasa is concerning.,2025-06-17 19:04:31,Mombasa,news,True,physical_health,negative,1,-4.252268001875476,39.076543946089465
+"Just moved to Kericho, loving it so far!",2025-06-17 21:04:31,Kericho,survey,False,non_health,neutral,0,3.7732278244489432,34.36987266943051
+I've been feeling anxiety lately. The stigma around mental health issues is frustrating.,2025-06-17 22:04:31,Kisumu,survey,True,mental_health,positive,5,-4.338818261147454,40.681912659024206
+"Just moved to Kisii, loving it so far!",2025-06-17 22:04:31,Kisii,reddit,False,non_health,negative,0,-0.5518742155011065,33.536422662521254
+Dealing with hypertension symptoms. Hospitals in Machakos are seeing more cases.,2025-06-17 23:04:31,Machakos,news,True,physical_health,positive,10,-3.470237170855845,35.33975249066857
+Anyone recommend good restaurants in Machakos?,2025-06-17 23:04:31,Machakos,news,False,non_health,negative,0,2.4863259747994526,34.206841534391025
+Mental health awareness in Kisumu. Dealing with hypertension symptoms. The situation in Kisumu is concerning.,2025-06-17 23:04:31,Kisumu,survey,True,mental_health,positive,10,4.344123557230139,40.74779188830554
+"Just moved to Eldoret, loving it so far!",2025-06-18 00:04:31,Eldoret,news,False,non_health,negative,0,-0.20687024297410517,38.32070729508833
+I've been feeling depression lately. It's affecting my daily life.,2025-06-18 00:04:31,Kisumu,news,True,mental_health,neutral,4,-0.6878661063744911,38.283049080495154
+Traffic is heavy in Kitale this morning.,2025-06-18 00:04:31,Kitale,reddit,False,non_health,negative,0,3.609367902459189,34.202460909726824
+Excited about the upcoming event in Garissa.,2025-06-18 00:04:31,Garissa,twitter,False,non_health,positive,0,-1.794915935149061,33.854798304919306
+Dealing with cholera symptoms. Are others in Nairobi experiencing this?,2025-06-18 01:04:31,Nairobi,survey,True,physical_health,negative,1,-2.76085375627305,35.33520825304661
+Dealing with tuberculosis symptoms. Need medical advice for managing tuberculosis.,2025-06-18 02:04:31,Garissa,survey,True,physical_health,positive,3,0.5141542123001042,40.20063378930769
+Beautiful weather today in Nakuru!,2025-06-18 04:04:31,Nakuru,survey,False,non_health,negative,0,5.141425216131449,38.523288750280045
+Respiratory problems in Nairobi. Dealing with typhoid symptoms. Need medical advice for managing typhoid.,2025-06-18 05:04:31,Nairobi,survey,True,physical_health,positive,9,1.8483199882123342,34.40378893955282
+Anyone recommend good restaurants in Thika?,2025-06-18 05:04:31,Thika,survey,False,non_health,neutral,0,-2.000592457766916,38.339102251952205
+Beautiful weather today in Malindi!,2025-06-18 06:04:31,Malindi,news,False,non_health,neutral,0,3.286138030606878,41.60139625503179
+"Just moved to Eldoret, loving it so far!",2025-06-18 07:04:31,Eldoret,survey,False,non_health,neutral,0,4.418083765422885,38.45356635006755
+I've been feeling depression lately. It's affecting my daily life.,2025-06-18 07:04:31,Kisii,survey,True,mental_health,neutral,2,5.167296019496819,35.52822168593077
+"Just moved to Mombasa, loving it so far!",2025-06-18 11:04:31,Mombasa,twitter,False,non_health,negative,0,2.2434046281235025,38.51865450142724
+Anyone recommend good restaurants in Kisii?,2025-06-18 11:04:31,Kisii,survey,False,non_health,positive,0,2.5345638750014414,38.60810515741995
+Dealing with typhoid symptoms. The situation in Kisumu is concerning.,2025-06-18 11:04:31,Kisumu,survey,True,physical_health,positive,7,-3.6154034960629273,41.733588514836825
+Respiratory issues are increasing. Water-related illness concern in Mombasa. Dealing with hypertension symptoms. Are others in Mombasa experiencing this?,2025-06-18 11:04:31,Mombasa,twitter,True,physical_health,positive,2,4.84233908946233,37.54951055535007
+Dealing with typhoid symptoms. The situation in Nakuru is concerning.,2025-06-18 12:04:31,Nakuru,twitter,True,physical_health,positive,3,-2.7509209102276104,35.99995477154012
+Anyone recommend good restaurants in Malindi?,2025-06-18 12:04:31,Malindi,twitter,False,non_health,negative,0,-3.150899827911257,39.60536573434371
+Respiratory issues are increasing. Dealing with HIV/AIDS symptoms. Healthcare facilities in Garissa are overwhelmed.,2025-06-18 13:04:31,Garissa,survey,True,physical_health,negative,2,-2.901875950335186,40.98477130973446
+"Just moved to Nyeri, loving it so far!",2025-06-18 13:04:31,Nyeri,twitter,False,non_health,negative,0,-1.8717256726765177,40.942059881430936
+I've been feeling insomnia lately. Anyone know where to get help in Kericho?,2025-06-18 15:04:31,Kericho,reddit,True,mental_health,negative,9,4.397409069743434,36.41935697051882
+I've been feeling depression lately. It's affecting my daily life.,2025-06-18 15:04:31,Kitale,survey,True,mental_health,neutral,4,-2.304202354312845,33.95167105352876
+Traffic is heavy in Kisumu this morning.,2025-06-18 16:04:31,Kisumu,twitter,False,non_health,negative,0,4.311795242245658,39.99400435686212
+Dealing with tuberculosis symptoms. Are others in Kisii experiencing this?,2025-06-18 17:04:31,Kisii,survey,True,physical_health,positive,7,4.015593284168856,33.889233444902914
+I've been feeling depression lately. Looking for support groups in Kitale.,2025-06-18 20:04:31,Kitale,twitter,True,mental_health,neutral,8,-3.943468382504252,34.53539702333027
+Dealing with HIV/AIDS symptoms. Healthcare facilities in Nakuru are overwhelmed.,2025-06-18 20:04:31,Nakuru,reddit,True,physical_health,negative,8,0.6991692570525672,38.405920422784725
+"Just moved to Thika, loving it so far!",2025-06-18 20:04:31,Thika,survey,False,non_health,neutral,0,-2.3629823482214354,36.62719119476387
+Dealing with hypertension symptoms. Are others in Kitale experiencing this?,2025-06-18 21:04:31,Kitale,survey,True,physical_health,neutral,2,-3.969035375909949,40.88675804096495
+I've been feeling insomnia lately. Looking for support groups in Kericho.,2025-06-18 22:04:31,Kericho,survey,True,mental_health,positive,9,1.5194246154837492,34.07927381330559
+Beautiful weather today in Kisii!,2025-06-18 22:04:31,Kisii,twitter,False,non_health,negative,0,-0.04939386387013567,39.694359945721494
+Dealing with diabetes symptoms. Are others in Kisumu experiencing this?,2025-06-18 23:04:31,Kisumu,survey,True,physical_health,negative,6,-2.043015191850805,39.776958302480864
+Traffic is heavy in Eldoret this morning.,2025-06-18 23:04:31,Eldoret,news,False,non_health,positive,0,1.037102489480377,36.19210125118483
+Beautiful weather today in Thika!,2025-06-19 02:04:31,Thika,survey,False,non_health,negative,0,1.97088473946872,37.2420832085906
+Respiratory issues are increasing. I've been feeling anxiety lately. The stigma around mental health issues is frustrating.,2025-06-19 02:04:31,Eldoret,reddit,True,physical_health,positive,2,3.538926179422919,36.35325748732119
+Respiratory issues are increasing. I've been feeling stress lately. Does anyone else struggle with this?,2025-06-19 03:04:31,Garissa,twitter,True,physical_health,negative,10,0.9648277167241686,34.84630028109895
+Mental health awareness in Kisumu. Dealing with respiratory infection symptoms. Need medical advice for managing respiratory infection.,2025-06-19 03:04:31,Kisumu,reddit,True,mental_health,neutral,10,0.22110036484004247,35.29024562208147
+Anyone recommend good restaurants in Kisumu?,2025-06-19 04:04:31,Kisumu,news,False,non_health,positive,0,-2.9949372040852076,37.39860207168359
+Dealing with HIV/AIDS symptoms. Need medical advice for managing HIV/AIDS.,2025-06-19 05:04:31,Nyeri,survey,True,physical_health,positive,4,0.4329346672532859,33.91044755127368
+Dealing with diabetes symptoms. Hospitals in Nyeri are seeing more cases.,2025-06-19 07:04:31,Nyeri,news,True,physical_health,neutral,8,0.3399842453847528,36.72891511858238
+"Just moved to Kitale, loving it so far!",2025-06-19 07:04:31,Kitale,reddit,False,non_health,positive,0,-1.4392494862371934,41.87491237873783
+Excited about the upcoming event in Malindi.,2025-06-19 09:04:31,Malindi,reddit,False,non_health,positive,0,3.4675355685411304,41.76884494291211
+Anyone recommend good restaurants in Nyeri?,2025-06-19 09:04:31,Nyeri,reddit,False,non_health,neutral,0,0.6433455465260352,35.0695777387378
+I've been feeling anxiety lately. The stigma around mental health issues is frustrating.,2025-06-19 09:04:31,Kitale,news,True,mental_health,positive,1,0.9009497945623339,37.059694428232426
+Respiratory issues are increasing. I've been feeling insomnia lately. It's affecting my daily life.,2025-06-19 10:04:31,Kericho,twitter,True,physical_health,negative,5,3.282939128238845,41.11122827644576
+Respiratory issues are increasing. Water-related illness concern in Mombasa. Dealing with hypertension symptoms. Need medical advice for managing hypertension.,2025-06-19 10:04:31,Mombasa,news,True,physical_health,positive,8,2.2419245759966078,40.37207936400852
+Excited about the upcoming event in Nakuru.,2025-06-19 11:04:31,Nakuru,news,False,non_health,neutral,0,2.9348335730606276,36.0683088029133
+Anyone recommend good restaurants in Kisii?,2025-06-19 11:04:31,Kisii,reddit,False,non_health,negative,0,-2.985668936035994,40.417885240840846
+Dealing with HIV/AIDS symptoms. Need medical advice for managing HIV/AIDS.,2025-06-19 11:04:31,Thika,survey,True,physical_health,neutral,2,-1.0971500733232356,35.72036044165952
+I've been feeling insomnia lately. Anyone know where to get help in Thika?,2025-06-19 11:04:31,Thika,twitter,True,mental_health,positive,7,-2.0961014322799847,38.61787139457626
+I've been feeling depression lately. Looking for support groups in Kisii.,2025-06-19 11:04:31,Kisii,twitter,True,mental_health,positive,9,0.42648474101582945,34.28467790366844
+Dealing with HIV/AIDS symptoms. Healthcare facilities in Malindi are overwhelmed.,2025-06-19 11:04:31,Malindi,twitter,True,physical_health,positive,7,1.5896126584602612,35.95483476414136
+Dealing with HIV/AIDS symptoms. Need medical advice for managing HIV/AIDS.,2025-06-19 12:04:31,Thika,news,True,physical_health,negative,8,-2.955587123056266,40.34418854421527
+I've been feeling depression lately. The stigma around mental health issues is frustrating.,2025-06-19 12:04:31,Kitale,reddit,True,mental_health,neutral,10,-1.8435327741307974,36.681554934698916
+I've been feeling anxiety lately. It's affecting my daily life.,2025-06-19 13:04:31,Kericho,twitter,True,mental_health,positive,2,2.6130553334843505,37.365323241597395
+Mental health awareness in Kisumu. Dealing with typhoid symptoms. Hospitals in Kisumu are seeing more cases.,2025-06-19 14:04:31,Kisumu,twitter,True,mental_health,negative,10,5.224033128039057,38.97273791823501
+Dealing with HIV/AIDS symptoms. Need medical advice for managing HIV/AIDS.,2025-06-19 14:04:31,Bungoma,reddit,True,physical_health,positive,1,4.705084471131526,41.98844009405285
+Dealing with diabetes symptoms. The situation in Kisumu is concerning.,2025-06-19 17:04:31,Kisumu,reddit,True,physical_health,positive,2,2.6726806762694215,35.89954811736049
+Respiratory issues are increasing. I've been feeling PTSD lately. Does anyone else struggle with this?,2025-06-19 17:04:31,Kitale,twitter,True,physical_health,neutral,5,0.8102747959874561,35.97706476868202
+"Just moved to Kisii, loving it so far!",2025-06-19 17:04:31,Kisii,news,False,non_health,negative,0,-0.7518336144089668,36.10864135485043
+Dealing with malaria symptoms. Are others in Garissa experiencing this?,2025-06-19 18:04:31,Garissa,news,True,physical_health,negative,9,5.3968023981689335,36.68991685532032
+Anyone recommend good restaurants in Nakuru?,2025-06-19 18:04:31,Nakuru,survey,False,non_health,positive,0,3.779756401663157,36.95432744925633
+"Just moved to Machakos, loving it so far!",2025-06-19 20:04:31,Machakos,twitter,False,non_health,negative,0,-2.385640000139882,36.65714123341951
+I've been feeling stress lately. The stigma around mental health issues is frustrating.,2025-06-19 20:04:31,Nyeri,survey,True,mental_health,positive,9,2.724208413763429,41.42336944571193
+I've been feeling depression lately. Does anyone else struggle with this?,2025-06-19 20:04:31,Garissa,reddit,True,mental_health,neutral,3,-3.6034115541196936,39.3024079576836
+Respiratory issues are increasing. Dealing with HIV/AIDS symptoms. Healthcare facilities in Eldoret are overwhelmed.,2025-06-19 20:04:31,Eldoret,reddit,True,physical_health,positive,5,1.3352121111313497,35.6064051779913
+Mental health awareness in Kisumu. Dealing with malaria symptoms. Need medical advice for managing malaria.,2025-06-19 21:04:31,Kisumu,news,True,mental_health,neutral,9,-4.274575216768592,40.481286343151694
+Respiratory issues are increasing. Dealing with hypertension symptoms. Are others in Eldoret experiencing this?,2025-06-19 21:04:31,Eldoret,reddit,True,physical_health,neutral,7,-0.5088639731029572,41.18538401152327
+Respiratory issues are increasing. Dealing with HIV/AIDS symptoms. Hospitals in Nairobi are seeing more cases.,2025-06-19 22:04:31,Nairobi,twitter,True,physical_health,negative,7,-2.195116682318032,38.755651162051564
+I've been feeling stress lately. The stigma around mental health issues is frustrating.,2025-06-19 22:04:31,Garissa,survey,True,mental_health,positive,6,5.087390228967099,37.75183670711898
+Anyone recommend good restaurants in Nyeri?,2025-06-19 23:04:31,Nyeri,twitter,False,non_health,negative,0,3.602436866858479,38.523148326878434
+Respiratory issues are increasing. Dealing with HIV/AIDS symptoms. Need medical advice for managing HIV/AIDS.,2025-06-20 00:04:31,Bungoma,news,True,physical_health,positive,8,-4.185519492483186,34.48003457780744
+Dealing with respiratory infection symptoms. Healthcare facilities in Nakuru are overwhelmed.,2025-06-20 00:04:31,Nakuru,reddit,True,physical_health,neutral,4,-3.1147693799988057,41.125058984531485
+"Just moved to Machakos, loving it so far!",2025-06-20 00:04:31,Machakos,twitter,False,non_health,positive,0,1.5710201019293928,39.103180952055816
+"Just moved to Bungoma, loving it so far!",2025-06-20 04:04:31,Bungoma,survey,False,non_health,neutral,0,3.655989049620132,34.22136769690645
+Dealing with HIV/AIDS symptoms. Are others in Nakuru experiencing this?,2025-06-20 05:04:31,Nakuru,survey,True,physical_health,negative,2,3.863323713295344,34.24877160530058
+Dealing with malaria symptoms. Healthcare facilities in Bungoma are overwhelmed.,2025-06-20 05:04:31,Bungoma,twitter,True,physical_health,negative,8,-3.0453981088922837,35.807738026058416
+Anyone recommend good restaurants in Kericho?,2025-06-20 06:04:31,Kericho,news,False,non_health,neutral,0,-2.9440167495793217,39.296636950973785
+Anyone recommend good restaurants in Nakuru?,2025-06-20 06:04:31,Nakuru,news,False,non_health,positive,0,3.2903068759299927,37.41203572182943
+"Just moved to Thika, loving it so far!",2025-06-20 06:04:31,Thika,reddit,False,non_health,neutral,0,-0.09896850165699078,35.82868567040632
+Dealing with cholera symptoms. Are others in Mombasa experiencing this?,2025-06-20 06:04:31,Mombasa,news,True,physical_health,positive,2,1.0601296958896542,33.877885081060626
+"Just moved to Nyeri, loving it so far!",2025-06-20 06:04:31,Nyeri,reddit,False,non_health,neutral,0,-2.765843904226217,39.65903793754661
+Dealing with cholera symptoms. Hospitals in Mombasa are seeing more cases.,2025-06-20 07:04:31,Mombasa,twitter,True,physical_health,negative,2,4.62049212583389,40.65211548876372
+Dealing with diabetes symptoms. Are others in Thika experiencing this?,2025-06-20 07:04:31,Thika,twitter,True,physical_health,neutral,8,4.304539883948847,35.61663034843757
+Respiratory issues are increasing. Dealing with cholera symptoms. Are others in Eldoret experiencing this?,2025-06-20 08:04:31,Eldoret,twitter,True,physical_health,neutral,2,-0.23801123634246846,38.52190768115396
+Traffic is heavy in Nairobi this morning.,2025-06-20 08:04:31,Nairobi,survey,False,non_health,negative,0,2.513377877088902,38.171131854288646
+Dealing with typhoid symptoms. Hospitals in Kitale are seeing more cases.,2025-06-20 08:04:31,Kitale,reddit,True,physical_health,neutral,10,2.530933133307861,35.49914108644821
+Excited about the upcoming event in Kitale.,2025-06-20 09:04:31,Kitale,news,False,non_health,neutral,0,1.1789853855430872,37.117472133781476
+Dealing with tuberculosis symptoms. Need medical advice for managing tuberculosis.,2025-06-20 09:04:31,Kitale,twitter,True,physical_health,negative,2,-2.7360145905702806,40.35611613548585
+I've been feeling insomnia lately. Does anyone else struggle with this?,2025-06-20 10:04:31,Kitale,news,True,mental_health,negative,3,1.4489181013894923,38.11348446983805
+"Just moved to Bungoma, loving it so far!",2025-06-20 11:04:31,Bungoma,survey,False,non_health,positive,0,-1.1165605749024325,36.60839484037266
+Excited about the upcoming event in Kakamega.,2025-06-20 11:04:31,Kakamega,reddit,False,non_health,negative,0,2.642167762861816,39.06796577285727
+I've been feeling depression lately. Does anyone else struggle with this?,2025-06-20 11:04:31,Kericho,news,True,mental_health,negative,6,0.6314534051303244,41.38036948056274
+Respiratory issues are increasing. Dealing with malaria symptoms. Healthcare facilities in Kakamega are overwhelmed.,2025-06-20 12:04:31,Kakamega,news,True,physical_health,negative,7,-3.2358095494742596,40.68183563212165
+"Just moved to Nyeri, loving it so far!",2025-06-20 12:04:31,Nyeri,reddit,False,non_health,negative,0,-3.034920733742073,36.57144088892147
+Beautiful weather today in Kericho!,2025-06-20 14:04:31,Kericho,news,False,non_health,neutral,0,0.6033475067553784,33.90259978311088
+"Just moved to Thika, loving it so far!",2025-06-20 15:04:31,Thika,twitter,False,non_health,positive,0,5.421229784446432,34.87948311671175
+Respiratory issues are increasing. Dealing with tuberculosis symptoms. Need medical advice for managing tuberculosis.,2025-06-20 15:04:31,Mombasa,reddit,True,physical_health,positive,6,2.649189109400737,34.955612161921394
+Traffic is heavy in Nyeri this morning.,2025-06-20 17:04:31,Nyeri,twitter,False,non_health,neutral,0,-0.7583169658493243,35.00389045161912
+I've been feeling depression lately. Anyone know where to get help in Machakos?,2025-06-20 19:04:31,Machakos,twitter,True,mental_health,neutral,5,4.148932886057906,40.018434435940975
+I've been feeling anxiety lately. Anyone know where to get help in Nakuru?,2025-06-20 19:04:31,Nakuru,reddit,True,mental_health,neutral,9,-1.297962966863503,41.48741708784194
+Respiratory issues are increasing. I've been feeling insomnia lately. The stigma around mental health issues is frustrating.,2025-06-20 19:04:31,Kisii,twitter,True,physical_health,neutral,8,2.792611545596211,40.495847860884034
+Dealing with malaria symptoms. Healthcare facilities in Machakos are overwhelmed.,2025-06-20 19:04:31,Machakos,survey,True,physical_health,neutral,4,-0.16550965919866734,38.22107671514401
+Excited about the upcoming event in Thika.,2025-06-20 23:04:31,Thika,survey,False,non_health,neutral,0,-1.5618621255193692,38.8013628500692
+Beautiful weather today in Kisumu!,2025-06-20 23:04:31,Kisumu,reddit,False,non_health,negative,0,3.4838509882920246,41.586899885117376
+Beautiful weather today in Thika!,2025-06-20 23:04:31,Thika,twitter,False,non_health,neutral,0,-1.1671191966363375,36.49795538945613
+Mental health awareness in Kisumu. I've been feeling PTSD lately. It's affecting my daily life.,2025-06-20 23:04:31,Kisumu,twitter,True,mental_health,neutral,4,0.3836589479822283,40.49038477032711
+I've been feeling stress lately. Looking for support groups in Garissa.,2025-06-21 00:04:31,Garissa,news,True,mental_health,negative,10,-4.099870973029738,39.55848108664518
+Anyone recommend good restaurants in Thika?,2025-06-21 00:04:31,Thika,reddit,False,non_health,positive,0,4.997031566403178,34.091542348038665
+Dealing with HIV/AIDS symptoms. Hospitals in Nyeri are seeing more cases.,2025-06-21 02:04:31,Nyeri,survey,True,physical_health,negative,1,-3.295036259199839,33.54646677774923
+Traffic is heavy in Mombasa this morning.,2025-06-21 03:04:31,Mombasa,news,False,non_health,positive,0,0.1221223266457212,41.68102922360345
+Dealing with HIV/AIDS symptoms. Need medical advice for managing HIV/AIDS.,2025-06-21 03:04:31,Kericho,reddit,True,physical_health,neutral,2,4.120024074486928,37.89008447375463
+Excited about the upcoming event in Mombasa.,2025-06-21 05:04:31,Mombasa,survey,False,non_health,neutral,0,-4.13844078285098,40.12411694718833
+Dealing with respiratory infection symptoms. Hospitals in Nakuru are seeing more cases.,2025-06-21 05:04:31,Nakuru,news,True,physical_health,negative,9,-4.231006269238838,34.32884502661222
+Excited about the upcoming event in Malindi.,2025-06-21 06:04:31,Malindi,twitter,False,non_health,positive,0,-0.9751756689360462,35.14457406578887
+I've been feeling anxiety lately. Anyone know where to get help in Garissa?,2025-06-21 07:04:31,Garissa,survey,True,mental_health,positive,1,-0.19462347633131039,35.86517792857194
+Anyone recommend good restaurants in Nakuru?,2025-06-21 07:04:31,Nakuru,survey,False,non_health,negative,0,3.2264397390830943,37.60300363540321
+"Just moved to Nakuru, loving it so far!",2025-06-21 07:04:31,Nakuru,news,False,non_health,negative,0,0.6304515497956995,34.98322347235168
+Dealing with hypertension symptoms. Need medical advice for managing hypertension.,2025-06-21 09:04:31,Nyeri,news,True,physical_health,negative,4,-2.1910929787292206,36.1759391975373
+Respiratory issues are increasing. Water-related illness concern in Mombasa. Dealing with cholera symptoms. The situation in Mombasa is concerning.,2025-06-21 11:04:31,Mombasa,twitter,True,physical_health,neutral,7,2.3673761712534116,35.00575458578479
+Respiratory issues are increasing. I've been feeling depression lately. It's affecting my daily life.,2025-06-21 11:04:31,Bungoma,survey,True,physical_health,positive,4,-1.7754175402287102,34.55096406050372
+Traffic is heavy in Malindi this morning.,2025-06-21 11:04:31,Malindi,survey,False,non_health,positive,0,4.246188065344999,34.96955781736699
+Beautiful weather today in Kakamega!,2025-06-21 12:04:31,Kakamega,twitter,False,non_health,negative,0,4.9996430118162465,41.08502665447683
+Respiratory problems in Nairobi. Dealing with cholera symptoms. Hospitals in Nairobi are seeing more cases.,2025-06-21 12:04:31,Nairobi,survey,True,physical_health,positive,9,-0.6091003859688131,37.73159073440174
+Excited about the upcoming event in Eldoret.,2025-06-21 12:04:31,Eldoret,news,False,non_health,neutral,0,0.1738010666940033,34.8251542323182
+I've been feeling insomnia lately. Anyone know where to get help in Nairobi?,2025-06-21 13:04:31,Nairobi,survey,True,mental_health,neutral,7,-1.5599410541765675,36.9228828773013
+Respiratory issues are increasing. I've been feeling stress lately. It's affecting my daily life.,2025-06-21 14:04:31,Garissa,reddit,True,physical_health,positive,8,-2.3267469791310065,40.5165001082503
+Dealing with diabetes symptoms. Need medical advice for managing diabetes.,2025-06-21 14:04:31,Kakamega,survey,True,physical_health,negative,1,4.433672008987843,37.83115740492421
+Respiratory issues are increasing. I've been feeling insomnia lately. Looking for support groups in Garissa.,2025-06-21 15:04:31,Garissa,reddit,True,physical_health,positive,10,-2.5752820651959354,37.98613974070552
+Dealing with diabetes symptoms. Are others in Eldoret experiencing this?,2025-06-21 16:04:31,Eldoret,reddit,True,physical_health,positive,4,1.9990808639073352,37.35698537603678
+I've been feeling PTSD lately. It's affecting my daily life.,2025-06-21 16:04:31,Machakos,news,True,mental_health,negative,6,0.825131130595441,40.01894764236447
+I've been feeling PTSD lately. Looking for support groups in Nakuru.,2025-06-21 16:04:31,Nakuru,twitter,True,mental_health,negative,1,4.699506179758265,34.83548906461494
+Dealing with cholera symptoms. Need medical advice for managing cholera.,2025-06-21 18:04:31,Kisii,news,True,physical_health,neutral,1,-4.12459018158196,39.33803337389373
+I've been feeling PTSD lately. Does anyone else struggle with this?,2025-06-21 18:04:31,Nyeri,reddit,True,mental_health,positive,3,4.921919878954473,38.68215720433096
+Dealing with tuberculosis symptoms. The situation in Kisumu is concerning.,2025-06-21 18:04:31,Kisumu,twitter,True,physical_health,negative,2,5.187304010666114,37.447683217813335
+Respiratory issues are increasing. I've been feeling insomnia lately. The stigma around mental health issues is frustrating.,2025-06-21 21:04:31,Nakuru,reddit,True,physical_health,positive,7,-3.0692051779706335,36.27559460445655
+Respiratory issues are increasing. I've been feeling PTSD lately. Looking for support groups in Kisii.,2025-06-21 23:04:31,Kisii,reddit,True,physical_health,negative,9,4.395863706524308,41.94586408897598
+Beautiful weather today in Malindi!,2025-06-21 23:04:31,Malindi,news,False,non_health,neutral,0,-2.11196071650722,36.10640701455223
+Traffic is heavy in Kakamega this morning.,2025-06-21 23:04:31,Kakamega,news,False,non_health,positive,0,-2.558404601617207,38.839085882880035
+Anyone recommend good restaurants in Nyeri?,2025-06-22 00:04:31,Nyeri,news,False,non_health,negative,0,0.08750762146421032,40.53587056694421
+Beautiful weather today in Nakuru!,2025-06-22 00:04:31,Nakuru,news,False,non_health,negative,0,-0.0236365340790492,35.38113539193793
+Traffic is heavy in Kisii this morning.,2025-06-22 01:04:31,Kisii,reddit,False,non_health,negative,0,0.6611686182621321,35.167305470989724
+Respiratory issues are increasing. I've been feeling insomnia lately. It's affecting my daily life.,2025-06-22 02:04:31,Kisumu,reddit,True,physical_health,neutral,4,-0.24577376049237287,38.63583020910288
+Anyone recommend good restaurants in Bungoma?,2025-06-22 02:04:31,Bungoma,survey,False,non_health,neutral,0,4.095292885472674,40.12448095844363
+Respiratory issues are increasing. Dealing with typhoid symptoms. Hospitals in Mombasa are seeing more cases.,2025-06-22 02:04:31,Mombasa,news,True,physical_health,neutral,9,4.003090136737136,34.87172382616278
+Anyone recommend good restaurants in Garissa?,2025-06-22 03:04:31,Garissa,survey,False,non_health,positive,0,4.828435455475406,37.511844228519536
+Dealing with respiratory infection symptoms. Healthcare facilities in Nakuru are overwhelmed.,2025-06-22 04:04:31,Nakuru,reddit,True,physical_health,negative,4,-1.165708162400831,35.43441029758749
+Beautiful weather today in Thika!,2025-06-22 05:04:31,Thika,reddit,False,non_health,negative,0,3.897456739054183,39.28870179257547
+"Just moved to Eldoret, loving it so far!",2025-06-22 07:04:31,Eldoret,survey,False,non_health,negative,0,-4.343675895788979,36.223752032413316
+Traffic is heavy in Eldoret this morning.,2025-06-22 07:04:31,Eldoret,reddit,False,non_health,neutral,0,-2.5615458212587243,40.710363406362355
+Respiratory issues are increasing. Dealing with typhoid symptoms. Are others in Kisii experiencing this?,2025-06-22 08:04:31,Kisii,news,True,physical_health,negative,4,1.7131256060901752,38.139975128612186
+Dealing with typhoid symptoms. Are others in Machakos experiencing this?,2025-06-22 09:04:31,Machakos,reddit,True,physical_health,neutral,10,2.967927803210338,39.50734039226754
+Respiratory issues are increasing. Dealing with HIV/AIDS symptoms. Healthcare facilities in Malindi are overwhelmed.,2025-06-22 11:04:31,Malindi,reddit,True,physical_health,positive,6,5.051945968026274,36.45880937180066
+Dealing with HIV/AIDS symptoms. Hospitals in Garissa are seeing more cases.,2025-06-22 11:04:31,Garissa,reddit,True,physical_health,positive,10,-1.1388871402150396,38.58284838706788
+Dealing with hypertension symptoms. Hospitals in Machakos are seeing more cases.,2025-06-22 12:04:31,Machakos,twitter,True,physical_health,positive,6,-2.648707922660876,41.30438675237171
+Respiratory issues are increasing. Dealing with malaria symptoms. Are others in Nakuru experiencing this?,2025-06-22 14:04:31,Nakuru,survey,True,physical_health,positive,10,-2.6827413775821354,38.01937937963708
+I've been feeling PTSD lately. It's affecting my daily life.,2025-06-22 15:04:31,Machakos,reddit,True,mental_health,negative,2,-4.463500857460817,39.733349603200736
+I've been feeling anxiety lately. Does anyone else struggle with this?,2025-06-22 17:04:31,Machakos,survey,True,mental_health,negative,5,-0.21002568217912643,34.53570279920462
+I've been feeling depression lately. It's affecting my daily life.,2025-06-22 17:04:31,Mombasa,reddit,True,mental_health,neutral,7,2.6998145346729068,37.26245543068546
+Anyone recommend good restaurants in Kisumu?,2025-06-22 18:04:31,Kisumu,twitter,False,non_health,positive,0,4.752953370066724,37.267185832639555
+I've been feeling insomnia lately. Does anyone else struggle with this?,2025-06-22 19:04:31,Thika,survey,True,mental_health,negative,5,-1.276138572759891,41.06113329275601
+Dealing with diabetes symptoms. Need medical advice for managing diabetes.,2025-06-22 19:04:31,Eldoret,news,True,physical_health,negative,9,-2.2226070918182987,37.63554555667946
+Dealing with tuberculosis symptoms. Are others in Bungoma experiencing this?,2025-06-22 20:04:31,Bungoma,twitter,True,physical_health,negative,2,-1.3628129981668575,41.43947575623296
+Traffic is heavy in Mombasa this morning.,2025-06-22 20:04:31,Mombasa,reddit,False,non_health,positive,0,0.09506613087707816,34.90796174914408
+Traffic is heavy in Kakamega this morning.,2025-06-22 20:04:31,Kakamega,news,False,non_health,neutral,0,2.2188723500518233,36.25200613833439
+I've been feeling anxiety lately. It's affecting my daily life.,2025-06-22 21:04:31,Garissa,twitter,True,mental_health,neutral,3,-2.427543807223101,34.50367332150945
+Excited about the upcoming event in Kitale.,2025-06-22 22:04:31,Kitale,reddit,False,non_health,neutral,0,2.881551130276101,39.296956973918824
+Dealing with tuberculosis symptoms. Need medical advice for managing tuberculosis.,2025-06-22 22:04:31,Eldoret,survey,True,physical_health,positive,5,0.24625515947691845,37.810465327008316
+I've been feeling anxiety lately. It's affecting my daily life.,2025-06-22 23:04:31,Machakos,reddit,True,mental_health,negative,3,-2.5837184289388486,40.57713427557241
+Dealing with hypertension symptoms. Need medical advice for managing hypertension.,2025-06-22 23:04:31,Nakuru,survey,True,physical_health,negative,2,4.271440358973422,39.26981296861015
+Dealing with hypertension symptoms. The situation in Kericho is concerning.,2025-06-23 00:04:31,Kericho,twitter,True,physical_health,positive,10,1.8087359576510602,35.18291629990145
+Respiratory issues are increasing. Dealing with cholera symptoms. The situation in Kisii is concerning.,2025-06-23 01:04:31,Kisii,reddit,True,physical_health,positive,10,4.852930451749998,41.049985108101865
+"Just moved to Garissa, loving it so far!",2025-06-23 01:04:31,Garissa,reddit,False,non_health,neutral,0,0.08419569139487848,34.15055722203852
+I've been feeling depression lately. Anyone know where to get help in Kitale?,2025-06-23 03:04:31,Kitale,survey,True,mental_health,negative,7,-0.48479529256219944,34.04800800753326
+"Just moved to Garissa, loving it so far!",2025-06-23 04:04:31,Garissa,reddit,False,non_health,positive,0,-0.0072866182997444184,36.05240131227569
+Traffic is heavy in Kitale this morning.,2025-06-23 04:04:31,Kitale,reddit,False,non_health,positive,0,-1.7216156554897148,34.89566876242504
+Anyone recommend good restaurants in Bungoma?,2025-06-23 05:04:31,Bungoma,reddit,False,non_health,negative,0,-2.0550822062555456,33.639213376896684
+Excited about the upcoming event in Kisii.,2025-06-23 05:04:31,Kisii,twitter,False,non_health,neutral,0,4.5808130819827735,35.33633604883332
+Dealing with HIV/AIDS symptoms. Hospitals in Machakos are seeing more cases.,2025-06-23 05:04:31,Machakos,reddit,True,physical_health,positive,4,2.3352558860706614,39.7845644458864
+Dealing with malaria symptoms. Need medical advice for managing malaria.,2025-06-23 06:04:31,Kakamega,news,True,physical_health,neutral,3,-1.371559740674119,39.21351775883763
+Mental health awareness in Kisumu. Dealing with typhoid symptoms. Are others in Kisumu experiencing this?,2025-06-23 06:04:31,Kisumu,twitter,True,mental_health,neutral,7,3.8409641119531326,35.646885541444014
+Beautiful weather today in Nyeri!,2025-06-23 08:04:31,Nyeri,reddit,False,non_health,positive,0,-0.7706928910425064,35.14868802467097
+Respiratory issues are increasing. I've been feeling depression lately. Does anyone else struggle with this?,2025-06-23 08:04:31,Kisii,twitter,True,physical_health,negative,7,1.792681965949372,37.24038935931774
+Dealing with diabetes symptoms. Are others in Kitale experiencing this?,2025-06-23 08:04:31,Kitale,reddit,True,physical_health,negative,6,-2.760372684880213,36.91512313606541
+Dealing with cholera symptoms. Are others in Nyeri experiencing this?,2025-06-23 09:04:31,Nyeri,survey,True,physical_health,positive,3,-0.3040283657883034,33.70807847323697
+Respiratory issues are increasing. Dealing with cholera symptoms. Need medical advice for managing cholera.,2025-06-23 10:04:31,Nyeri,twitter,True,physical_health,neutral,2,1.0127411359082013,34.61052377829209
+Dealing with cholera symptoms. Are others in Bungoma experiencing this?,2025-06-23 12:04:31,Bungoma,news,True,physical_health,neutral,9,-0.8967114715735307,37.16954631905844
+Respiratory issues are increasing. Mental health awareness in Kisumu. I've been feeling depression lately. Looking for support groups in Kisumu.,2025-06-23 14:04:31,Kisumu,reddit,True,physical_health,negative,9,-0.8117800547366709,36.17978421651078
+Dealing with diabetes symptoms. Healthcare facilities in Eldoret are overwhelmed.,2025-06-23 15:04:31,Eldoret,survey,True,physical_health,neutral,1,-0.3907786163216356,36.40221560701842
+Anyone recommend good restaurants in Machakos?,2025-06-23 15:04:31,Machakos,twitter,False,non_health,neutral,0,-2.652920311755186,36.85341699664306
+Respiratory issues are increasing. Dealing with typhoid symptoms. Are others in Garissa experiencing this?,2025-06-23 15:04:31,Garissa,reddit,True,physical_health,neutral,10,4.195799915531179,39.082555201049885
+"Just moved to Mombasa, loving it so far!",2025-06-23 17:04:31,Mombasa,news,False,non_health,negative,0,-0.7341927520007898,37.151043845646306
+Dealing with respiratory infection symptoms. Are others in Kericho experiencing this?,2025-06-23 18:04:31,Kericho,survey,True,physical_health,neutral,6,5.056684267261904,35.6937085830038
+Traffic is heavy in Thika this morning.,2025-06-23 18:04:31,Thika,twitter,False,non_health,neutral,0,1.5601075555766828,33.859325063006054
+Respiratory issues are increasing. I've been feeling depression lately. Looking for support groups in Thika.,2025-06-23 19:04:31,Thika,reddit,True,physical_health,positive,2,-3.2389025725925853,39.643542707892195
+I've been feeling depression lately. It's affecting my daily life.,2025-06-23 20:04:31,Kakamega,news,True,mental_health,neutral,3,5.3170204140706545,34.67932475196449
+Respiratory issues are increasing. I've been feeling depression lately. The stigma around mental health issues is frustrating.,2025-06-23 20:04:31,Nakuru,twitter,True,physical_health,positive,5,5.199692691169242,41.60804389299569
+I've been feeling stress lately. Looking for support groups in Kericho.,2025-06-23 21:04:31,Kericho,news,True,mental_health,neutral,3,4.391801454562213,37.79663057833045
+Dealing with diabetes symptoms. Healthcare facilities in Malindi are overwhelmed.,2025-06-23 23:04:31,Malindi,survey,True,physical_health,negative,6,-1.127146677437877,39.796815958559165
+Excited about the upcoming event in Kericho.,2025-06-23 23:04:31,Kericho,twitter,False,non_health,positive,0,3.0585645541985027,38.729272680045774
+Respiratory issues are increasing. Dealing with HIV/AIDS symptoms. Are others in Kericho experiencing this?,2025-06-24 02:04:31,Kericho,survey,True,physical_health,neutral,4,4.814502340316819,35.81053466924682
+Respiratory issues are increasing. Dealing with typhoid symptoms. Need medical advice for managing typhoid.,2025-06-24 02:04:31,Thika,twitter,True,physical_health,positive,7,-2.0144713065930024,41.794845950078454
+Excited about the upcoming event in Eldoret.,2025-06-24 02:04:31,Eldoret,twitter,False,non_health,neutral,0,1.5664062080839285,38.30777070071168
+I've been feeling depression lately. It's affecting my daily life.,2025-06-24 03:04:31,Malindi,twitter,True,mental_health,positive,3,-0.8866506695654679,40.31104819812339
+Beautiful weather today in Malindi!,2025-06-24 06:04:31,Malindi,reddit,False,non_health,negative,0,0.26243469636790184,41.14616643022377
+Dealing with malaria symptoms. Healthcare facilities in Malindi are overwhelmed.,2025-06-24 08:04:31,Malindi,news,True,physical_health,positive,5,2.1812017047111203,35.27441579733747
+Beautiful weather today in Nairobi!,2025-06-24 08:04:31,Nairobi,news,False,non_health,negative,0,-2.143176802507047,40.97239967049127
+Traffic is heavy in Nakuru this morning.,2025-06-24 10:04:31,Nakuru,twitter,False,non_health,neutral,0,1.6992029475689856,41.99073401230797
+Respiratory issues are increasing. I've been feeling anxiety lately. It's affecting my daily life.,2025-06-24 10:04:31,Bungoma,twitter,True,physical_health,negative,1,4.938479557107282,40.9360472740024
+I've been feeling depression lately. Does anyone else struggle with this?,2025-06-24 11:04:31,Mombasa,reddit,True,mental_health,negative,8,-1.8382587545930003,35.483040493449494
+I've been feeling anxiety lately. Looking for support groups in Garissa.,2025-06-24 11:04:31,Garissa,reddit,True,mental_health,negative,3,-3.2652857805804194,39.787067372205875
+Beautiful weather today in Thika!,2025-06-24 14:04:31,Thika,news,False,non_health,negative,0,2.389976007142094,38.589205767628115
+Respiratory issues are increasing. Dealing with hypertension symptoms. Are others in Kitale experiencing this?,2025-06-24 15:04:31,Kitale,reddit,True,physical_health,negative,9,0.8270344210183485,37.765374686104
+"Just moved to Kisumu, loving it so far!",2025-06-24 16:04:31,Kisumu,reddit,False,non_health,neutral,0,4.951524384403228,34.409837260174136
+"Just moved to Nyeri, loving it so far!",2025-06-24 18:04:31,Nyeri,survey,False,non_health,negative,0,4.46792183645476,33.69867586636777
+Dealing with respiratory infection symptoms. Need medical advice for managing respiratory infection.,2025-06-24 19:04:31,Bungoma,news,True,physical_health,neutral,1,-1.3987362964765575,34.94700312743849
+I've been feeling stress lately. It's affecting my daily life.,2025-06-24 21:04:31,Machakos,news,True,mental_health,neutral,1,-3.338313477161457,36.66031277392178
+Beautiful weather today in Kitale!,2025-06-24 23:04:31,Kitale,news,False,non_health,negative,0,5.388683898760098,35.31402370735828
+Dealing with malaria symptoms. Healthcare facilities in Nyeri are overwhelmed.,2025-06-24 23:04:31,Nyeri,reddit,True,physical_health,negative,10,2.6918292817957807,37.143858197507576
+Respiratory issues are increasing. I've been feeling depression lately. Does anyone else struggle with this?,2025-06-24 23:04:31,Malindi,news,True,physical_health,negative,1,2.8868030604879973,35.613327100794656
+Respiratory issues are increasing. I've been feeling anxiety lately. Does anyone else struggle with this?,2025-06-24 23:04:31,Kitale,twitter,True,physical_health,negative,5,-2.7517157264230443,34.587291967488454
+Traffic is heavy in Kakamega this morning.,2025-06-24 23:04:31,Kakamega,twitter,False,non_health,neutral,0,0.5349588690558793,38.38273360101698
+Beautiful weather today in Nyeri!,2025-06-25 03:04:31,Nyeri,news,False,non_health,positive,0,-1.1841795274245088,41.05497382953219
+Traffic is heavy in Thika this morning.,2025-06-25 07:04:31,Thika,twitter,False,non_health,positive,0,4.498516377068139,37.580676428573
+"Just moved to Kisumu, loving it so far!",2025-06-25 08:04:31,Kisumu,reddit,False,non_health,negative,0,3.716864586827162,39.2912237996802
+Traffic is heavy in Garissa this morning.,2025-06-25 09:04:31,Garissa,reddit,False,non_health,negative,0,1.6489577553710264,40.218974548065304
+I've been feeling PTSD lately. It's affecting my daily life.,2025-06-25 10:04:31,Machakos,twitter,True,mental_health,positive,2,-3.9942244554362167,38.50237143880171
+I've been feeling depression lately. Does anyone else struggle with this?,2025-06-25 10:04:31,Bungoma,twitter,True,mental_health,neutral,8,-0.7717468454686163,37.52515192368775
+Dealing with typhoid symptoms. The situation in Eldoret is concerning.,2025-06-25 10:04:31,Eldoret,twitter,True,physical_health,negative,5,2.58958768027248,39.48467708115391
+"Just moved to Thika, loving it so far!",2025-06-25 11:04:31,Thika,news,False,non_health,positive,0,-4.193658599778172,34.56101657023517
+Dealing with HIV/AIDS symptoms. Are others in Kakamega experiencing this?,2025-06-25 12:04:31,Kakamega,news,True,physical_health,neutral,3,-0.7227882770447804,34.54500980678436
+I've been feeling stress lately. Does anyone else struggle with this?,2025-06-25 13:04:31,Nyeri,survey,True,mental_health,neutral,5,-2.5709656708813893,35.89394964848992
+Anyone recommend good restaurants in Bungoma?,2025-06-25 13:04:31,Bungoma,twitter,False,non_health,negative,0,3.004764594293248,37.71253167636304
+I've been feeling insomnia lately. Looking for support groups in Kakamega.,2025-06-25 13:04:31,Kakamega,reddit,True,mental_health,neutral,3,-1.6193650564875655,39.24735434003474
+Beautiful weather today in Malindi!,2025-06-25 14:04:31,Malindi,news,False,non_health,neutral,0,3.8125720204139153,35.09867066925487
+"Just moved to Kisii, loving it so far!",2025-06-25 14:04:31,Kisii,survey,False,non_health,positive,0,5.453632212252927,40.350487981859544
+"Just moved to Kitale, loving it so far!",2025-06-25 15:04:31,Kitale,survey,False,non_health,neutral,0,3.5476634886218648,35.6162941414154
+Excited about the upcoming event in Nyeri.,2025-06-25 17:04:31,Nyeri,twitter,False,non_health,neutral,0,0.5837482902396047,40.71837678935726
+Anyone recommend good restaurants in Kisii?,2025-06-25 18:04:31,Kisii,reddit,False,non_health,negative,0,-2.5422756577239873,41.13238908881624
+Dealing with typhoid symptoms. Hospitals in Malindi are seeing more cases.,2025-06-25 19:04:31,Malindi,twitter,True,physical_health,positive,4,-1.1231684720744886,41.06435955935802
+Dealing with typhoid symptoms. Are others in Nairobi experiencing this?,2025-06-25 19:04:31,Nairobi,news,True,physical_health,neutral,9,4.387926975268929,37.46627181900957
+Respiratory issues are increasing. Dealing with hypertension symptoms. Healthcare facilities in Kisumu are overwhelmed.,2025-06-25 19:04:31,Kisumu,twitter,True,physical_health,neutral,6,3.3315745502171694,37.4304443194658
+Dealing with respiratory infection symptoms. The situation in Eldoret is concerning.,2025-06-25 19:04:31,Eldoret,twitter,True,physical_health,neutral,8,4.213373127619214,34.08975450075484
+Dealing with HIV/AIDS symptoms. Healthcare facilities in Nakuru are overwhelmed.,2025-06-25 20:04:31,Nakuru,reddit,True,physical_health,negative,5,-4.0081579144309,41.67052159036618
+Respiratory issues are increasing. Dealing with typhoid symptoms. The situation in Kakamega is concerning.,2025-06-25 20:04:31,Kakamega,news,True,physical_health,positive,3,-4.083399117927845,40.33940443699957
+Dealing with respiratory infection symptoms. Are others in Nakuru experiencing this?,2025-06-25 20:04:31,Nakuru,survey,True,physical_health,positive,8,0.9611278752562136,41.7996814208642
+I've been feeling stress lately. Looking for support groups in Kitale.,2025-06-25 21:04:31,Kitale,news,True,mental_health,neutral,8,3.9867231280429003,41.72079648628093
+Beautiful weather today in Malindi!,2025-06-25 21:04:31,Malindi,survey,False,non_health,neutral,0,-3.232227183863923,35.698880803239724
+Excited about the upcoming event in Nairobi.,2025-06-25 21:04:31,Nairobi,twitter,False,non_health,neutral,0,-2.479413265358155,34.190319893365185
+Anyone recommend good restaurants in Kisumu?,2025-06-25 22:04:31,Kisumu,twitter,False,non_health,positive,0,-0.5272109555770106,37.953842257964425
+Dealing with tuberculosis symptoms. The situation in Thika is concerning.,2025-06-25 22:04:31,Thika,survey,True,physical_health,neutral,2,-2.9107616616623746,40.225115397219085
+Traffic is heavy in Kitale this morning.,2025-06-25 23:04:31,Kitale,news,False,non_health,neutral,0,4.429784764910879,36.21030106716647
+Mental health awareness in Kisumu. I've been feeling PTSD lately. Does anyone else struggle with this?,2025-06-25 23:04:31,Kisumu,reddit,True,mental_health,negative,9,-1.5379630657456396,38.259330720269396
+I've been feeling anxiety lately. Does anyone else struggle with this?,2025-06-25 23:04:31,Nairobi,reddit,True,mental_health,neutral,6,0.07753320437764266,39.1559158951254
+Anyone recommend good restaurants in Thika?,2025-06-25 23:04:31,Thika,reddit,False,non_health,positive,0,-2.1027811577526694,41.132228544987136
+Dealing with tuberculosis symptoms. Healthcare facilities in Mombasa are overwhelmed.,2025-06-25 23:04:31,Mombasa,twitter,True,physical_health,positive,6,3.652855109911062,35.63520888264459
+Respiratory issues are increasing. Dealing with hypertension symptoms. Need medical advice for managing hypertension.,2025-06-26 00:04:31,Kisii,reddit,True,physical_health,negative,3,-3.8518717665638285,33.762562947419
+Traffic is heavy in Kakamega this morning.,2025-06-26 02:04:31,Kakamega,reddit,False,non_health,positive,0,-2.992237132792426,39.39241251760939
+Dealing with tuberculosis symptoms. Healthcare facilities in Malindi are overwhelmed.,2025-06-26 02:04:31,Malindi,twitter,True,physical_health,negative,5,-3.5795116064723826,35.5858109120754
+Respiratory issues are increasing. Dealing with HIV/AIDS symptoms. Need medical advice for managing HIV/AIDS.,2025-06-26 03:04:31,Kisii,twitter,True,physical_health,neutral,7,1.53882095416534,40.956642780328785
+Respiratory issues are increasing. I've been feeling PTSD lately. Anyone know where to get help in Bungoma?,2025-06-26 04:04:31,Bungoma,news,True,physical_health,positive,2,1.471107558233813,39.930432243141084
+Anyone recommend good restaurants in Nyeri?,2025-06-26 04:04:31,Nyeri,survey,False,non_health,positive,0,5.207656720950419,40.95817806192917
+Dealing with typhoid symptoms. Hospitals in Malindi are seeing more cases.,2025-06-26 05:04:31,Malindi,news,True,physical_health,positive,7,4.559447741535097,34.57502185309059
+Traffic is heavy in Kitale this morning.,2025-06-26 08:04:31,Kitale,reddit,False,non_health,negative,0,2.1797580186322296,37.66688679361599
+Dealing with hypertension symptoms. Hospitals in Eldoret are seeing more cases.,2025-06-26 08:04:31,Eldoret,survey,True,physical_health,positive,10,-4.07300516286011,36.49960720153693
+I've been feeling insomnia lately. The stigma around mental health issues is frustrating.,2025-06-26 09:04:31,Garissa,reddit,True,mental_health,neutral,10,4.356038625521707,41.89643003957413
+I've been feeling depression lately. Anyone know where to get help in Kericho?,2025-06-26 09:04:31,Kericho,news,True,mental_health,negative,7,4.239506166459588,38.513370696755295
+Respiratory issues are increasing. I've been feeling depression lately. Does anyone else struggle with this?,2025-06-26 09:04:31,Kisii,reddit,True,physical_health,neutral,1,-0.8145622659829015,34.68320178610335
+Respiratory issues are increasing. Water-related illness concern in Mombasa. I've been feeling depression lately. It's affecting my daily life.,2025-06-26 11:04:31,Mombasa,survey,True,physical_health,positive,3,-3.7140541521514088,34.88875391337237
+Dealing with HIV/AIDS symptoms. The situation in Kisumu is concerning.,2025-06-26 11:04:31,Kisumu,survey,True,physical_health,neutral,10,-1.2616370320738195,35.41101128057805
+Respiratory issues are increasing. I've been feeling stress lately. The stigma around mental health issues is frustrating.,2025-06-26 11:04:31,Nairobi,reddit,True,physical_health,negative,10,-2.4512371912395374,40.96878889242827
+Respiratory issues are increasing. Dealing with HIV/AIDS symptoms. Are others in Nairobi experiencing this?,2025-06-26 12:04:31,Nairobi,news,True,physical_health,negative,1,5.153123202285556,36.82788808887766
+I've been feeling depression lately. Anyone know where to get help in Kisumu?,2025-06-26 12:04:31,Kisumu,news,True,mental_health,neutral,6,0.15376627202847892,40.2595350796973
+Dealing with hypertension symptoms. Need medical advice for managing hypertension.,2025-06-26 15:04:31,Machakos,news,True,physical_health,negative,9,-3.729595515274176,39.392192025804434
+"Just moved to Kakamega, loving it so far!",2025-06-26 15:04:31,Kakamega,news,False,non_health,positive,0,-3.256935871623818,38.331749142085016
+Anyone recommend good restaurants in Eldoret?,2025-06-26 16:04:31,Eldoret,survey,False,non_health,negative,0,2.4910442822408436,38.89586228681338
+Beautiful weather today in Thika!,2025-06-26 16:04:31,Thika,survey,False,non_health,negative,0,-3.36611483466747,37.533087061108304
+Dealing with cholera symptoms. Need medical advice for managing cholera.,2025-06-26 16:04:31,Kakamega,news,True,physical_health,negative,10,-0.5926203308766871,33.994546991375685
+"Just moved to Eldoret, loving it so far!",2025-06-26 17:04:31,Eldoret,survey,False,non_health,positive,0,3.8103781531638923,36.00700343998491
+Anyone recommend good restaurants in Machakos?,2025-06-26 19:04:31,Machakos,survey,False,non_health,negative,0,-2.009693233938155,40.777189825187065
+"Just moved to Kisumu, loving it so far!",2025-06-26 20:04:31,Kisumu,twitter,False,non_health,positive,0,-4.45338973947915,36.770404920751176
+Excited about the upcoming event in Nairobi.,2025-06-26 21:04:31,Nairobi,twitter,False,non_health,positive,0,1.3578411858511021,35.38179915416403
+Anyone recommend good restaurants in Thika?,2025-06-26 21:04:31,Thika,reddit,False,non_health,positive,0,0.5706017267210157,35.84691825400624
+Dealing with malaria symptoms. Need medical advice for managing malaria.,2025-06-26 22:04:31,Kitale,twitter,True,physical_health,negative,3,4.707316580688666,40.81497832822284
+Mental health awareness in Kisumu. Dealing with tuberculosis symptoms. Are others in Kisumu experiencing this?,2025-06-26 22:04:31,Kisumu,twitter,True,mental_health,negative,5,-0.4926041198981208,35.063407991663
+Beautiful weather today in Machakos!,2025-06-26 23:04:31,Machakos,news,False,non_health,negative,0,-0.42713438745504817,39.80233640432668
+Respiratory issues are increasing. I've been feeling PTSD lately. The stigma around mental health issues is frustrating.,2025-06-26 23:04:31,Kakamega,twitter,True,physical_health,neutral,1,5.310560425427786,41.57421615375609
+Traffic is heavy in Nakuru this morning.,2025-06-27 00:04:31,Nakuru,twitter,False,non_health,negative,0,4.474936257342502,36.524260382670484
+Respiratory issues are increasing. Dealing with cholera symptoms. Are others in Thika experiencing this?,2025-06-27 00:04:31,Thika,reddit,True,physical_health,positive,6,-2.707742188099841,37.49919420905343
+I've been feeling depression lately. Looking for support groups in Garissa.,2025-06-27 00:04:31,Garissa,survey,True,mental_health,neutral,1,-0.17149162497787884,41.12353767962573
+Respiratory issues are increasing. Dealing with cholera symptoms. The situation in Nakuru is concerning.,2025-06-27 01:04:31,Nakuru,reddit,True,physical_health,neutral,6,3.5725356807033535,38.63477848422905
+"Just moved to Nakuru, loving it so far!",2025-06-27 01:04:31,Nakuru,reddit,False,non_health,positive,0,2.5810488308097996,38.67979048948476
+I've been feeling PTSD lately. It's affecting my daily life.,2025-06-27 02:04:31,Nairobi,twitter,True,mental_health,neutral,3,3.9481848543474527,40.138890993304045
+Anyone recommend good restaurants in Kisumu?,2025-06-27 02:04:31,Kisumu,twitter,False,non_health,positive,0,3.2728657674082378,38.082133463810564
+Traffic is heavy in Kericho this morning.,2025-06-27 03:04:31,Kericho,survey,False,non_health,negative,0,-4.398597083714741,35.018755112641784
+Excited about the upcoming event in Malindi.,2025-06-27 04:04:31,Malindi,reddit,False,non_health,positive,0,-1.7162493724689902,33.8253998803585
+Respiratory issues are increasing. Dealing with typhoid symptoms. Are others in Kisii experiencing this?,2025-06-27 05:04:31,Kisii,reddit,True,physical_health,negative,3,-4.035737914521608,41.60263567914736
+I've been feeling PTSD lately. The stigma around mental health issues is frustrating.,2025-06-27 05:04:31,Machakos,reddit,True,mental_health,positive,8,-3.189419489976551,41.71825521382608
+Excited about the upcoming event in Nyeri.,2025-06-27 06:04:31,Nyeri,twitter,False,non_health,neutral,0,3.0961078244054185,40.89767152991228
+Traffic is heavy in Kakamega this morning.,2025-06-27 08:04:31,Kakamega,twitter,False,non_health,positive,0,-0.6975009319611574,34.22358828817474
+Anyone recommend good restaurants in Machakos?,2025-06-27 09:04:31,Machakos,news,False,non_health,positive,0,-0.8950739080418395,35.53939790435867
+Dealing with malaria symptoms. The situation in Malindi is concerning.,2025-06-27 11:04:31,Malindi,twitter,True,physical_health,neutral,1,2.1203711376551757,41.029238556233864
+Respiratory issues are increasing. Dealing with cholera symptoms. Healthcare facilities in Nyeri are overwhelmed.,2025-06-27 11:04:31,Nyeri,reddit,True,physical_health,neutral,10,-4.081251168316795,37.676334491406486
+Dealing with respiratory infection symptoms. Healthcare facilities in Kisii are overwhelmed.,2025-06-27 12:04:31,Kisii,survey,True,physical_health,negative,6,4.332135016941292,35.20049588758617
+Respiratory issues are increasing. I've been feeling depression lately. The stigma around mental health issues is frustrating.,2025-06-27 12:04:31,Garissa,reddit,True,physical_health,neutral,7,1.7179972601825506,38.935537536312886
+Dealing with cholera symptoms. Hospitals in Nyeri are seeing more cases.,2025-06-27 13:04:31,Nyeri,survey,True,physical_health,positive,9,2.2298595152840948,35.67338707242142
+I've been feeling depression lately. The stigma around mental health issues is frustrating.,2025-06-27 15:04:31,Kisii,reddit,True,mental_health,negative,1,0.30207909924858,40.67676530950644
+I've been feeling anxiety lately. Does anyone else struggle with this?,2025-06-27 15:04:31,Thika,news,True,mental_health,negative,3,4.921377258948517,36.26619102962903
+Beautiful weather today in Kisii!,2025-06-27 15:04:31,Kisii,reddit,False,non_health,positive,0,2.5120100461193697,40.86486172248702
+I've been feeling depression lately. It's affecting my daily life.,2025-06-27 16:04:31,Machakos,news,True,mental_health,negative,6,-0.044839217044085444,37.2768347552389
+I've been feeling stress lately. The stigma around mental health issues is frustrating.,2025-06-27 16:04:31,Garissa,reddit,True,mental_health,neutral,7,-1.860898509788476,37.10270895579695
+Respiratory issues are increasing. I've been feeling stress lately. The stigma around mental health issues is frustrating.,2025-06-27 16:04:31,Kakamega,reddit,True,physical_health,positive,4,-4.227035601637351,40.95991955057141
+Dealing with respiratory infection symptoms. Are others in Kitale experiencing this?,2025-06-27 18:04:31,Kitale,reddit,True,physical_health,positive,6,3.4266531584230293,37.175413205328134
+I've been feeling PTSD lately. Looking for support groups in Machakos.,2025-06-27 19:04:31,Machakos,twitter,True,mental_health,negative,1,-0.021953464019587088,38.500431076866434
+Dealing with hypertension symptoms. Are others in Thika experiencing this?,2025-06-27 20:04:31,Thika,survey,True,physical_health,positive,5,-0.12485145935051101,35.93175932702959
+Respiratory issues are increasing. Dealing with cholera symptoms. Hospitals in Mombasa are seeing more cases.,2025-06-27 20:04:31,Mombasa,survey,True,physical_health,neutral,4,4.264056969737197,33.63185413865412
+Excited about the upcoming event in Machakos.,2025-06-27 21:04:31,Machakos,news,False,non_health,negative,0,0.9511138098053973,37.959774419955906
+Dealing with tuberculosis symptoms. Hospitals in Malindi are seeing more cases.,2025-06-27 22:04:31,Malindi,news,True,physical_health,negative,4,0.13695590160492443,38.181328538215894
+Respiratory issues are increasing. Dealing with typhoid symptoms. Healthcare facilities in Nyeri are overwhelmed.,2025-06-27 23:04:31,Nyeri,news,True,physical_health,negative,2,2.7938045552127653,36.071641012789364
+"Just moved to Malindi, loving it so far!",2025-06-27 23:04:31,Malindi,reddit,False,non_health,neutral,0,-3.662105087022753,41.11259295840682
+Respiratory issues are increasing. I've been feeling anxiety lately. Looking for support groups in Nairobi.,2025-06-27 23:04:31,Nairobi,twitter,True,physical_health,positive,1,-2.7541871060174676,34.4569875205443
+Dealing with tuberculosis symptoms. Need medical advice for managing tuberculosis.,2025-06-28 00:04:31,Machakos,twitter,True,physical_health,positive,5,3.597101542673572,39.94076382845842
+Beautiful weather today in Malindi!,2025-06-28 01:04:31,Malindi,reddit,False,non_health,positive,0,-2.3121516915636335,36.59097215739931
+I've been feeling stress lately. The stigma around mental health issues is frustrating.,2025-06-28 01:04:31,Mombasa,survey,True,mental_health,positive,3,4.9723470107416095,41.77992068337623
+Dealing with malaria symptoms. Hospitals in Nyeri are seeing more cases.,2025-06-28 01:04:31,Nyeri,survey,True,physical_health,positive,7,2.093669130957652,34.70388156947607
+Anyone recommend good restaurants in Nyeri?,2025-06-28 03:04:31,Nyeri,news,False,non_health,neutral,0,-3.043580035129911,35.172879287502425
+Anyone recommend good restaurants in Kisumu?,2025-06-28 03:04:31,Kisumu,news,False,non_health,neutral,0,1.5972997182760853,38.20509737618928
+Respiratory issues are increasing. I've been feeling depression lately. Looking for support groups in Nyeri.,2025-06-28 04:04:31,Nyeri,survey,True,physical_health,positive,8,-2.0095733995964755,36.792081267340414
+Dealing with respiratory infection symptoms. Are others in Mombasa experiencing this?,2025-06-28 04:04:31,Mombasa,news,True,physical_health,negative,5,3.9350530931713052,41.539046306847254
+Beautiful weather today in Kitale!,2025-06-28 04:04:31,Kitale,reddit,False,non_health,negative,0,1.2333601618497365,35.32927876313114
+"Just moved to Thika, loving it so far!",2025-06-28 04:04:31,Thika,reddit,False,non_health,positive,0,-3.201091731830953,36.33175047265619
+Beautiful weather today in Thika!,2025-06-28 05:04:31,Thika,news,False,non_health,positive,0,-0.5736949376183369,37.39704829979169
+Dealing with tuberculosis symptoms. Are others in Kakamega experiencing this?,2025-06-28 05:04:31,Kakamega,twitter,True,physical_health,positive,1,-2.629702339563022,33.74298312178286
+Respiratory issues are increasing. I've been feeling depression lately. It's affecting my daily life.,2025-06-28 06:04:31,Thika,twitter,True,physical_health,positive,4,3.2866487033918075,40.252625431469134
+Respiratory issues are increasing. I've been feeling insomnia lately. Looking for support groups in Bungoma.,2025-06-28 06:04:31,Bungoma,survey,True,physical_health,neutral,2,3.79552768753725,37.04658351389253
+Traffic is heavy in Mombasa this morning.,2025-06-28 09:04:31,Mombasa,news,False,non_health,positive,0,-2.334041287829543,34.97483211094093
+Anyone recommend good restaurants in Nairobi?,2025-06-28 10:04:31,Nairobi,twitter,False,non_health,positive,0,2.618003077289182,40.89079152172886
+I've been feeling anxiety lately. Looking for support groups in Mombasa.,2025-06-28 10:04:31,Mombasa,news,True,mental_health,negative,5,2.252729328071699,37.58554248359819
+Respiratory issues are increasing. Dealing with malaria symptoms. Need medical advice for managing malaria.,2025-06-28 13:04:31,Machakos,news,True,physical_health,neutral,8,3.180053883711416,41.70044163149765
+"Just moved to Mombasa, loving it so far!",2025-06-28 13:04:31,Mombasa,news,False,non_health,positive,0,1.5677441412976254,33.78498962522562
+Dealing with cholera symptoms. Hospitals in Eldoret are seeing more cases.,2025-06-28 14:04:31,Eldoret,survey,True,physical_health,positive,8,-0.26927666000989436,41.14038451699343
+Dealing with HIV/AIDS symptoms. Healthcare facilities in Machakos are overwhelmed.,2025-06-28 15:04:31,Machakos,news,True,physical_health,positive,9,-2.0860159953538178,37.9009579153387
+Dealing with respiratory infection symptoms. Are others in Thika experiencing this?,2025-06-28 15:04:31,Thika,survey,True,physical_health,negative,9,3.795000764059008,39.339838922543144
+Dealing with HIV/AIDS symptoms. Hospitals in Garissa are seeing more cases.,2025-06-28 16:04:31,Garissa,news,True,physical_health,positive,7,-0.47057873978620535,33.55059919084509
+Anyone recommend good restaurants in Nyeri?,2025-06-28 17:04:31,Nyeri,survey,False,non_health,positive,0,4.67269175682261,35.49947030939757
+Excited about the upcoming event in Kitale.,2025-06-28 17:04:31,Kitale,reddit,False,non_health,negative,0,2.0925769546440884,35.837201011964595
+Beautiful weather today in Kitale!,2025-06-28 17:04:31,Kitale,reddit,False,non_health,positive,0,-1.8083198752224932,41.801636746868816
+Dealing with malaria symptoms. Need medical advice for managing malaria.,2025-06-28 18:04:31,Mombasa,twitter,True,physical_health,positive,9,5.046605949794268,36.28341890796815
+Dealing with typhoid symptoms. Healthcare facilities in Nairobi are overwhelmed.,2025-06-28 23:04:31,Nairobi,twitter,True,physical_health,negative,8,-1.6339426551618743,41.192525346347445
+Anyone recommend good restaurants in Kericho?,2025-06-28 23:04:31,Kericho,reddit,False,non_health,positive,0,5.370854943239372,40.52586379603416
+Dealing with diabetes symptoms. Need medical advice for managing diabetes.,2025-06-29 00:04:31,Kisumu,reddit,True,physical_health,positive,10,1.0197565464285425,34.27655316752522
+Beautiful weather today in Kisumu!,2025-06-29 01:04:31,Kisumu,news,False,non_health,negative,0,-2.0341438335677005,38.881093476161006
+Dealing with respiratory infection symptoms. Are others in Nairobi experiencing this?,2025-06-29 01:04:31,Nairobi,survey,True,physical_health,positive,6,-2.905442371518167,38.29885389695737
+"Just moved to Kitale, loving it so far!",2025-06-29 01:04:31,Kitale,twitter,False,non_health,neutral,0,5.392088140112968,39.57549582944528
+Dealing with HIV/AIDS symptoms. Healthcare facilities in Malindi are overwhelmed.,2025-06-29 03:04:31,Malindi,survey,True,physical_health,negative,1,3.7332570873518645,40.83707523422875
+Dealing with HIV/AIDS symptoms. Healthcare facilities in Malindi are overwhelmed.,2025-06-29 05:04:31,Malindi,news,True,physical_health,positive,7,5.338675662359668,33.52777011741433
+Anyone recommend good restaurants in Kisumu?,2025-06-29 06:04:31,Kisumu,news,False,non_health,negative,0,-2.674439599049773,37.9504714410154
+Anyone recommend good restaurants in Kakamega?,2025-06-29 06:04:31,Kakamega,reddit,False,non_health,negative,0,-3.3307865466559465,39.72076493583608
+Traffic is heavy in Kisumu this morning.,2025-06-29 08:04:31,Kisumu,reddit,False,non_health,neutral,0,2.0597815103515735,35.477715857124295
+Dealing with cholera symptoms. The situation in Kisii is concerning.,2025-06-29 08:04:31,Kisii,twitter,True,physical_health,negative,1,-4.0587639842226055,34.00488706333811
+Traffic is heavy in Kakamega this morning.,2025-06-29 09:04:31,Kakamega,reddit,False,non_health,positive,0,-0.6078896855430163,35.09800589006084
+Beautiful weather today in Malindi!,2025-06-29 09:04:31,Malindi,reddit,False,non_health,positive,0,1.978398634137493,36.38838261261135
+Respiratory issues are increasing. Dealing with tuberculosis symptoms. Need medical advice for managing tuberculosis.,2025-06-29 10:04:31,Kisumu,reddit,True,physical_health,negative,2,2.3606561968230197,34.36194331999781
+Beautiful weather today in Nyeri!,2025-06-29 10:04:31,Nyeri,news,False,non_health,neutral,0,-1.8276448116654027,35.99253732736055
+Excited about the upcoming event in Mombasa.,2025-06-29 10:04:31,Mombasa,survey,False,non_health,neutral,0,2.936600095220383,37.69136517018349
+"Just moved to Nakuru, loving it so far!",2025-06-29 11:04:31,Nakuru,twitter,False,non_health,neutral,0,2.9769899221887357,36.74137735395891
+Dealing with typhoid symptoms. Need medical advice for managing typhoid.,2025-06-29 13:04:31,Kitale,news,True,physical_health,positive,10,3.5167379873339755,35.689959357717804
+Beautiful weather today in Kitale!,2025-06-29 14:04:31,Kitale,twitter,False,non_health,negative,0,-2.085566076927609,39.427952436791685
+Beautiful weather today in Kisii!,2025-06-29 14:04:31,Kisii,survey,False,non_health,negative,0,-4.173253892695154,33.723097945032194
+Dealing with typhoid symptoms. Hospitals in Machakos are seeing more cases.,2025-06-29 17:04:31,Machakos,news,True,physical_health,negative,3,3.963421093452137,35.704536758384535
+Anyone recommend good restaurants in Bungoma?,2025-06-29 17:04:31,Bungoma,survey,False,non_health,neutral,0,1.0480526160766432,36.22477199335186
+Beautiful weather today in Nakuru!,2025-06-29 17:04:31,Nakuru,survey,False,non_health,neutral,0,3.8539248151330803,37.2004282418715
+Dealing with respiratory infection symptoms. Healthcare facilities in Thika are overwhelmed.,2025-06-29 17:04:31,Thika,reddit,True,physical_health,neutral,6,-0.7697610752895616,33.52326710812059
+Dealing with respiratory infection symptoms. Healthcare facilities in Kakamega are overwhelmed.,2025-06-29 17:04:31,Kakamega,twitter,True,physical_health,neutral,3,2.721355359576714,36.6131808339722
+I've been feeling depression lately. Does anyone else struggle with this?,2025-06-29 18:04:31,Nyeri,twitter,True,mental_health,negative,7,4.016836481316805,41.89365962832393
+"Just moved to Eldoret, loving it so far!",2025-06-29 18:04:31,Eldoret,reddit,False,non_health,neutral,0,-2.236158401340776,37.321008919799624
+I've been feeling anxiety lately. Looking for support groups in Malindi.,2025-06-29 18:04:31,Malindi,reddit,True,mental_health,neutral,8,-2.311271102242685,41.56238043077175
+I've been feeling stress lately. The stigma around mental health issues is frustrating.,2025-06-29 18:04:31,Kakamega,twitter,True,mental_health,positive,7,2.150085759372004,39.40672455741176
+Respiratory issues are increasing. I've been feeling PTSD lately. Does anyone else struggle with this?,2025-06-29 19:04:31,Machakos,reddit,True,physical_health,neutral,8,-2.6662782746578797,40.15044873167077
+Beautiful weather today in Nyeri!,2025-06-29 19:04:31,Nyeri,news,False,non_health,negative,0,0.4280170909105916,40.56425950856307
+I've been feeling PTSD lately. Does anyone else struggle with this?,2025-06-29 19:04:31,Kericho,survey,True,mental_health,negative,3,-3.88851694556055,35.08754636811225
+Respiratory issues are increasing. Dealing with hypertension symptoms. Need medical advice for managing hypertension.,2025-06-29 20:04:31,Garissa,twitter,True,physical_health,neutral,5,-4.217450381241891,38.32136434718461
+Respiratory problems in Nairobi. Dealing with diabetes symptoms. Are others in Nairobi experiencing this?,2025-06-29 23:04:31,Nairobi,twitter,True,physical_health,positive,5,-2.0962952457301727,34.65812262852735
+Traffic is heavy in Nairobi this morning.,2025-06-30 00:04:31,Nairobi,twitter,False,non_health,positive,0,-1.734509292289629,34.45721522259627
+Dealing with malaria symptoms. Hospitals in Eldoret are seeing more cases.,2025-06-30 01:04:31,Eldoret,reddit,True,physical_health,neutral,10,1.954772554157742,34.049907154173326
+Beautiful weather today in Mombasa!,2025-06-30 01:04:31,Mombasa,survey,False,non_health,negative,0,2.796291116428346,41.12731516173335
+"Just moved to Eldoret, loving it so far!",2025-06-30 01:04:31,Eldoret,news,False,non_health,positive,0,0.9716246801346333,41.7252205424268
+Dealing with tuberculosis symptoms. Healthcare facilities in Mombasa are overwhelmed.,2025-06-30 03:04:31,Mombasa,reddit,True,physical_health,negative,7,1.0654201470245983,35.98723615234696
+Dealing with hypertension symptoms. Healthcare facilities in Kakamega are overwhelmed.,2025-06-30 03:04:31,Kakamega,survey,True,physical_health,neutral,1,3.4993520757407586,37.70922477712499
+I've been feeling stress lately. It's affecting my daily life.,2025-06-30 04:04:31,Kitale,news,True,mental_health,positive,2,-0.4007583172584095,38.04132701194603
+Traffic is heavy in Thika this morning.,2025-06-30 05:04:31,Thika,twitter,False,non_health,negative,0,0.7908659581931659,38.834145455808084
+Dealing with respiratory infection symptoms. The situation in Bungoma is concerning.,2025-06-30 05:04:31,Bungoma,survey,True,physical_health,positive,10,2.621137138788872,36.54597086826939
+Dealing with malaria symptoms. Hospitals in Bungoma are seeing more cases.,2025-06-30 05:04:31,Bungoma,survey,True,physical_health,negative,2,0.28299044939923146,37.256133602625
+I've been feeling stress lately. It's affecting my daily life.,2025-06-30 08:04:31,Kisii,reddit,True,mental_health,neutral,2,-3.4752526084314477,36.64978401242225
+I've been feeling insomnia lately. It's affecting my daily life.,2025-06-30 08:04:31,Nakuru,survey,True,mental_health,neutral,10,3.977741593110844,34.27310453086985
+Dealing with respiratory infection symptoms. Hospitals in Eldoret are seeing more cases.,2025-06-30 09:04:31,Eldoret,survey,True,physical_health,positive,8,-0.34199972751599894,33.93644313950547
+Excited about the upcoming event in Nakuru.,2025-06-30 09:04:31,Nakuru,news,False,non_health,negative,0,0.8418181917281906,41.38531357947791
+Dealing with hypertension symptoms. Are others in Kitale experiencing this?,2025-06-30 10:04:31,Kitale,news,True,physical_health,negative,1,2.7755745346579825,41.58738776421748
+Traffic is heavy in Kakamega this morning.,2025-06-30 10:04:31,Kakamega,reddit,False,non_health,negative,0,-0.7995600436834165,37.92561639164074
+Respiratory issues are increasing. I've been feeling PTSD lately. Anyone know where to get help in Garissa?,2025-06-30 10:04:31,Garissa,news,True,physical_health,positive,9,3.18549212891097,39.66173633711287
+"Just moved to Kakamega, loving it so far!",2025-06-30 11:04:31,Kakamega,twitter,False,non_health,negative,0,-3.405191610737535,34.06447170263934
+I've been feeling anxiety lately. Anyone know where to get help in Kitale?,2025-06-30 11:04:31,Kitale,survey,True,mental_health,negative,4,3.649464184265886,34.84026388826669
+Dealing with HIV/AIDS symptoms. The situation in Kakamega is concerning.,2025-06-30 12:04:31,Kakamega,twitter,True,physical_health,positive,10,5.320101228142409,34.00274270626184
+Dealing with tuberculosis symptoms. The situation in Malindi is concerning.,2025-06-30 13:04:31,Malindi,survey,True,physical_health,positive,7,-0.7431394959030695,39.933536999790434
+I've been feeling PTSD lately. Does anyone else struggle with this?,2025-06-30 15:04:31,Nyeri,news,True,mental_health,neutral,9,0.8093656011031678,35.16355395458766
+Dealing with diabetes symptoms. Hospitals in Kericho are seeing more cases.,2025-06-30 16:04:31,Kericho,reddit,True,physical_health,positive,5,5.1459048256854665,40.78901641967799
+Respiratory issues are increasing. Dealing with hypertension symptoms. The situation in Nairobi is concerning.,2025-06-30 16:04:31,Nairobi,twitter,True,physical_health,negative,1,-2.309990960469265,35.47765802647703
+Anyone recommend good restaurants in Mombasa?,2025-06-30 18:04:31,Mombasa,reddit,False,non_health,neutral,0,5.395650297771494,41.43993802629449
+Dealing with diabetes symptoms. Healthcare facilities in Bungoma are overwhelmed.,2025-06-30 18:04:31,Bungoma,survey,True,physical_health,positive,10,5.286724967813939,35.7926978460042
+Respiratory issues are increasing. Dealing with HIV/AIDS symptoms. Hospitals in Nyeri are seeing more cases.,2025-06-30 19:04:31,Nyeri,twitter,True,physical_health,neutral,10,5.032884819442305,41.069587257640016
+Dealing with tuberculosis symptoms. Healthcare facilities in Nakuru are overwhelmed.,2025-06-30 19:04:31,Nakuru,twitter,True,physical_health,positive,9,-3.664321173793677,37.96314491010692
+Respiratory issues are increasing. Dealing with hypertension symptoms. Need medical advice for managing hypertension.,2025-06-30 19:04:31,Mombasa,twitter,True,physical_health,negative,9,1.0736847417806592,37.56197779676289
+I've been feeling depression lately. Does anyone else struggle with this?,2025-06-30 22:04:31,Nakuru,survey,True,mental_health,positive,5,3.6442467793445203,38.14564040295254
+"Just moved to Machakos, loving it so far!",2025-06-30 23:04:31,Machakos,reddit,False,non_health,neutral,0,-2.9286734219132917,41.632009348943555
+Respiratory issues are increasing. Dealing with hypertension symptoms. Are others in Kericho experiencing this?,2025-06-30 23:04:31,Kericho,twitter,True,physical_health,neutral,10,2.319412163167824,39.77235034595286
+Respiratory issues are increasing. Dealing with tuberculosis symptoms. Hospitals in Kericho are seeing more cases.,2025-07-01 00:04:31,Kericho,twitter,True,physical_health,positive,7,-2.3978095911444255,39.59432299938054
+Traffic is heavy in Kisumu this morning.,2025-07-01 00:04:31,Kisumu,survey,False,non_health,positive,0,1.321079464572895,38.84748313694131
+Respiratory issues are increasing. Dealing with tuberculosis symptoms. Hospitals in Eldoret are seeing more cases.,2025-07-01 00:04:31,Eldoret,reddit,True,physical_health,neutral,4,2.6106819093381013,35.46227303508097
+Traffic is heavy in Kisii this morning.,2025-07-01 00:04:31,Kisii,twitter,False,non_health,neutral,0,-1.4723914518307817,35.26572238977613
+Traffic is heavy in Bungoma this morning.,2025-07-01 02:04:31,Bungoma,reddit,False,non_health,negative,0,4.719692517386461,40.62581104948026
+"Just moved to Eldoret, loving it so far!",2025-07-01 02:04:31,Eldoret,reddit,False,non_health,negative,0,-1.0621009462672375,36.06955737621633
+Dealing with respiratory infection symptoms. The situation in Garissa is concerning.,2025-07-01 04:04:31,Garissa,reddit,True,physical_health,negative,7,-3.5777525860706474,41.43711194999594
+Respiratory issues are increasing. I've been feeling PTSD lately. The stigma around mental health issues is frustrating.,2025-07-01 04:04:31,Nyeri,twitter,True,physical_health,positive,10,-3.698955648166346,38.85382719081295
+Respiratory issues are increasing. Dealing with HIV/AIDS symptoms. Hospitals in Nairobi are seeing more cases.,2025-07-01 06:04:31,Nairobi,reddit,True,physical_health,neutral,2,3.1436007607729,35.89738237855707
+Respiratory issues are increasing. I've been feeling depression lately. Anyone know where to get help in Kisii?,2025-07-01 07:04:31,Kisii,news,True,physical_health,positive,6,-0.554692468972469,34.24976166534864
+I've been feeling stress lately. Looking for support groups in Bungoma.,2025-07-01 07:04:31,Bungoma,twitter,True,mental_health,negative,7,3.332791069955089,40.761449913569045
+Respiratory issues are increasing. I've been feeling PTSD lately. The stigma around mental health issues is frustrating.,2025-07-01 08:04:31,Malindi,news,True,physical_health,negative,6,-0.5881077955796736,39.43004797994173
+Dealing with malaria symptoms. Are others in Eldoret experiencing this?,2025-07-01 08:04:31,Eldoret,reddit,True,physical_health,neutral,7,-3.6735218308555266,39.337574988936055
+I've been feeling anxiety lately. Does anyone else struggle with this?,2025-07-01 09:04:31,Kisii,survey,True,mental_health,neutral,9,4.084588342410253,39.964147646183086
+Water-related illness concern in Mombasa. Dealing with respiratory infection symptoms. Hospitals in Mombasa are seeing more cases.,2025-07-01 10:04:31,Mombasa,reddit,True,physical_health,positive,8,-1.052881367511044,37.50180590282043
+Traffic is heavy in Thika this morning.,2025-07-01 10:04:31,Thika,reddit,False,non_health,negative,0,-2.4023692047315186,35.12485151931516
+Dealing with respiratory infection symptoms. Hospitals in Nairobi are seeing more cases.,2025-07-01 10:04:31,Nairobi,twitter,True,physical_health,positive,8,-1.9199304159002888,40.187253518754446
+Respiratory issues are increasing. I've been feeling stress lately. It's affecting my daily life.,2025-07-01 11:04:31,Thika,reddit,True,physical_health,positive,3,-3.084990449499746,36.90070248217981
+Respiratory issues are increasing. I've been feeling insomnia lately. It's affecting my daily life.,2025-07-01 14:04:31,Kakamega,survey,True,physical_health,positive,8,-1.284855011012183,37.61488815532727
+Respiratory issues are increasing. Dealing with HIV/AIDS symptoms. Are others in Kericho experiencing this?,2025-07-01 15:04:31,Kericho,survey,True,physical_health,neutral,10,-2.508099849097341,33.93344084056772
+Respiratory issues are increasing. Dealing with cholera symptoms. Are others in Kitale experiencing this?,2025-07-01 15:04:31,Kitale,survey,True,physical_health,neutral,10,-2.1613548578412494,37.121174267425836
+Traffic is heavy in Thika this morning.,2025-07-01 18:04:31,Thika,twitter,False,non_health,positive,0,-3.237045809613088,38.6559235209026
+Beautiful weather today in Machakos!,2025-07-01 19:04:31,Machakos,news,False,non_health,negative,0,4.048135313001087,39.64856692517657
+Excited about the upcoming event in Nakuru.,2025-07-01 22:04:31,Nakuru,twitter,False,non_health,negative,0,-1.9792871150607398,34.9968977623472
+Beautiful weather today in Garissa!,2025-07-01 22:04:31,Garissa,news,False,non_health,negative,0,3.4533290457001087,38.31663065947071
+Dealing with respiratory infection symptoms. The situation in Nairobi is concerning.,2025-07-01 22:04:31,Nairobi,survey,True,physical_health,neutral,1,5.069811037470915,35.67961832658524
+Anyone recommend good restaurants in Mombasa?,2025-07-01 23:04:31,Mombasa,reddit,False,non_health,neutral,0,0.32664576076061635,34.06175712020921
+Beautiful weather today in Machakos!,2025-07-01 23:04:31,Machakos,news,False,non_health,positive,0,-0.5350961511862278,36.33901769765488
+Respiratory issues are increasing. Dealing with HIV/AIDS symptoms. The situation in Nyeri is concerning.,2025-07-01 23:04:31,Nyeri,survey,True,physical_health,neutral,10,5.456705690215987,37.29157782986473
+Respiratory issues are increasing. Dealing with hypertension symptoms. Need medical advice for managing hypertension.,2025-07-02 02:04:31,Eldoret,news,True,physical_health,neutral,3,-3.5239568974753706,41.41980250145955
+Anyone recommend good restaurants in Eldoret?,2025-07-02 07:04:31,Eldoret,news,False,non_health,positive,0,2.0735653114299826,41.961145914109544
+Traffic is heavy in Kericho this morning.,2025-07-02 07:04:31,Kericho,survey,False,non_health,positive,0,-1.3488750099061066,34.09036438849931
+Dealing with tuberculosis symptoms. Are others in Thika experiencing this?,2025-07-02 07:04:31,Thika,twitter,True,physical_health,positive,7,-2.7927791307743712,40.326805859498734
+Dealing with cholera symptoms. Hospitals in Mombasa are seeing more cases.,2025-07-02 10:04:31,Mombasa,survey,True,physical_health,neutral,5,5.261247270804676,39.14288726475772
+Dealing with tuberculosis symptoms. Hospitals in Kisii are seeing more cases.,2025-07-02 11:04:31,Kisii,survey,True,physical_health,neutral,5,-3.850574801688153,38.6524257268411
+"Just moved to Eldoret, loving it so far!",2025-07-02 11:04:31,Eldoret,reddit,False,non_health,negative,0,-1.8896207015638673,35.65811810947713
+Dealing with malaria symptoms. Healthcare facilities in Kisii are overwhelmed.,2025-07-02 11:04:31,Kisii,reddit,True,physical_health,positive,6,1.5093629941297833,34.79005513179679
+I've been feeling PTSD lately. The stigma around mental health issues is frustrating.,2025-07-02 11:04:31,Garissa,twitter,True,mental_health,neutral,7,-3.042345559903376,36.39139357603368
+Beautiful weather today in Bungoma!,2025-07-02 12:04:31,Bungoma,news,False,non_health,positive,0,-0.4672081627950817,35.4471719945189
+Respiratory issues are increasing. I've been feeling anxiety lately. It's affecting my daily life.,2025-07-02 12:04:31,Kakamega,twitter,True,physical_health,negative,4,3.589168123120391,35.547527862035935
+Dealing with HIV/AIDS symptoms. Hospitals in Kitale are seeing more cases.,2025-07-02 13:04:31,Kitale,survey,True,physical_health,negative,9,-1.0885771605902654,39.26166171037217
+Respiratory issues are increasing. Dealing with diabetes symptoms. Healthcare facilities in Nakuru are overwhelmed.,2025-07-02 13:04:31,Nakuru,twitter,True,physical_health,positive,10,4.705943940013638,34.169566287549195
+Respiratory issues are increasing. Dealing with malaria symptoms. Healthcare facilities in Eldoret are overwhelmed.,2025-07-02 13:04:31,Eldoret,news,True,physical_health,neutral,6,4.6706503137868705,36.10397072746148
+Traffic is heavy in Machakos this morning.,2025-07-02 13:04:31,Machakos,reddit,False,non_health,negative,0,4.9606473735812475,35.38404307798178
+Respiratory issues are increasing. I've been feeling insomnia lately. It's affecting my daily life.,2025-07-02 13:04:31,Kericho,survey,True,physical_health,negative,6,-2.724849479319837,35.74257360019303
+Excited about the upcoming event in Nakuru.,2025-07-02 13:04:31,Nakuru,survey,False,non_health,neutral,0,-1.22641206846503,41.86595062778452
+Respiratory issues are increasing. Dealing with typhoid symptoms. Healthcare facilities in Garissa are overwhelmed.,2025-07-02 15:04:31,Garissa,twitter,True,physical_health,negative,10,1.5477520732013499,41.716600554898726
+Dealing with diabetes symptoms. Hospitals in Machakos are seeing more cases.,2025-07-02 15:04:31,Machakos,twitter,True,physical_health,positive,3,0.6278441104234629,37.710540001355355
+Respiratory issues are increasing. Dealing with typhoid symptoms. Are others in Eldoret experiencing this?,2025-07-02 16:04:31,Eldoret,twitter,True,physical_health,neutral,10,-0.03834794361980265,35.47353620717761
+Respiratory issues are increasing. Dealing with cholera symptoms. The situation in Machakos is concerning.,2025-07-02 18:04:31,Machakos,news,True,physical_health,neutral,3,-0.6664657607557016,39.05138605128116
+Traffic is heavy in Garissa this morning.,2025-07-02 19:04:31,Garissa,twitter,False,non_health,positive,0,-0.3020043755436035,33.61893288984329
+Respiratory issues are increasing. Dealing with typhoid symptoms. Need medical advice for managing typhoid.,2025-07-02 19:04:31,Kericho,news,True,physical_health,negative,1,4.140344200501259,38.460320553218835
+"Just moved to Malindi, loving it so far!",2025-07-02 20:04:31,Malindi,reddit,False,non_health,negative,0,4.878182623883118,41.393154998102396
+I've been feeling insomnia lately. The stigma around mental health issues is frustrating.,2025-07-02 21:04:31,Eldoret,news,True,mental_health,negative,8,3.131463697303672,37.2573857980034
+Anyone recommend good restaurants in Kisumu?,2025-07-02 21:04:31,Kisumu,survey,False,non_health,positive,0,-0.47682493202919574,38.23399663755444
+Respiratory issues are increasing. Dealing with typhoid symptoms. Hospitals in Kisii are seeing more cases.,2025-07-02 22:04:31,Kisii,survey,True,physical_health,negative,5,-1.0781883374114472,41.732168870285186
+Dealing with cholera symptoms. Are others in Nakuru experiencing this?,2025-07-02 22:04:31,Nakuru,news,True,physical_health,negative,4,-1.0428076910649025,38.50430871695815
+Traffic is heavy in Kericho this morning.,2025-07-02 23:04:31,Kericho,twitter,False,non_health,negative,0,4.5111691738476605,40.17193537017728
+"Just moved to Kisumu, loving it so far!",2025-07-02 23:04:31,Kisumu,survey,False,non_health,neutral,0,4.987657643817938,37.496568255111136
+Respiratory issues are increasing. I've been feeling anxiety lately. It's affecting my daily life.,2025-07-02 23:04:31,Mombasa,reddit,True,physical_health,neutral,4,4.136903991953398,33.58198457320341
+Anyone recommend good restaurants in Kisii?,2025-07-02 23:04:31,Kisii,news,False,non_health,neutral,0,-0.2592207034096159,38.744280649410555
+Beautiful weather today in Thika!,2025-07-02 23:04:31,Thika,survey,False,non_health,positive,0,5.188855070899004,34.50852783177772
+Dealing with malaria symptoms. Need medical advice for managing malaria.,2025-07-02 23:04:31,Kakamega,news,True,physical_health,neutral,8,-0.9141106740855856,39.305599435600804
+Traffic is heavy in Kisumu this morning.,2025-07-02 23:04:31,Kisumu,twitter,False,non_health,positive,0,-0.5323640463849628,33.59955634074462
+I've been feeling PTSD lately. Looking for support groups in Eldoret.,2025-07-03 00:04:31,Eldoret,twitter,True,mental_health,positive,9,-2.77031786476823,39.84804163990955
+Respiratory issues are increasing. Dealing with diabetes symptoms. Need medical advice for managing diabetes.,2025-07-03 01:04:31,Garissa,survey,True,physical_health,negative,10,0.9450042304809534,34.74620427332995
+Excited about the upcoming event in Nyeri.,2025-07-03 03:04:31,Nyeri,reddit,False,non_health,negative,0,0.10581539075443747,37.34465038234807
+Dealing with HIV/AIDS symptoms. Are others in Nyeri experiencing this?,2025-07-03 04:04:31,Nyeri,twitter,True,physical_health,positive,8,3.2743321801112373,40.22589342329307
+Dealing with cholera symptoms. Healthcare facilities in Kericho are overwhelmed.,2025-07-03 04:04:31,Kericho,twitter,True,physical_health,negative,10,3.3995439396814673,38.11575820546415
+Traffic is heavy in Nakuru this morning.,2025-07-03 06:04:31,Nakuru,survey,False,non_health,neutral,0,-1.8972104641902492,35.93852411138535
+Respiratory problems in Nairobi. I've been feeling depression lately. It's affecting my daily life.,2025-07-03 07:04:31,Nairobi,survey,True,physical_health,negative,3,3.12541411024457,40.35447746569591
+Traffic is heavy in Eldoret this morning.,2025-07-03 07:04:31,Eldoret,news,False,non_health,negative,0,1.1532768883131972,37.524945870314255
+Dealing with respiratory infection symptoms. Healthcare facilities in Malindi are overwhelmed.,2025-07-03 08:04:31,Malindi,news,True,physical_health,positive,5,3.7216457594663357,35.99433619403079
+Respiratory issues are increasing. Dealing with typhoid symptoms. The situation in Kisii is concerning.,2025-07-03 08:04:31,Kisii,news,True,physical_health,negative,9,5.38238606233589,41.518251833143395
+Respiratory issues are increasing. I've been feeling PTSD lately. The stigma around mental health issues is frustrating.,2025-07-03 08:04:31,Kisumu,reddit,True,physical_health,negative,1,3.3955912910483574,41.81776700186716
+Respiratory issues are increasing. I've been feeling insomnia lately. It's affecting my daily life.,2025-07-03 09:04:31,Mombasa,twitter,True,physical_health,negative,3,1.3617537236304198,41.89607094192944
+Dealing with respiratory infection symptoms. Are others in Kakamega experiencing this?,2025-07-03 09:04:31,Kakamega,survey,True,physical_health,positive,5,-1.7405055017932742,39.503522218433105
+Dealing with diabetes symptoms. Are others in Kakamega experiencing this?,2025-07-03 12:04:31,Kakamega,news,True,physical_health,negative,5,-3.817898905563353,40.634266685572555
+Respiratory issues are increasing. I've been feeling anxiety lately. Anyone know where to get help in Machakos?,2025-07-03 13:04:31,Machakos,reddit,True,physical_health,positive,10,-2.3300621289874464,33.63930960614964
+Traffic is heavy in Malindi this morning.,2025-07-03 14:04:31,Malindi,twitter,False,non_health,neutral,0,-3.154849601425909,34.5019479518296
+"Just moved to Nyeri, loving it so far!",2025-07-03 15:04:31,Nyeri,survey,False,non_health,negative,0,-3.7488833890641455,36.121273620265285
+I've been feeling depression lately. Anyone know where to get help in Kericho?,2025-07-03 16:04:31,Kericho,reddit,True,mental_health,negative,10,-3.352911363009955,33.50030355006969
+I've been feeling PTSD lately. The stigma around mental health issues is frustrating.,2025-07-03 18:04:31,Thika,survey,True,mental_health,positive,10,0.8665457760885973,38.81481248793215
+Anyone recommend good restaurants in Thika?,2025-07-03 19:04:31,Thika,twitter,False,non_health,negative,0,-0.7127536043882206,37.91036043154205
+Respiratory issues are increasing. I've been feeling PTSD lately. It's affecting my daily life.,2025-07-03 19:04:31,Kisii,news,True,physical_health,positive,1,1.8211826532556437,35.36623698372689
+Dealing with typhoid symptoms. Need medical advice for managing typhoid.,2025-07-03 19:04:31,Kitale,news,True,physical_health,positive,9,0.42227263923832226,39.19195762705288
+Anyone recommend good restaurants in Garissa?,2025-07-03 19:04:31,Garissa,news,False,non_health,neutral,0,-2.2208197095986684,40.73281278684085
+Traffic is heavy in Mombasa this morning.,2025-07-03 19:04:31,Mombasa,reddit,False,non_health,positive,0,3.0465956598756403,41.764715191239034
+Dealing with malaria symptoms. Healthcare facilities in Kakamega are overwhelmed.,2025-07-03 20:04:31,Kakamega,survey,True,physical_health,neutral,1,-0.7652564036696212,38.308574044825576
+Dealing with cholera symptoms. Hospitals in Eldoret are seeing more cases.,2025-07-03 21:04:31,Eldoret,survey,True,physical_health,negative,9,2.1964439968074396,35.70530141938228
+Beautiful weather today in Kericho!,2025-07-03 21:04:31,Kericho,news,False,non_health,negative,0,3.8797744580445244,35.67134517028272
+Respiratory issues are increasing. I've been feeling stress lately. Looking for support groups in Nakuru.,2025-07-03 22:04:31,Nakuru,twitter,True,physical_health,positive,10,-0.6742771881860339,36.04590267819017
+Respiratory issues are increasing. Dealing with hypertension symptoms. Hospitals in Mombasa are seeing more cases.,2025-07-03 23:04:31,Mombasa,twitter,True,physical_health,positive,10,3.857394127639985,33.75064421832531
+Traffic is heavy in Mombasa this morning.,2025-07-03 23:04:31,Mombasa,survey,False,non_health,positive,0,1.0474998687546169,37.73272132655009
+Respiratory issues are increasing. I've been feeling PTSD lately. Does anyone else struggle with this?,2025-07-03 23:04:31,Eldoret,news,True,physical_health,negative,6,-0.553987962111369,38.73215161883305
+"Just moved to Garissa, loving it so far!",2025-07-04 00:04:31,Garissa,twitter,False,non_health,positive,0,1.120492528410562,41.72186692588098
+Respiratory issues are increasing. Dealing with HIV/AIDS symptoms. Healthcare facilities in Eldoret are overwhelmed.,2025-07-04 00:04:31,Eldoret,news,True,physical_health,negative,8,0.06316006654859052,34.320278999791356
+Dealing with hypertension symptoms. Healthcare facilities in Bungoma are overwhelmed.,2025-07-04 01:04:31,Bungoma,twitter,True,physical_health,positive,7,-1.532805040362927,37.004396884192246
+Excited about the upcoming event in Machakos.,2025-07-04 01:04:31,Machakos,news,False,non_health,positive,0,5.278158449725115,36.94713218898526
+Excited about the upcoming event in Nakuru.,2025-07-04 01:04:31,Nakuru,survey,False,non_health,negative,0,-3.703099284173205,38.263885597124464
+Dealing with HIV/AIDS symptoms. Need medical advice for managing HIV/AIDS.,2025-07-04 01:04:31,Thika,twitter,True,physical_health,positive,3,2.8163374266561547,34.48993244194788
+Respiratory issues are increasing. I've been feeling PTSD lately. It's affecting my daily life.,2025-07-04 01:04:31,Kitale,news,True,physical_health,negative,5,-2.0750581054057573,38.79599422283453
+Beautiful weather today in Kericho!,2025-07-04 02:04:31,Kericho,twitter,False,non_health,negative,0,1.4900104615277865,34.90092656313303
+Dealing with respiratory infection symptoms. Hospitals in Nyeri are seeing more cases.,2025-07-04 03:04:31,Nyeri,twitter,True,physical_health,neutral,2,4.631488230675796,36.10334285261734
+Respiratory issues are increasing. Dealing with typhoid symptoms. The situation in Mombasa is concerning.,2025-07-04 07:04:31,Mombasa,twitter,True,physical_health,neutral,4,-0.0067422689021867654,35.84744492537734
+Respiratory issues are increasing. Dealing with cholera symptoms. Need medical advice for managing cholera.,2025-07-04 07:04:31,Bungoma,reddit,True,physical_health,neutral,1,-2.887769970928296,39.300178844007874
+Traffic is heavy in Kitale this morning.,2025-07-04 08:04:31,Kitale,news,False,non_health,positive,0,-3.7059917473524564,39.704060443985114
+Respiratory issues are increasing. I've been feeling depression lately. It's affecting my daily life.,2025-07-04 09:04:31,Mombasa,news,True,physical_health,positive,4,1.3861747391558916,35.43057003252996
+I've been feeling depression lately. It's affecting my daily life.,2025-07-04 09:04:31,Machakos,survey,True,mental_health,neutral,7,1.3053807394773935,33.78971011179258
+Traffic is heavy in Eldoret this morning.,2025-07-04 10:04:31,Eldoret,survey,False,non_health,positive,0,3.838585602597883,33.70341744173613
+Traffic is heavy in Kisumu this morning.,2025-07-04 11:04:31,Kisumu,news,False,non_health,negative,0,3.2326043938928715,41.133180967771665
+Anyone recommend good restaurants in Kisumu?,2025-07-04 11:04:31,Kisumu,reddit,False,non_health,neutral,0,3.100492182609293,40.516918341500215
+I've been feeling depression lately. The stigma around mental health issues is frustrating.,2025-07-04 12:04:31,Garissa,twitter,True,mental_health,positive,2,4.113887703984894,39.65615355747417
+"Just moved to Garissa, loving it so far!",2025-07-04 13:04:31,Garissa,twitter,False,non_health,negative,0,2.405929023869901,40.84667005775385
+Beautiful weather today in Kericho!,2025-07-04 15:04:31,Kericho,twitter,False,non_health,neutral,0,2.5026596156589616,40.42997428995561
+Anyone recommend good restaurants in Nairobi?,2025-07-04 16:04:31,Nairobi,survey,False,non_health,positive,0,-2.104026767019725,40.10381692720903
+Anyone recommend good restaurants in Kisii?,2025-07-04 17:04:31,Kisii,survey,False,non_health,negative,0,-0.3706525781755481,40.47355278939981
+Respiratory issues are increasing. Mental health awareness in Kisumu. Dealing with tuberculosis symptoms. Are others in Kisumu experiencing this?,2025-07-04 17:04:31,Kisumu,twitter,True,physical_health,negative,6,-4.3943154738978665,38.579267330853874
+Respiratory issues are increasing. I've been feeling insomnia lately. Does anyone else struggle with this?,2025-07-04 18:04:31,Kisii,reddit,True,physical_health,negative,10,5.1062803221888124,33.96556643371628
+Dealing with hypertension symptoms. Hospitals in Machakos are seeing more cases.,2025-07-04 19:04:31,Machakos,twitter,True,physical_health,neutral,9,2.5608697898418127,41.69108872712967
+Respiratory issues are increasing. Dealing with malaria symptoms. Need medical advice for managing malaria.,2025-07-04 19:04:31,Kericho,reddit,True,physical_health,negative,3,2.1171767370834687,41.36701055614515
+Respiratory issues are increasing. I've been feeling depression lately. Anyone know where to get help in Kisumu?,2025-07-04 20:04:31,Kisumu,news,True,physical_health,negative,6,-0.5919979139662006,37.67381413848141
+I've been feeling insomnia lately. It's affecting my daily life.,2025-07-04 20:04:31,Kitale,news,True,mental_health,negative,9,5.162925516588054,41.75927800901347
+Excited about the upcoming event in Eldoret.,2025-07-04 21:04:31,Eldoret,twitter,False,non_health,neutral,0,0.7481637999870774,41.33639641006159
+Excited about the upcoming event in Kakamega.,2025-07-04 21:04:31,Kakamega,twitter,False,non_health,positive,0,0.46404929086146307,39.889677448589495
+"Just moved to Bungoma, loving it so far!",2025-07-04 21:04:31,Bungoma,news,False,non_health,neutral,0,1.7910699053311125,39.96774125881706
+Dealing with cholera symptoms. The situation in Kericho is concerning.,2025-07-04 22:04:31,Kericho,twitter,True,physical_health,neutral,7,-4.387959171254856,34.21069694274331
+I've been feeling depression lately. Anyone know where to get help in Malindi?,2025-07-04 22:04:31,Malindi,news,True,mental_health,positive,5,-0.9978176445721028,35.90775706376685
+I've been feeling depression lately. Does anyone else struggle with this?,2025-07-04 22:04:31,Kisii,twitter,True,mental_health,positive,2,-0.6406018241264579,37.18874943051428
+"Just moved to Garissa, loving it so far!",2025-07-04 22:04:31,Garissa,twitter,False,non_health,positive,0,3.714297810386949,35.13410926767523
+"Just moved to Eldoret, loving it so far!",2025-07-04 23:04:31,Eldoret,reddit,False,non_health,negative,0,-3.8311916574769658,36.79034467288105
+Dealing with HIV/AIDS symptoms. Need medical advice for managing HIV/AIDS.,2025-07-04 23:04:31,Malindi,twitter,True,physical_health,positive,1,4.0457423783650786,36.76345820881828
+Traffic is heavy in Kericho this morning.,2025-07-05 00:04:31,Kericho,twitter,False,non_health,negative,0,-3.9675988837468994,38.34085095046011
+Respiratory issues are increasing. Dealing with hypertension symptoms. Are others in Nyeri experiencing this?,2025-07-05 00:04:31,Nyeri,twitter,True,physical_health,neutral,8,1.7697767573332879,33.927542971110334
+Dealing with malaria symptoms. Need medical advice for managing malaria.,2025-07-05 00:04:31,Bungoma,reddit,True,physical_health,negative,2,1.642511528875966,37.57413924457027
+Beautiful weather today in Kericho!,2025-07-05 01:04:31,Kericho,reddit,False,non_health,negative,0,-1.726105675602903,35.8870845693969
+"Just moved to Kisii, loving it so far!",2025-07-05 01:04:31,Kisii,news,False,non_health,negative,0,-0.44332210511048054,36.6778274277685
+Traffic is heavy in Mombasa this morning.,2025-07-05 03:04:31,Mombasa,reddit,False,non_health,neutral,0,-2.88952973534043,41.69117255332894
+Dealing with cholera symptoms. The situation in Mombasa is concerning.,2025-07-05 03:04:31,Mombasa,news,True,physical_health,positive,8,-0.9306213018559397,35.0218595191828
+Dealing with respiratory infection symptoms. Are others in Eldoret experiencing this?,2025-07-05 04:04:31,Eldoret,survey,True,physical_health,neutral,7,4.798726957861865,33.606821409725256
+Excited about the upcoming event in Mombasa.,2025-07-05 06:04:31,Mombasa,reddit,False,non_health,negative,0,4.427166780434268,36.43578339189849
+Excited about the upcoming event in Machakos.,2025-07-05 07:04:31,Machakos,reddit,False,non_health,neutral,0,-3.940031780384004,36.83447314844576
+I've been feeling PTSD lately. Anyone know where to get help in Kisumu?,2025-07-05 08:04:31,Kisumu,twitter,True,mental_health,negative,6,0.6809747349892143,36.821506090433054
+Anyone recommend good restaurants in Kericho?,2025-07-05 09:04:31,Kericho,twitter,False,non_health,neutral,0,4.458191433066522,33.695563397492606
+Respiratory issues are increasing. Dealing with tuberculosis symptoms. Are others in Nyeri experiencing this?,2025-07-05 09:04:31,Nyeri,news,True,physical_health,negative,8,-1.5921267043004677,34.26680484938022
+Anyone recommend good restaurants in Kericho?,2025-07-05 09:04:31,Kericho,survey,False,non_health,negative,0,-1.5470793031756496,37.279712556381675
+Dealing with respiratory infection symptoms. Healthcare facilities in Kericho are overwhelmed.,2025-07-05 09:04:31,Kericho,news,True,physical_health,negative,5,3.139408847787152,40.502779275600844
+Respiratory issues are increasing. Dealing with malaria symptoms. Are others in Kisii experiencing this?,2025-07-05 12:04:31,Kisii,reddit,True,physical_health,positive,4,2.504240375566125,34.93011216701034
+Respiratory issues are increasing. I've been feeling anxiety lately. Looking for support groups in Kakamega.,2025-07-05 12:04:31,Kakamega,reddit,True,physical_health,negative,5,1.3446838505061791,36.09887772516784
+Excited about the upcoming event in Kakamega.,2025-07-05 12:04:31,Kakamega,survey,False,non_health,negative,0,-2.2023669653130886,40.536479387638444
+Respiratory issues are increasing. Mental health awareness in Kisumu. I've been feeling stress lately. Looking for support groups in Kisumu.,2025-07-05 13:04:31,Kisumu,survey,True,physical_health,neutral,7,-1.479129475039282,37.29681644249449
+Beautiful weather today in Kericho!,2025-07-05 14:04:31,Kericho,reddit,False,non_health,neutral,0,-4.220368977844154,41.71752969976545
+Respiratory issues are increasing. Dealing with malaria symptoms. Hospitals in Eldoret are seeing more cases.,2025-07-05 15:04:31,Eldoret,news,True,physical_health,negative,8,-3.1028757093198562,40.21523914019999
+"Just moved to Malindi, loving it so far!",2025-07-05 15:04:31,Malindi,survey,False,non_health,positive,0,-4.489026270260595,37.28180015067416
+Anyone recommend good restaurants in Bungoma?,2025-07-05 15:04:31,Bungoma,news,False,non_health,neutral,0,3.855420967405463,35.56019819234004
+"Just moved to Kisumu, loving it so far!",2025-07-05 16:04:31,Kisumu,news,False,non_health,negative,0,5.020453659529474,41.547019026361404
+Dealing with malaria symptoms. Are others in Kakamega experiencing this?,2025-07-05 18:04:31,Kakamega,twitter,True,physical_health,negative,4,-3.4061400260644774,40.460874729959826
+Respiratory issues are increasing. Dealing with typhoid symptoms. Need medical advice for managing typhoid.,2025-07-05 18:04:31,Kitale,news,True,physical_health,negative,9,-1.6529517430433565,38.3459208363499
+Dealing with diabetes symptoms. Healthcare facilities in Machakos are overwhelmed.,2025-07-05 19:04:31,Machakos,twitter,True,physical_health,negative,9,4.338286375786494,38.01235932539939
+"Just moved to Nairobi, loving it so far!",2025-07-05 19:04:31,Nairobi,news,False,non_health,negative,0,-2.5238695059048926,40.40909842940734
+"Just moved to Nairobi, loving it so far!",2025-07-05 22:04:31,Nairobi,survey,False,non_health,neutral,0,-4.369517785003385,33.66338346810013
+Respiratory issues are increasing. Dealing with tuberculosis symptoms. Healthcare facilities in Nyeri are overwhelmed.,2025-07-05 23:04:31,Nyeri,reddit,True,physical_health,neutral,10,0.22887713920217667,34.01120978700452
+Excited about the upcoming event in Bungoma.,2025-07-05 23:04:31,Bungoma,news,False,non_health,neutral,0,3.155878797791588,39.44459580356574
+Beautiful weather today in Kisii!,2025-07-06 00:04:31,Kisii,reddit,False,non_health,neutral,0,-0.7296322910113422,38.58731355250957
+Anyone recommend good restaurants in Kericho?,2025-07-06 01:04:31,Kericho,news,False,non_health,negative,0,4.662478307775434,34.39450422673012
+"Just moved to Kisii, loving it so far!",2025-07-06 02:04:31,Kisii,twitter,False,non_health,negative,0,-3.6690800184345846,39.858092616285255
+Excited about the upcoming event in Mombasa.,2025-07-06 02:04:31,Mombasa,news,False,non_health,positive,0,3.5194101681772203,33.707509440970135
+Dealing with HIV/AIDS symptoms. The situation in Kakamega is concerning.,2025-07-06 03:04:31,Kakamega,reddit,True,physical_health,positive,9,-1.400984345945691,35.339600216980955
+Beautiful weather today in Kericho!,2025-07-06 03:04:31,Kericho,survey,False,non_health,negative,0,-2.057147070346878,38.91625715417114
+Respiratory problems in Nairobi. Dealing with diabetes symptoms. Hospitals in Nairobi are seeing more cases.,2025-07-06 05:04:31,Nairobi,reddit,True,physical_health,negative,8,4.515628147433338,33.979639357523254
+Excited about the upcoming event in Eldoret.,2025-07-06 05:04:31,Eldoret,survey,False,non_health,neutral,0,0.7918791763259385,37.68900761329005
+I've been feeling anxiety lately. Looking for support groups in Eldoret.,2025-07-06 05:04:31,Eldoret,reddit,True,mental_health,neutral,7,-0.571145750485043,35.369050530630034
+I've been feeling insomnia lately. The stigma around mental health issues is frustrating.,2025-07-06 06:04:31,Kericho,twitter,True,mental_health,positive,7,-1.7532645376630391,39.90638437449566
+I've been feeling PTSD lately. Looking for support groups in Nakuru.,2025-07-06 06:04:31,Nakuru,reddit,True,mental_health,negative,10,0.6862399655178715,37.800280856645074
+I've been feeling PTSD lately. Looking for support groups in Kericho.,2025-07-06 07:04:31,Kericho,reddit,True,mental_health,positive,1,-2.960081839195781,37.37284440262448
+Excited about the upcoming event in Kisii.,2025-07-06 07:04:31,Kisii,news,False,non_health,negative,0,1.2481546948665798,38.89217767544412
+Respiratory issues are increasing. Dealing with malaria symptoms. Are others in Thika experiencing this?,2025-07-06 08:04:31,Thika,news,True,physical_health,negative,4,4.374682734217055,34.35079512561885
+Excited about the upcoming event in Kitale.,2025-07-06 08:04:31,Kitale,reddit,False,non_health,negative,0,-1.4658164842768144,40.723584770782466
+Respiratory issues are increasing. Dealing with typhoid symptoms. Are others in Nyeri experiencing this?,2025-07-06 08:04:31,Nyeri,news,True,physical_health,neutral,2,2.3859114190283943,38.77196965728256
+Excited about the upcoming event in Malindi.,2025-07-06 08:04:31,Malindi,twitter,False,non_health,positive,0,-3.2590732088100087,34.95468769678593
+Respiratory issues are increasing. Dealing with diabetes symptoms. Hospitals in Garissa are seeing more cases.,2025-07-06 11:04:31,Garissa,reddit,True,physical_health,negative,10,-1.1897592061929068,35.45090631760151
+Respiratory issues are increasing. I've been feeling stress lately. Anyone know where to get help in Thika?,2025-07-06 11:04:31,Thika,news,True,physical_health,negative,4,-1.7720057604038288,35.19340948019514
+"Just moved to Kakamega, loving it so far!",2025-07-06 11:04:31,Kakamega,twitter,False,non_health,positive,0,-1.7852643912073622,41.67407752607322
+Beautiful weather today in Nyeri!,2025-07-06 11:04:31,Nyeri,twitter,False,non_health,neutral,0,4.658499178197507,34.285202635313006
+Excited about the upcoming event in Machakos.,2025-07-06 12:04:31,Machakos,news,False,non_health,negative,0,0.10504576221456396,39.90171483870305
+Excited about the upcoming event in Nakuru.,2025-07-06 13:04:31,Nakuru,survey,False,non_health,neutral,0,-3.3748691071393204,37.66778372986099
+Respiratory problems in Nairobi. Dealing with typhoid symptoms. Healthcare facilities in Nairobi are overwhelmed.,2025-07-06 14:04:31,Nairobi,reddit,True,physical_health,positive,7,1.1818682890495564,41.91862349798237
+Traffic is heavy in Nakuru this morning.,2025-07-06 14:04:31,Nakuru,reddit,False,non_health,negative,0,-2.5567108222450634,37.972806507278946
+I've been feeling PTSD lately. It's affecting my daily life.,2025-07-06 15:04:31,Nairobi,survey,True,mental_health,negative,4,-1.0918571558917192,35.51203083396017
+Respiratory issues are increasing. I've been feeling insomnia lately. Looking for support groups in Nairobi.,2025-07-06 16:04:31,Nairobi,twitter,True,physical_health,negative,10,-0.8143390101798538,41.090861530513585
+I've been feeling PTSD lately. The stigma around mental health issues is frustrating.,2025-07-06 19:04:31,Malindi,reddit,True,mental_health,neutral,4,-3.2028375561443094,36.881458532578954
+Respiratory issues are increasing. I've been feeling PTSD lately. Looking for support groups in Kisii.,2025-07-06 19:04:31,Kisii,reddit,True,physical_health,positive,3,3.122878405376584,34.0200424124877
+"Just moved to Mombasa, loving it so far!",2025-07-06 19:04:31,Mombasa,twitter,False,non_health,positive,0,-3.4317130378333953,37.554305246930284
+Beautiful weather today in Garissa!,2025-07-06 21:04:31,Garissa,survey,False,non_health,negative,0,-1.2104868803353481,38.90040398874936
+Beautiful weather today in Malindi!,2025-07-06 21:04:31,Malindi,news,False,non_health,neutral,0,3.056501240857206,37.155805622634205
+Dealing with cholera symptoms. Need medical advice for managing cholera.,2025-07-06 22:04:31,Kisii,news,True,physical_health,neutral,7,-0.00387754046147748,40.434140144129984
+Dealing with HIV/AIDS symptoms. Are others in Kisii experiencing this?,2025-07-06 22:04:31,Kisii,twitter,True,physical_health,positive,2,-2.45107260048856,41.07614807868394
+Anyone recommend good restaurants in Machakos?,2025-07-06 23:04:31,Machakos,twitter,False,non_health,neutral,0,3.5537075653620267,41.78737895476492
+Excited about the upcoming event in Nairobi.,2025-07-07 00:04:31,Nairobi,survey,False,non_health,negative,0,-3.7963438642738216,37.04526169329424
+Excited about the upcoming event in Mombasa.,2025-07-07 00:04:31,Mombasa,news,False,non_health,positive,0,-2.545142478617797,33.86083031053087
+"Just moved to Bungoma, loving it so far!",2025-07-07 00:04:31,Bungoma,news,False,non_health,positive,0,-2.937562094423554,38.822074217408726
+Anyone recommend good restaurants in Kisumu?,2025-07-07 02:04:31,Kisumu,reddit,False,non_health,negative,0,-3.6962472956930363,35.507560452751655
+Beautiful weather today in Garissa!,2025-07-07 02:04:31,Garissa,twitter,False,non_health,positive,0,5.467814020821233,37.43294759557193
+Beautiful weather today in Machakos!,2025-07-07 02:04:31,Machakos,survey,False,non_health,positive,0,-2.5706006418878182,39.97099111425108
+Excited about the upcoming event in Kericho.,2025-07-07 02:04:31,Kericho,news,False,non_health,neutral,0,3.8751911675511153,41.741461703024406
+Beautiful weather today in Nakuru!,2025-07-07 03:04:31,Nakuru,twitter,False,non_health,negative,0,-3.430463467437254,35.253834298254056
+Beautiful weather today in Kisumu!,2025-07-07 04:04:31,Kisumu,survey,False,non_health,neutral,0,-3.6382635150117153,35.08040311659076
+I've been feeling depression lately. The stigma around mental health issues is frustrating.,2025-07-07 04:04:31,Kisii,twitter,True,mental_health,neutral,4,2.1118113514401795,41.89065412877027
+Traffic is heavy in Garissa this morning.,2025-07-07 05:04:31,Garissa,news,False,non_health,positive,0,1.8648175910765223,37.73471153188636
+Excited about the upcoming event in Bungoma.,2025-07-07 06:04:31,Bungoma,twitter,False,non_health,neutral,0,1.7538968642060482,37.530184513658625
+Respiratory issues are increasing. Dealing with cholera symptoms. Need medical advice for managing cholera.,2025-07-07 07:04:31,Nakuru,news,True,physical_health,negative,10,-1.6507283026004185,33.93278897412422
+Respiratory issues are increasing. I've been feeling anxiety lately. The stigma around mental health issues is frustrating.,2025-07-07 08:04:31,Bungoma,twitter,True,physical_health,negative,4,3.8946796861913207,41.68981950223488
+Dealing with hypertension symptoms. Need medical advice for managing hypertension.,2025-07-07 09:04:31,Nyeri,survey,True,physical_health,negative,8,1.0499574795929583,38.40636827981064
+Beautiful weather today in Kisii!,2025-07-07 09:04:31,Kisii,survey,False,non_health,negative,0,3.673697353570189,35.87105547651199
+Beautiful weather today in Mombasa!,2025-07-07 10:04:31,Mombasa,survey,False,non_health,positive,0,2.3733641073038507,36.68966214032892
+Beautiful weather today in Eldoret!,2025-07-07 11:04:31,Eldoret,reddit,False,non_health,positive,0,2.4002937448965316,38.42131479835062
+Respiratory issues are increasing. I've been feeling anxiety lately. Does anyone else struggle with this?,2025-07-07 11:04:31,Machakos,survey,True,physical_health,neutral,7,-3.9774034872351254,36.09375861857907
+Traffic is heavy in Malindi this morning.,2025-07-07 13:04:31,Malindi,reddit,False,non_health,negative,0,3.250720578316872,39.877953780822054
+I've been feeling insomnia lately. It's affecting my daily life.,2025-07-07 14:04:31,Thika,reddit,True,mental_health,negative,2,1.7497276416938075,38.55286291859933
+Traffic is heavy in Nyeri this morning.,2025-07-07 15:04:31,Nyeri,reddit,False,non_health,negative,0,-4.043928689771722,38.698384630972164
+Respiratory issues are increasing. Dealing with diabetes symptoms. Need medical advice for managing diabetes.,2025-07-07 17:04:31,Kisii,twitter,True,physical_health,positive,1,-0.8914146387017157,40.71929752355491
+I've been feeling PTSD lately. Does anyone else struggle with this?,2025-07-07 18:04:31,Nyeri,twitter,True,mental_health,positive,2,-2.385203524825408,36.16139900938993
+Anyone recommend good restaurants in Bungoma?,2025-07-07 19:04:31,Bungoma,twitter,False,non_health,negative,0,4.5510349551367,37.28964315989481
+Dealing with diabetes symptoms. Are others in Thika experiencing this?,2025-07-07 21:04:31,Thika,news,True,physical_health,positive,4,-3.9901920470914813,37.41630525118423
+Excited about the upcoming event in Malindi.,2025-07-07 22:04:31,Malindi,survey,False,non_health,positive,0,5.229071185981411,38.40246583244181

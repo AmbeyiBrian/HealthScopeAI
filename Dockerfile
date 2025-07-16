@@ -30,17 +30,12 @@ COPY . .
 # Create necessary directories
 RUN mkdir -p data/raw data/processed models screenshots
 
-# Download required NLTK data
-RUN python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); nltk.download('wordnet')"
-
-# Download spaCy model
-RUN python -m spacy download en_core_web_sm
-
 # Expose port
 EXPOSE 8501
 
-# Health check
-HEALTHCHECK CMD curl --fail http://localhost:8501/_stcore/health || exit 1
+# Simple health check
+HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
+    CMD curl --fail http://localhost:8501/_stcore/health || exit 1
 
-# Run the application
-CMD ["streamlit", "run", "streamlit_app/app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+# Run the simplified application for faster startup
+CMD ["streamlit", "run", "streamlit_app/simple_app.py", "--server.port=8501", "--server.address=0.0.0.0"]
