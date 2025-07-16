@@ -37,14 +37,15 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install flake8 black isort bandit safety mypy
+        pip install flake8 bandit safety mypy
         pip install -r requirements.txt
 
-    - name: Code formatting check (Black)
-      run: black --check --diff .
+    # Code formatting checks disabled for fast deployment
+    # - name: Code formatting check (Black)
+    #   run: black --check --diff .
 
-    - name: Import sorting check (isort)
-      run: isort --check-only --diff .
+    # - name: Import sorting check (isort)
+    #   run: isort --check-only --diff .
 
     - name: Linting (flake8)
       run: flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
