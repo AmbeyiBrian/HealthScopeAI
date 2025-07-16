@@ -36,6 +36,9 @@ RUN python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); 
 # Download spaCy model
 RUN python -m spacy download en_core_web_sm
 
+# Run the notebook to generate data for demo
+RUN jupyter nbconvert --to notebook --execute notebooks/01_data_collection.ipynb --output /tmp/executed_notebook.ipynb
+
 # Expose port
 EXPOSE 8501
 
