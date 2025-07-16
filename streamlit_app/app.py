@@ -17,20 +17,85 @@ from datetime import datetime, timedelta
 import sys
 import os
 
+# Configure logging
+import logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
 # Add src directory to path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
 
+# Try importing main modules, fall back to minimal implementations
 try:
     from model import HealthClassifier
     from geo_analysis import GeoAnalyzer
     from preprocessing import DataPreprocessor
+    logger.info("Successfully imported full modules")
 except ImportError as e:
-    st.error(f"Error importing modules: {e}")
-    st.stop()
-
-# Configure logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+    logger.warning(f"Could not import full modules: {e}")
+    logger.info("Using minimal implementations for demo")
+    
+    # Minimal implementations for demo
+    class HealthClassifier:
+        def __init__(self):
+            self.model = None
+            
+        def predict(self, text):
+            """Simple keyword-based classification"""
+            text_lower = text.lower()
+            if any(word in text_lower for word in ['fever', 'sick', 'flu', 'covid', 'headache']):
+                return 'physical_health'
+            elif any(word in text_lower for word in ['stress', 'anxiety', 'depression', 'mental', 'worry']):
+                return 'mental_health'
+            else:
+                return 'general_health'
+                
+        def predict_proba(self, text):
+            pred = self.predict(text)
+            if pred == 'physical_health':
+                return {'physical_health': 0.85, 'mental_health': 0.15}
+            elif pred == 'mental_health':
+                return {'physical_health': 0.15, 'mental_health': 0.85}
+            else:
+                return {'physical_health': 0.5, 'mental_health': 0.5}
+    
+    class GeoAnalyzer:
+        def __init__(self):
+            pass
+            
+        def create_health_map(self, data=None):
+            """Create a sample map"""
+            import folium
+            
+            # Sample Kenyan health data
+            kenya_data = [
+                {'location': 'Nairobi', 'lat': -1.2921, 'lon': 36.8219, 'health_score': 0.75, 'issues': 8},
+                {'location': 'Mombasa', 'lat': -4.0435, 'lon': 39.6682, 'health_score': 0.65, 'issues': 12},
+                {'location': 'Kisumu', 'lat': -0.1022, 'lon': 34.7617, 'health_score': 0.60, 'issues': 15},
+                {'location': 'Nakuru', 'lat': -0.3031, 'lon': 36.0800, 'health_score': 0.70, 'issues': 10}
+            ]
+            
+            m = folium.Map(location=[-0.5, 36.5], zoom_start=6)
+            
+            for point in kenya_data:
+                color = 'green' if point['health_score'] > 0.7 else 'orange' if point['health_score'] > 0.6 else 'red'
+                folium.CircleMarker(
+                    location=[point['lat'], point['lon']],
+                    radius=8,
+                    popup=f"{point['location']}: {point['issues']} health mentions",
+                    color=color,
+                    fill=True,
+                    fillColor=color
+                ).add_to(m)
+            
+            return m
+    
+    class DataPreprocessor:
+        def __init__(self):
+            pass
+            
+        def clean_text(self, text):
+            return text.lower().strip()
 
 # Page configuration
 st.set_page_config(
