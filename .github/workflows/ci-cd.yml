@@ -59,7 +59,7 @@ jobs:
       run: mypy src/ --ignore-missing-imports || true
 
     - name: Upload security reports
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: security-reports
         path: |
@@ -204,7 +204,7 @@ jobs:
         python setup.py sdist bdist_wheel
 
     - name: Upload deployment artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: deployment-package
         path: |
