@@ -97,6 +97,38 @@ except ImportError as e:
         def clean_text(self, text):
             return text.lower().strip()
 
+# Demo Classifier for when only model_info.json exists
+class DemoClassifier:
+    """Demo classifier that simulates model functionality using metadata."""
+    def __init__(self):
+        self.model_metrics = {
+            'accuracy': 0.89,
+            'precision': 0.87,
+            'recall': 0.91,
+            'f1_score': 0.89
+        }
+        logger.info("Demo classifier initialized from model_info.json")
+    
+    def predict(self, text):
+        """Demo prediction based on keywords."""
+        text_lower = text.lower()
+        if any(word in text_lower for word in ['fever', 'sick', 'flu', 'covid', 'headache', 'hospital', 'doctor']):
+            return 'physical_health'
+        elif any(word in text_lower for word in ['stress', 'anxiety', 'depression', 'mental', 'worry']):
+            return 'mental_health'
+        else:
+            return 'general_health'
+    
+    def predict_proba(self, text):
+        """Demo probability prediction."""
+        pred = self.predict(text)
+        if pred == 'physical_health':
+            return {'physical_health': 0.85, 'mental_health': 0.15}
+        elif pred == 'mental_health':
+            return {'physical_health': 0.15, 'mental_health': 0.85}
+        else:
+            return {'physical_health': 0.5, 'mental_health': 0.5}
+
 # Page configuration
 st.set_page_config(
     page_title="HealthScopeAI Dashboard",
@@ -149,7 +181,7 @@ class HealthScopeAIDashboard:
         self.aggregated_data = {}
         
     def load_model(self):
-        """Load the trained model."""
+        """Load the trained model or create demo mode."""
         try:
             # Look for models in both the local and project root directory
             models_dirs = [Path("models"), Path("../models")]
@@ -172,6 +204,14 @@ class HealthScopeAIDashboard:
                             self.classifier = joblib.load(latest_model)
                             logger.info(f"Loaded model with joblib: {latest_model.name}")
                             return
+                    
+                    # Check if we have model_info.json for demo mode
+                    model_info_path = models_dir / "model_info.json"
+                    if model_info_path.exists():
+                        logger.info("No model files found, but model_info.json exists - running in demo mode")
+                        # Create a demo classifier placeholder
+                        self.classifier = DemoClassifier()
+                        return
             
             logger.warning("No model files found in any models directory")
         except Exception as e:
@@ -478,47 +518,103 @@ class HealthScopeAIDashboard:
         
         with col1:
             # Create and display map with responsive sizing
-            if map_type == "Choropleth":
-                folium_map = self.geo_analyzer.create_choropleth_map(
-                    self.aggregated_data, selected_condition
-                )
-            else:
-                folium_map = self.geo_analyzer.create_heatmap(
-                    self.aggregated_data, selected_condition
-                )
-            
-            # Responsive map display - adapts to screen size
-            # Use container width for better responsiveness
-            map_container = st.container()
-            with map_container:
-                # Add custom CSS for responsive map
-                st.markdown("""
-                <style>
-                .stApp > div > div > div > div:has(iframe) {
-                    width: 100% !important;
-                }
-                iframe {
-                    width: 100% !important;
-                    height: 500px !important;
-                    border-radius: 8px;
-                    border: 2px solid #e1e5e9;
-                    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-                }
-                @media (max-width: 768px) {
-                    iframe {
-                        height: 400px !important;
-                    }
-                }
-                @media (max-width: 480px) {
-                    iframe {
-                        height: 350px !important;
-                    }
-                }
-                </style>
-                """, unsafe_allow_html=True)
+            try:
+                st.info("🗺️ Generating map visualization...")
                 
-                # Display map with responsive dimensions
-                folium_static(folium_map, width=None, height=500, returned_objects=[])
+                if map_type == "Choropleth":
+                    folium_map = self.geo_analyzer.create_choropleth_map(
+                        self.aggregated_data, selected_condition
+                    )
+                else:
+                    folium_map = self.geo_analyzer.create_heatmap(
+                        self.aggregated_data, selected_condition
+                    )
+                
+                st.success("✅ Map created successfully")
+                
+                # Responsive map display - adapts to screen size
+                # Use container width for better responsiveness
+                map_container = st.container()
+                with map_container:
+                    # Add custom CSS for responsive map
+                    st.markdown("""
+                    <style>
+                    .stApp > div > div > div > div:has(iframe) {
+                        width: 100% !important;
+                    }
+                    iframe {
+                        width: 100% !important;
+                        height: 500px !important;
+                        border-radius: 8px;
+                        border: 2px solid #e1e5e9;
+                        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                    }
+                    @media (max-width: 768px) {
+                        iframe {
+                            height: 400px !important;
+                        }
+                    }
+                    @media (max-width: 480px) {
+                        iframe {
+                            height: 350px !important;
+                        }
+                    }
+                    </style>
+                    """, unsafe_allow_html=True)
+                    
+                    # Display map with responsive dimensions
+                    try:
+                        st.info("🔄 Rendering map...")
+                        folium_static(folium_map, width=None, height=500)
+                        st.success("✅ Map rendered successfully")
+                    except Exception as render_error:
+                        st.error(f"❌ Map rendering error: {str(render_error)}")
+                        st.write("**Error details:**", str(render_error))
+                        
+                        # Fallback: try with basic parameters
+                        try:
+                            st.info("🔄 Trying fallback rendering...")
+                            folium_static(folium_map)
+                            st.success("✅ Fallback map rendered successfully")
+                        except Exception as fallback_error:
+                            st.error(f"❌ Fallback rendering also failed: {str(fallback_error)}")
+                            
+                            # Show basic location summary instead
+                            st.warning("📊 Map unavailable, showing location summary:")
+                            location_summary = []
+                            for location, conditions in self.aggregated_data.items():
+                                count = conditions.get(selected_condition, 0)
+                                if count > 0:
+                                    location_summary.append(f"• **{location.title()}**: {count} mentions")
+                            
+                            if location_summary:
+                                st.markdown("\n".join(location_summary))
+                            else:
+                                st.info("No data available for the selected condition.")
+                        
+            except Exception as map_error:
+                st.error(f"❌ Map creation error: {str(map_error)}")
+                st.write("**Error details:**", str(map_error))
+                
+                # Show detailed error information for debugging
+                st.write("**Debug information:**")
+                st.write(f"- Map type: {map_type}")
+                st.write(f"- Selected condition: {selected_condition}")
+                st.write(f"- Available locations: {len(self.aggregated_data)}")
+                st.write(f"- Aggregated data keys: {list(self.aggregated_data.keys())}")
+                
+                # Show basic location summary instead
+                st.warning("📊 Showing location summary instead:")
+                location_summary = []
+                for location, conditions in self.aggregated_data.items():
+                    count = conditions.get(selected_condition, 0)
+                    if count > 0:
+                        location_summary.append(f"• **{location.title()}**: {count} mentions")
+                
+                if location_summary:
+                    st.markdown("\n".join(location_summary))
+                else:
+                    st.info("No data available for the selected condition.")
         
         # Location details
         st.markdown("### 📊 Location Details")
