@@ -357,24 +357,54 @@ class HealthScopeAIDashboard:
         
         with col2:
             st.markdown("### Controls")
+            # Map controls with improved styling
+            st.markdown("#### 🎛️ Map Controls")
             
-            # Condition selector
+            # Condition selector with improved UX
             all_conditions = set()
             for location_data in self.aggregated_data.values():
                 all_conditions.update(location_data.keys())
             
+            # Sort conditions for better UX
+            sorted_conditions = sorted(list(all_conditions))
+            default_index = 0
+            if 'total_health_mentions' in sorted_conditions:
+                default_index = sorted_conditions.index('total_health_mentions')
+            
             selected_condition = st.selectbox(
-                "Select Condition",
-                list(all_conditions),
-                index=0 if 'total_health_mentions' not in all_conditions else 
-                      list(all_conditions).index('total_health_mentions')
+                "📊 Select Health Condition",
+                sorted_conditions,
+                index=default_index,
+                help="Choose a health condition to visualize on the map"
             )
             
-            # Map type selector
-            map_type = st.radio("Map Type", ["Choropleth", "Heatmap"])
+            # Map type selector with icons
+            map_type = st.radio(
+                "🗺️ Map Display Type", 
+                ["Choropleth", "Heatmap"],
+                help="Choropleth shows discrete regions, Heatmap shows intensity patterns"
+            )
+            
+            # Add summary statistics
+            if selected_condition in ['total_health_mentions', 'physical_health', 'mental_health']:
+                total_mentions = sum(
+                    conditions.get(selected_condition, 0) 
+                    for conditions in self.aggregated_data.values()
+                )
+                active_locations = sum(
+                    1 for conditions in self.aggregated_data.values() 
+                    if conditions.get(selected_condition, 0) > 0
+                )
+                
+                # Display key metrics
+                col_metric1, col_metric2 = st.columns(2)
+                with col_metric1:
+                    st.metric("📈 Total Mentions", total_mentions)
+                with col_metric2:
+                    st.metric("📍 Active Locations", active_locations)
         
         with col1:
-            # Create and display map
+            # Create and display map with responsive sizing
             if map_type == "Choropleth":
                 folium_map = self.geo_analyzer.create_choropleth_map(
                     self.aggregated_data, selected_condition
@@ -384,7 +414,38 @@ class HealthScopeAIDashboard:
                     self.aggregated_data, selected_condition
                 )
             
-            folium_static(folium_map, width=700, height=500)
+            # Responsive map display - adapts to screen size
+            # Use container width for better responsiveness
+            map_container = st.container()
+            with map_container:
+                # Add custom CSS for responsive map
+                st.markdown("""
+                <style>
+                .stApp > div > div > div > div:has(iframe) {
+                    width: 100% !important;
+                }
+                iframe {
+                    width: 100% !important;
+                    height: 500px !important;
+                    border-radius: 8px;
+                    border: 2px solid #e1e5e9;
+                    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                }
+                @media (max-width: 768px) {
+                    iframe {
+                        height: 400px !important;
+                    }
+                }
+                @media (max-width: 480px) {
+                    iframe {
+                        height: 350px !important;
+                    }
+                }
+                </style>
+                """, unsafe_allow_html=True)
+                
+                # Display map with responsive dimensions
+                folium_static(folium_map, width=None, height=500, returned_objects=[])
         
         # Location details
         st.markdown("### 📊 Location Details")

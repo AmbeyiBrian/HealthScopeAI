@@ -31,67 +31,84 @@ def create_demo_data():
         "Embu", "Migori", "Homa Bay", "Turkana", "West Pokot", "Marsabit"
     ]
     
-    # Health categories and sample data
-    health_conditions = [
-        "Mental Health", "Respiratory", "Cardiovascular", "Diabetes", 
-        "Infectious Disease", "Maternal Health", "Child Health", "Nutrition"
+    # Health-related text samples
+    health_texts = [
+        "Feeling unwell with fever and headache",
+        "Hospital visit due to respiratory issues",
+        "Mental health support needed in community",
+        "Diabetes management is challenging",
+        "Maternal health services are important",
+        "Child vaccination program update",
+        "Nutrition awareness campaign",
+        "Stress and anxiety levels increasing",
+        "COVID symptoms reported",
+        "Depression support group meeting"
+    ]
+    
+    # Non-health text samples
+    non_health_texts = [
+        "Beautiful weather today",
+        "Traffic update on main road",
+        "New restaurant opening",
+        "Football match results",
+        "School graduation ceremony",
+        "Market prices update",
+        "Music concert announcement",
+        "Road construction progress",
+        "Cultural festival celebration",
+        "Election campaign rally"
     ]
     
     # Generate time series data for the last 30 days
     dates = pd.date_range(
         start=datetime.now() - timedelta(days=30),
         end=datetime.now(),
-        freq='D'
+        freq='H'  # Hourly data for more granular time series
     )
     
     # Create comprehensive dashboard data
     data_records = []
     
-    for date in dates:
+    for timestamp in dates:
         for county in kenyan_counties:
-            for condition in health_conditions:
-                # Generate realistic patterns
-                base_count = np.random.poisson(lam=10)
+            # Generate multiple posts per hour per location
+            num_posts = np.random.poisson(lam=3)  # Average 3 posts per hour per location
+            
+            for _ in range(num_posts):
+                # Determine if health-related (60% health-related posts)
+                is_health_related = np.random.random() < 0.6
                 
-                # Add some realistic patterns
-                if condition == "Mental Health":
-                    base_count *= 1.5  # Higher mental health mentions
-                elif condition == "Respiratory" and date.month in [6, 7, 8]:
-                    base_count *= 2  # Higher during cold season
-                elif condition == "Maternal Health" and county in ["Nairobi", "Mombasa", "Kisumu"]:
-                    base_count *= 1.3  # Urban areas
-                
-                sentiment = np.random.choice(
-                    ["negative", "neutral", "positive"], 
-                    p=[0.4, 0.4, 0.2]  # More negative health mentions
-                )
-                
-                urgency = np.random.choice(
-                    ["low", "medium", "high"],
-                    p=[0.5, 0.3, 0.2]
-                )
+                # Choose text based on health status
+                if is_health_related:
+                    text = np.random.choice(health_texts)
+                    category = np.random.choice(['mental_health', 'physical_health'], p=[0.4, 0.6])
+                    sentiment = np.random.choice(['negative', 'neutral', 'positive'], p=[0.5, 0.3, 0.2])
+                else:
+                    text = np.random.choice(non_health_texts)
+                    category = 'non_health'
+                    sentiment = np.random.choice(['negative', 'neutral', 'positive'], p=[0.2, 0.3, 0.5])
                 
                 data_records.append({
-                    "date": date.strftime("%Y-%m-%d"),
-                    "timestamp": date.isoformat(),
+                    "text": text,
+                    "timestamp": timestamp.isoformat(),
                     "location": county,
-                    "health_category": condition,
-                    "mention_count": int(base_count),
+                    "source": np.random.choice(['twitter', 'reddit', 'news', 'survey']),
+                    "is_health_related": 1 if is_health_related else 0,
+                    "category": category,
                     "sentiment": sentiment,
-                    "urgency_level": urgency,
                     "latitude": -1.2921 + np.random.normal(0, 2),  # Kenya latitude range
                     "longitude": 36.8219 + np.random.normal(0, 3),  # Kenya longitude range
-                    "population": np.random.randint(50000, 2000000),
-                    "health_score": np.random.uniform(0.3, 0.9)
+                    "label": 1 if is_health_related else 0  # For model compatibility
                 })
     
     # Create DataFrame
     dashboard_data = pd.DataFrame(data_records)
     
-    # Add some computed columns
-    dashboard_data['week'] = pd.to_datetime(dashboard_data['date']).dt.isocalendar().week
-    dashboard_data['month'] = pd.to_datetime(dashboard_data['date']).dt.month
-    dashboard_data['day_of_week'] = pd.to_datetime(dashboard_data['date']).dt.day_name()
+    # Convert timestamp to datetime for additional columns
+    dashboard_data['timestamp'] = pd.to_datetime(dashboard_data['timestamp'])
+    dashboard_data['date'] = dashboard_data['timestamp'].dt.date
+    dashboard_data['hour'] = dashboard_data['timestamp'].dt.hour
+    dashboard_data['day_of_week'] = dashboard_data['timestamp'].dt.day_name()
     
     # Save dashboard data
     dashboard_data.to_csv("data/processed/dashboard_data.csv", index=False)
@@ -102,12 +119,14 @@ def create_demo_data():
     
     # Create county-level health summaries
     county_summaries = dashboard_data.groupby('location').agg({
-        'mention_count': 'sum',
-        'health_score': 'mean',
+        'is_health_related': 'sum',
+        'text': 'count',
         'latitude': 'first',
-        'longitude': 'first',
-        'population': 'first'
+        'longitude': 'first'
     }).reset_index()
+    
+    county_summaries.columns = ['location', 'health_mentions', 'total_posts', 'latitude', 'longitude']
+    county_summaries['health_ratio'] = county_summaries['health_mentions'] / county_summaries['total_posts']
     
     # Create GeoJSON structure
     features = []
@@ -116,14 +135,14 @@ def create_demo_data():
             "type": "Feature",
             "properties": {
                 "name": row['location'],
-                "total_mentions": int(row['mention_count']),
-                "avg_health_score": round(row['health_score'], 3),
-                "population": int(row['population']),
-                "risk_level": "high" if row['health_score'] < 0.5 else "medium" if row['health_score'] < 0.7 else "low"
+                "health_mentions": int(row['health_mentions']),
+                "total_posts": int(row['total_posts']),
+                "health_ratio": round(row['health_ratio'], 3),
+                "risk_level": "high" if row['health_ratio'] > 0.7 else "medium" if row['health_ratio'] > 0.5 else "low"
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [row['longitude'], row['latitude']]
+                "coordinates": [float(row['longitude']), float(row['latitude'])]
             }
         }
         features.append(feature)

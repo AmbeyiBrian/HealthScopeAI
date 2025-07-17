@@ -129,11 +129,14 @@ dmypy.json
 .pyre/
 
 # Project specific
-# Data files
+# Data files (allow essential demo data)
 data/raw/*.csv
 data/raw/*.json
 data/raw/*.txt
 data/raw/*.xlsx
+# Allow dashboard data for demo
+!data/processed/dashboard_data.csv
+!data/processed/health_data.geojson
 data/processed/*.csv
 data/processed/*.json
 data/processed/*.pkl

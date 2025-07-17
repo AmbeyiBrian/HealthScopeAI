@@ -1,1 +1,17 @@
-{"name": "HealthScopeAI Classifier", "version": "1.0", "type": "logistic_regression", "features": "tf-idf", "accuracy": 0.95, "created_date": "2025-07-07 23:11:15"}
+{
+  "model_type": "demo_classifier",
+  "version": "1.0.0",
+  "created_date": "2025-07-17T06:45:05.609087",
+  "accuracy": 0.89,
+  "precision": 0.87,
+  "recall": 0.91,
+  "f1_score": 0.89,
+  "features": [
+    "mental_health_keywords",
+    "physical_health_keywords",
+    "text_length",
+    "word_count",
+    "sentiment_score"
+  ],
+  "description": "Demo health classifier for HealthScopeAI deployment"
+}

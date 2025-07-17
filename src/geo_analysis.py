@@ -96,7 +96,7 @@ class GeoAnalyzer:
     def create_choropleth_map(self, aggregated_data: Dict[str, Dict[str, int]], 
                             condition: str = 'total_health_mentions') -> folium.Map:
         """
-        Create a choropleth map showing health trends by location.
+        Create a responsive choropleth map showing health trends by location.
         
         Args:
             aggregated_data: Aggregated health data
@@ -107,65 +107,192 @@ class GeoAnalyzer:
         """
         logger.info(f"Creating choropleth map for condition: {condition}")
         
-        # Create base map centered on Kenya
+        # Create base map centered on Kenya with responsive styling
         m = folium.Map(
             location=[-1.2921, 36.8219],  # Nairobi coordinates
             zoom_start=6,
-            tiles='OpenStreetMap'
+            tiles='CartoDB positron',  # Clean, responsive tile style
+            width='100%',
+            height='100%'
         )
         
-        # Add markers for each location
+        # Prepare data for visualization
+        locations = []
+        values = []
+        colors = []
+        
+        # Get all values to determine color scale
+        all_values = []
+        for location, conditions in aggregated_data.items():
+            if location in self.location_coordinates:
+                count = conditions.get(condition, 0)
+                all_values.append(count)
+        
+        # Calculate quantiles for better color distribution
+        if all_values:
+            import numpy as np
+            q25, q50, q75, q95 = np.percentile(all_values, [25, 50, 75, 95])
+        else:
+            q25, q50, q75, q95 = 0, 0, 0, 0
+        
+        # Add styled markers for each location
         for location, conditions in aggregated_data.items():
             if location in self.location_coordinates:
                 coords = self.location_coordinates[location]
                 count = conditions.get(condition, 0)
                 
-                # Determine marker color based on count
-                if count >= 10:
-                    color = 'red'
-                elif count >= 5:
-                    color = 'orange'
-                elif count >= 1:
-                    color = 'yellow'
+                # Determine color based on quantiles
+                if count >= q95:
+                    color = '#d73027'  # Dark red
+                    risk_level = 'Very High'
+                elif count >= q75:
+                    color = '#fc8d59'  # Orange-red
+                    risk_level = 'High'
+                elif count >= q50:
+                    color = '#fee08b'  # Yellow
+                    risk_level = 'Medium'
+                elif count >= q25:
+                    color = '#e0f3f8'  # Light blue
+                    risk_level = 'Low'
                 else:
-                    color = 'green'
+                    color = '#91bfdb'  # Blue
+                    risk_level = 'Very Low'
                 
-                # Create popup text
+                # Calculate radius based on count (responsive sizing)
+                base_radius = 8
+                max_radius = 25
+                if max(all_values) > 0:
+                    radius = base_radius + (count / max(all_values)) * (max_radius - base_radius)
+                else:
+                    radius = base_radius
+                
+                # Create comprehensive popup with better styling
                 popup_text = f"""
-                <b>{location.title()}</b><br>
-                {condition.replace('_', ' ').title()}: {count}<br>
+                <div style="font-family: Arial, sans-serif; min-width: 200px;">
+                    <h4 style="margin: 0 0 10px 0; color: #2c3e50; border-bottom: 2px solid {color}; padding-bottom: 5px;">
+                        📍 {location.title()}
+                    </h4>
+                    <div style="margin-bottom: 8px;">
+                        <strong style="color: {color};">🏥 {condition.replace('_', ' ').title()}:</strong> 
+                        <span style="font-size: 16px; font-weight: bold;">{count}</span>
+                    </div>
+                    <div style="margin-bottom: 8px;">
+                        <strong>📊 Risk Level:</strong> 
+                        <span style="color: {color}; font-weight: bold;">{risk_level}</span>
+                    </div>
                 """
                 
                 # Add other conditions to popup
+                other_conditions = []
                 for cond, cnt in conditions.items():
                     if cond != condition and cnt > 0:
-                        popup_text += f"{cond.replace('_', ' ').title()}: {cnt}<br>"
+                        other_conditions.append(f"• {cond.replace('_', ' ').title()}: {cnt}")
                 
-                # Add marker
+                if other_conditions:
+                    popup_text += f"""
+                    <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
+                        <strong>🔍 Other Health Mentions:</strong><br>
+                        <div style="font-size: 12px; margin-top: 5px;">
+                            {'<br>'.join(other_conditions)}
+                        </div>
+                    </div>
+                    """
+                
+                popup_text += "</div>"
+                
+                # Add responsive circle marker
                 folium.CircleMarker(
                     location=[coords['lat'], coords['lon']],
-                    radius=max(5, count * 2),
-                    popup=popup_text,
-                    color=color,
+                    radius=radius,
+                    popup=folium.Popup(popup_text, max_width=250),
+                    tooltip=f"{location.title()}: {count} mentions",
+                    color='white',
+                    weight=2,
                     fill=True,
                     fillColor=color,
-                    fillOpacity=0.6
+                    fillOpacity=0.8
                 ).add_to(m)
         
-        # Add legend
-        legend_html = '''
+        # Add responsive legend with better styling
+        legend_html = f'''
         <div style="position: fixed; 
-                    bottom: 50px; right: 50px; width: 150px; height: 120px; 
-                    background-color: white; border:2px solid grey; z-index:9999; 
-                    font-size:14px; ">
-        <p style="margin: 10px;"><b>Health Mentions</b></p>
-        <p style="margin: 10px;"><i class="fa fa-circle" style="color:red;"></i> High (10+)</p>
-        <p style="margin: 10px;"><i class="fa fa-circle" style="color:orange;"></i> Medium (5-9)</p>
-        <p style="margin: 10px;"><i class="fa fa-circle" style="color:yellow;"></i> Low (1-4)</p>
-        <p style="margin: 10px;"><i class="fa fa-circle" style="color:green;"></i> None (0)</p>
+                    bottom: 20px; right: 20px; 
+                    min-width: 180px; 
+                    background-color: rgba(255, 255, 255, 0.95); 
+                    border: 2px solid #34495e;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+                    z-index: 9999; 
+                    font-family: Arial, sans-serif;
+                    font-size: 12px;">
+            <div style="background-color: #34495e; color: white; padding: 8px; border-radius: 6px 6px 0 0; margin: 0;">
+                <strong>🗺️ Health Risk Levels</strong>
+            </div>
+            <div style="padding: 10px;">
+                <div style="margin: 5px 0; display: flex; align-items: center;">
+                    <div style="width: 15px; height: 15px; background-color: #d73027; border-radius: 50%; margin-right: 8px;"></div>
+                    <span>Very High ({q95:.0f}+)</span>
+                </div>
+                <div style="margin: 5px 0; display: flex; align-items: center;">
+                    <div style="width: 15px; height: 15px; background-color: #fc8d59; border-radius: 50%; margin-right: 8px;"></div>
+                    <span>High ({q75:.0f}-{q95:.0f})</span>
+                </div>
+                <div style="margin: 5px 0; display: flex; align-items: center;">
+                    <div style="width: 15px; height: 15px; background-color: #fee08b; border-radius: 50%; margin-right: 8px;"></div>
+                    <span>Medium ({q50:.0f}-{q75:.0f})</span>
+                </div>
+                <div style="margin: 5px 0; display: flex; align-items: center;">
+                    <div style="width: 15px; height: 15px; background-color: #e0f3f8; border-radius: 50%; margin-right: 8px;"></div>
+                    <span>Low ({q25:.0f}-{q50:.0f})</span>
+                </div>
+                <div style="margin: 5px 0; display: flex; align-items: center;">
+                    <div style="width: 15px; height: 15px; background-color: #91bfdb; border-radius: 50%; margin-right: 8px;"></div>
+                    <span>Very Low (0-{q25:.0f})</span>
+                </div>
+            </div>
         </div>
         '''
         m.get_root().html.add_child(folium.Element(legend_html))
+        
+        # Add responsive CSS for mobile devices
+        responsive_css = '''
+        <style>
+        @media (max-width: 768px) {
+            .leaflet-container {
+                height: 400px !important;
+            }
+            
+            .legend {
+                bottom: 10px !important;
+                right: 10px !important;
+                min-width: 150px !important;
+                font-size: 11px !important;
+            }
+            
+            .leaflet-popup-content {
+                font-size: 12px !important;
+                min-width: 180px !important;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .leaflet-container {
+                height: 350px !important;
+            }
+            
+            .legend {
+                min-width: 140px !important;
+                font-size: 10px !important;
+            }
+            
+            .leaflet-popup-content {
+                font-size: 11px !important;
+                min-width: 160px !important;
+            }
+        }
+        </style>
+        '''
+        m.get_root().html.add_child(folium.Element(responsive_css))
         
         return m
     
