@@ -179,9 +179,11 @@ class HealthScopeAIDashboard:
             st.error("⚠️ Model not found. Please train a model first.")
     
     def load_data(self):
-        """Load the processed data."""
+        """Load the processed data with fallback generation."""
         try:
             processed_dir = Path("data/processed")
+            
+            # First, try to load existing data
             if processed_dir.exists():
                 csv_files = list(processed_dir.glob("*.csv"))
                 if csv_files:
@@ -201,16 +203,75 @@ class HealthScopeAIDashboard:
                     
                     logger.info(f"Loaded data: {len(self.data)} records")
                     return True
-                else:
-                    st.error("No processed data files found. Please run data collection and preprocessing first.")
-                    return False
-            else:
-                st.error("Processed data directory not found.")
-                return False
+            
+            # Fallback: Generate data if not found
+            st.warning("🔄 No processed data found. Generating demo data...")
+            logger.info("Generating fallback demo data...")
+            
+            try:
+                # Import and run the data generation
+                import sys
+                import os
+                sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+                from generate_demo_data import create_demo_data
+                
+                with st.spinner("Generating demo data..."):
+                    create_demo_data()
+                    st.success("✅ Demo data generated successfully!")
+                
+                # Try loading again
+                if processed_dir.exists():
+                    csv_files = list(processed_dir.glob("*.csv"))
+                    if csv_files:
+                        latest_file = max(csv_files, key=lambda x: x.stat().st_mtime)
+                        self.data = pd.read_csv(latest_file)
+                        self.data['timestamp'] = pd.to_datetime(self.data['timestamp'])
+                        self.aggregated_data = self.geo_analyzer.aggregate_health_data(self.data)
+                        logger.info(f"Loaded generated data: {len(self.data)} records")
+                        return True
+                        
+            except Exception as gen_error:
+                logger.error(f"Failed to generate fallback data: {gen_error}")
+                st.error(f"❌ Failed to generate demo data: {gen_error}")
+            
+            # Final fallback: Create minimal sample data
+            st.warning("🔧 Using minimal sample data for demo...")
+            self.data = self._create_minimal_sample_data()
+            self.aggregated_data = self.geo_analyzer.aggregate_health_data(self.data)
+            return True
+            
         except Exception as e:
             logger.error(f"Error loading data: {e}")
             st.error(f"Error loading data: {e}")
             return False
+    
+    def _create_minimal_sample_data(self):
+        """Create minimal sample data as final fallback."""
+        import numpy as np
+        from datetime import datetime, timedelta
+        
+        # Create simple sample data
+        locations = ['Nairobi', 'Mombasa', 'Kisumu', 'Nakuru', 'Eldoret']
+        sample_data = []
+        
+        for i in range(100):  # 100 sample records
+            location = np.random.choice(locations)
+            is_health = np.random.choice([0, 1], p=[0.4, 0.6])
+            
+            sample_data.append({
+                'text': f"Sample health post from {location}" if is_health else f"Sample non-health post from {location}",
+                'timestamp': datetime.now() - timedelta(hours=i),
+                'location': location,
+                'source': 'sample',
+                'is_health_related': is_health,
+                'category': 'mental_health' if is_health and np.random.random() < 0.4 else 'physical_health' if is_health else 'non_health',
+                'sentiment': np.random.choice(['positive', 'negative', 'neutral']),
+                'latitude': -1.2921 + np.random.normal(0, 1),
+                'longitude': 36.8219 + np.random.normal(0, 1),
+                'label': is_health
+            })
+        
+        return pd.DataFrame(sample_data)
     
     def render_sidebar(self):
         """Render the sidebar with controls."""
@@ -235,16 +296,28 @@ class HealthScopeAIDashboard:
                 st.sidebar.metric("Accuracy", f"{metrics.get('accuracy', 0):.3f}")
                 st.sidebar.metric("F1 Score", f"{metrics.get('f1_score', 0):.3f}")
             else:
-                # Try to read model_info.json
+                # Try to read model_info.json from multiple possible locations
                 try:
-                    model_info_path = Path("../models/model_info.json")
-                    if model_info_path.exists():
-                        with open(model_info_path, 'r') as f:
-                            model_info = json.load(f)
+                    # Try both relative to app directory and parent directory
+                    possible_paths = [
+                        Path("models/model_info.json"),      # Docker container path
+                        Path("../models/model_info.json")    # Local development path
+                    ]
+                    
+                    model_info = None
+                    for model_info_path in possible_paths:
+                        if model_info_path.exists():
+                            with open(model_info_path, 'r') as f:
+                                model_info = json.load(f)
+                            logger.info(f"Found model info at: {model_info_path}")
+                            break
+                    
+                    if model_info:
                         st.sidebar.metric("Accuracy", f"{model_info.get('accuracy', 0):.3f}")
-                        st.sidebar.metric("Model Type", model_info.get('type', 'Unknown'))
+                        st.sidebar.metric("Model Type", model_info.get('model_type', 'Unknown'))
                         st.sidebar.metric("Version", model_info.get('version', '1.0'))
                     else:
+                        logger.warning("No model_info.json found in any location")
                         st.sidebar.metric("Accuracy", "0.95")  # Default value
                 except Exception as e:
                     logger.error(f"Error loading model info: {e}")

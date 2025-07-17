@@ -188,10 +188,56 @@ def create_demo_data():
 
 if __name__ == "__main__":
     try:
+        print("🐳 Starting HealthScopeAI data generation for Docker deployment...")
+        print(f"📍 Current working directory: {os.getcwd()}")
+        print(f"📂 Directory contents: {os.listdir('.')}")
+        
+        # Check if we're in the right directory
+        if not os.path.exists('streamlit_app'):
+            print("❌ streamlit_app directory not found!")
+            print("📂 Available directories:", [d for d in os.listdir('.') if os.path.isdir(d)])
+            
+        # Ensure data directories exist with explicit paths
+        data_dirs = ['data', 'data/raw', 'data/processed', 'models']
+        for dir_path in data_dirs:
+            os.makedirs(dir_path, exist_ok=True)
+            print(f"📁 Created/verified directory: {dir_path}")
+        
+        # Generate the data
         create_demo_data()
-        print("✅ All demo data files generated successfully!")
+        
+        # Verify files were created
+        required_files = [
+            'data/processed/dashboard_data.csv',
+            'data/processed/health_data.geojson',
+            'models/model_info.json'
+        ]
+        
+        print("\n🔍 Verifying generated files...")
+        all_files_exist = True
+        for file_path in required_files:
+            if os.path.exists(file_path):
+                size = os.path.getsize(file_path)
+                print(f"✅ {file_path}: {size:,} bytes")
+            else:
+                print(f"❌ {file_path}: NOT FOUND")
+                all_files_exist = False
+        
+        if all_files_exist:
+            print("\n🎉 All demo data files generated successfully!")
+            print("✅ Docker deployment ready!")
+        else:
+            print("\n❌ Some files missing - deployment may fail!")
+            exit(1)
+            
     except Exception as e:
-        print(f"❌ Error generating demo data: {e}")
+        print(f"💥 Critical error generating demo data: {e}")
         import traceback
         traceback.print_exc()
+        
+        # List current directory for debugging
+        print(f"\n🔍 Debug info:")
+        print(f"📍 Working directory: {os.getcwd()}")
+        print(f"📂 Directory contents: {os.listdir('.')}")
+        
         exit(1)
