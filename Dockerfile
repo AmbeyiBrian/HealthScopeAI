@@ -36,8 +36,15 @@ RUN python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); 
 # Download spaCy model
 RUN python -m spacy download en_core_web_sm
 
-# Generate demo data for deployment
-RUN python generate_demo_data.py
+# Generate demo data for deployment (with error handling)
+RUN python generate_demo_data.py || echo "Data generation failed, using fallback" && \
+    if [ ! -f "data/processed/dashboard_data.csv" ]; then \
+        echo "Creating minimal fallback data..." && \
+        mkdir -p data/processed && \
+        echo "text,timestamp,location,source,is_health_related,category,sentiment,latitude,longitude,label,date,hour,day_of_week" > data/processed/dashboard_data.csv && \
+        echo "Sample health post,2025-07-17T12:00:00,Nairobi,demo,1,physical_health,neutral,-1.2921,36.8219,1,2025-07-17,12,Wednesday" >> data/processed/dashboard_data.csv && \
+        echo '{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"Nairobi","health_mentions":1,"total_posts":1,"health_ratio":1.0,"risk_level":"medium"},"geometry":{"type":"Point","coordinates":[36.8219,-1.2921]}}]}' > data/processed/health_data.geojson; \
+    fi
 
 # Expose port
 EXPOSE 8501
